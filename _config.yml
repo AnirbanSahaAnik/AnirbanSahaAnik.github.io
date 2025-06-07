@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"   # Replace with your image in /images folder
   name             : "Anirban Saha Anik"
   pronouns         : "he/him"
-  bio              : "Graduate Researcher @ UNT HCC Lab. Interested in LLMs, Fact-Checking, and Crisis Informatics."
+  bio              : "Graduate Researcher @ UNT HCC Lab. Interested in LLMs, RAG, and Crisis Informatics."
   location         : "Denton, TX"
   employer         : "University of North Texas"
   uri              : "https://anirbansahaanik.github.io"

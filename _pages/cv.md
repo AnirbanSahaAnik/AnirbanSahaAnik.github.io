@@ -5,7 +5,7 @@ permalink: /cv/
 author_profile: true
 ---
 
-## Summary
+<!-- ## Summary
 Motivated Ph.D. applicant in Computer Science with a 4.0 GPA in MS Data Science and a proven publication record in NLP, misinformation detection, and retrieval-augmented generation. Experienced in applying LLMs (LLaMA, GPT, Mistral) for real-world challenges, particularly in crisis response and public health communication. Skilled in research, teaching, and cross-disciplinary collaboration. Seeking to contribute to cutting-edge research in NLP, human-centered AI, and responsible generative models.
 
 ---
@@ -13,7 +13,7 @@ Motivated Ph.D. applicant in Computer Science with a 4.0 GPA in MS Data Science 
 ## Research Statement
 My research centers on Natural Language Processing (NLP) and Large Language Models (LLMs), with a focus on making AI systems more controllable, context-aware, and socially responsible. I explore retrieval-augmented generation, misinformation detection, and the interplay between AI outputs and user understanding—especially in health and crisis domains. I aim to develop techniques that enhance factual grounding and alignment in LLMs, advancing both technical capabilities and societal impact. My Ph.D. goal is to design interpretable, adaptive, and human-aligned AI models that serve public communication and decision-making needs.
 
----
+--- -->
 
 ## Education
 **University of North Texas**, Denton, TX  
