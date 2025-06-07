@@ -1,14 +1,18 @@
 ---
-title: "Paper Title Number 3"
+title: "Outcome-Based Education: Evaluating Students' Perspectives Using Transformer"
 collection: publications
-category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+category: conferences
+permalink: /publication/2024-iccit-obe-transformer
+excerpt: 'We apply transformer-based NLP models to assess student feedback and align sentiment insights with Outcome-Based Education (OBE) principles.'
+date: 2024-12-20
+venue: '27th International Conference on Computer and Information Technology (ICCIT 2024)'
+paperurl: 'https://www.researchgate.net/publication/392369416_Outcome-Based_Education_Evaluating_Students%27_Perspectives_Using_Transformer'
+citation: 'Shuvra Smaran Das, Anirban Saha Anik, Md. Kishor Morol, Mohammad Sakib Mahmood. (2024). "Outcome-Based Education: Evaluating Students\' Perspectives Using Transformer." <i>ICCIT 2024</i>.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+**Abstract**  
+Outcome-Based Education (OBE) emphasizes the development of specific competencies through student-centered learning. In this study, we reviewed the importance of OBE and implemented transformer-based models, particularly DistilBERT, to analyze an NLP dataset that includes student feedback. Our objective is to assess and improve educational outcomes.
+
+Our approach outperforms traditional machine learning models by leveraging the transformer's deep understanding of language context to classify sentiment more accurately across multiple evaluation metrics. This directly contributes to OBE’s goal of achieving measurable learning outcomes.
+
+We also applied LIME (Local Interpretable Model-Agnostic Explanations) to ensure transparency in model predictions. This provided interpretable insights into the influence of key terms on sentiment classification. Our results show that combining transformer models with LIME explanations provides a powerful and interpretable framework for analyzing student feedback — closely aligned with OBE’s goals of continuous improvement through data-driven insights.
