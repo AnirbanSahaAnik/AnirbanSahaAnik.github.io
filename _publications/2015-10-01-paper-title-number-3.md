@@ -7,7 +7,7 @@ excerpt: 'We apply transformer-based NLP models to assess student feedback and a
 date: 2024-12-20
 venue: '27th International Conference on Computer and Information Technology (ICCIT 2024)'
 paperurl: 'https://www.researchgate.net/publication/392369416_Outcome-Based_Education_Evaluating_Students%27_Perspectives_Using_Transformer'
-citation: 'Shuvra Smaran Das, Anirban Saha Anik, Md. Kishor Morol, Mohammad Sakib Mahmood. (2024). "Outcome-Based Education: Evaluating Students\' Perspectives Using Transformer." <i>ICCIT 2024</i>.'
+citation: 'Shuvra Smaran Das, Anirban Saha Anik, Md. Kishor Morol, Mohammad Sakib Mahmood. (2024). "Outcome-Based Education: Evaluating Students Perspectives Using Transformer." <i>ICCIT 2024</i>.'
 ---
 
 **Abstract**  
