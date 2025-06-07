@@ -19,18 +19,20 @@ Hi, I'm **Anirban Saha Anik**, a Data Science graduate researcher at the Univers
 ---
 
 ### 📢 News
-- 📄 Presented our crisis response LLM fusion paper at **ISCRAM 2025**
 - 🧠 Submitted counterspeech personalization work to **EMNLP 2025**
+- 🧩 Submitted multi-agent RAG framework for counterspeech to **COLM 2025**
+- 📄 Presented our crisis response LLM fusion paper at **ISCRAM 2025**
 
 ---
+
+
 
 ### 🔗 Quick Links
 - [📄 My CV](/cv/)
 - [📚 Publications](/publications/)
-- [💼 Projects](/portfolio/)
-- [📢 Talks](/talks/)
 - [📫 Contact](mailto:anirbansahaanik@my.unt.edu)
 
 ---
+
 
 Thanks for visiting!
