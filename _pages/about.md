@@ -1,8 +1,12 @@
 ---
-layout: home
-title: "Anirban Saha Anik"
-author_profile: true
 permalink: /
+title: "Hi, I'm **Anirban Saha Anik**"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 ---
 
 Hi, I'm **Anirban Saha Anik**, a Data Science graduate researcher at the University of North Texas (UNT), currently working at the HCC Lab under Dr. Lingzi Hong. My research focuses on:
