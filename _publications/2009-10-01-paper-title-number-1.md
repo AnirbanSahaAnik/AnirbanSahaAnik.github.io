@@ -1,14 +1,16 @@
 ---
-title: "Paper Title Number 1"
+title: "Dynamic Fusion of Large Language Models for Crisis Communication"
 collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+category: conferences
+permalink: /publication/2025-iscram-llm-fusion
+excerpt: 'We propose a dynamic fusion framework using multiple LLMs to generate high-quality, real-time responses in crisis scenarios on social media.'
+date: 2025-05-01
+venue: 'Proceedings of the International ISCRAM Conference'
+paperurl: 'https://doi.org/10.59297/nqysjq45'
+citation: 'Hong, L., Song, X., Saha Anik, A., Frías-Martínez, V. (2025). "Dynamic Fusion of Large Language Models for Crisis Communication." <i>Proceedings of the International ISCRAM Conference</i>. DOI: https://doi.org/10.59297/nqysjq45.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+**Abstract**  
+People affected by crises increasingly rely on social media platforms for real-time information and assistance. This underscores the need for a robust and reliable approach to provide accurate and timely information to affected individuals. Large Language Models (LLMs), which can understand user queries and generate responses, have the potential to act as assistants in crisis response.
+
+We explore various approaches, including instruction prompts, retrieval-augmented generation, and dynamic fusion of LLMs, to generate responses that address the information needs of affected individuals on social media platforms. Experiments demonstrate that the dynamic fusion approach produces better crisis responses across key evaluation dimensions, including professionalism, actionability, empathy, and relevance.
