@@ -22,10 +22,10 @@ repository               : "anirbansahaanik/anirbansahaanik.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Anik (2).jpg"   # Replace with your image in /images folder
+  avatar           : "Anik.jpg"   # Replace with your image in /images folder
   name             : "Anirban Saha Anik"
   pronouns         : "he/him"
-  bio              : "MS Data Science @ UNT | LLM Researcher | NLP, RAG, Crisis Informatics"
+  bio              : "MS Data Science @ UNT | LLM Researcher"
   location         : "Denton, TX"
   employer         : "University of North Texas"
   uri              : "https://anirbansahaanik.github.io"
