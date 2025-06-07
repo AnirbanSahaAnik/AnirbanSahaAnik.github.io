@@ -1,13 +1,32 @@
 ---
 layout: home
+title: "Anirban Saha Anik"
 author_profile: true
+permalink: /
 ---
 
-Welcome! I'm **Anirban Saha Anik**, a Data Science graduate student and researcher at UNT specializing in NLP, LLMs, and misinformation detection.
+Hi, I'm **Anirban Saha Anik**, a Data Science graduate researcher at the University of North Texas (UNT), currently working at the HCC Lab under Dr. Lingzi Hong. My research focuses on:
 
-I work on:
-- Retrieval-augmented generation (RAG)
-- Crisis informatics and public health misinformation
-- LLaMA, Mistral, and GPT fine-tuning
+- **Large Language Models (LLMs)** like LLaMA, GPT, and Mistral  
+- **Retrieval-Augmented Generation (RAG)** for fact-grounded response generation  
+- **Health and Crisis Misinformation Detection**  
+- **Counter-speech Generation** aligned with user health literacy
 
-👉 Check out my [CV](/cv), [Publications](/publications), or [Projects](/portfolio).
+---
+
+### 📢 News
+- 📄 Presented our crisis response LLM fusion paper at **ISCRAM 2025**
+- 🧠 Submitted counterspeech personalization work to **EMNLP 2025**
+
+---
+
+### 🔗 Quick Links
+- [📄 My CV](/cv/)
+- [📚 Publications](/publications/)
+- [💼 Projects](/portfolio/)
+- [📢 Talks](/talks/)
+- [📫 Contact](mailto:anirbansahaanik@my.unt.edu)
+
+---
+
+Thanks for visiting!
