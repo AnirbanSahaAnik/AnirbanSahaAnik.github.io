@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi, I'm Anirban Saha Anik"
+title: Anik's Home"
 author_profile: true
 redirect_from: 
   - /about/
