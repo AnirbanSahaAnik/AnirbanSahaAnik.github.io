@@ -75,10 +75,10 @@ _AIUB_, Dhaka (Sep 2021 – Dec 2021)
 
 ## Research Projects
 - **Real-Time Context in LLMs for Crisis Response** – Using RAG + entity extraction to ground responses in live data  
-- **Controlled Counterspeech Generation for Health Literacy** – Submitted to EMNLP 2025  
-- **Dynamic Fusion Model for Consistent Crisis Response** – Submitted to EMNLP 2025  
-- **Multi-Agent Framework for Evidence-Based Counterspeech** – Submitted to COLM 2025  
-- **ClaimIQ at CLEF 2025** – Verifying numerical claims with fine-tuned vs prompted LLMs
+- **Controlled Counterspeech Generation for Health Literacy** – Under Review 
+- **Dynamic Fusion Model for Consistent Crisis Response** – Under Review 
+- **Multi-Agent Framework for Evidence-Based Counterspeech** – Under Review   
+- **ClaimIQ at CLEF 2025 – Verifying numerical claims with fine-tuned vs prompted LLMs** - Under Review 
 
 ---
 
@@ -86,5 +86,5 @@ _AIUB_, Dhaka (Sep 2021 – Dec 2021)
 - 🥇 **1st Place** – UNT Health Informatics and Data Science Day  
   Poster: *LLM-based Counterspeech for Health Misinformation*
 
-
-You can download the full PDF version of my CV [here](/files\Resume___Anirban_Saha_Anik_PhD.pdf).
+<!-- 
+You can download the full PDF version of my CV [here](/files\Resume___Anirban_Saha_Anik_PhD.pdf). -->
