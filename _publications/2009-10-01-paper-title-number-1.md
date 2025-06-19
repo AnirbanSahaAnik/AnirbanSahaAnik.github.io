@@ -7,6 +7,7 @@ excerpt: 'We propose a dynamic fusion framework using multiple LLMs to generate 
 date: 2025-05-01
 venue: 'Proceedings of the International ISCRAM Conference'
 paperurl: 'https://doi.org/10.59297/nqysjq45'
+slidesurl: '/files/MC-2_Anik.pdf'
 citation: 'Hong, L., Song, X., Saha Anik, A., Frías-Martínez, V. (2025). "Dynamic Fusion of Large Language Models for Crisis Communication." <i>Proceedings of the International ISCRAM Conference</i>. DOI: https://doi.org/10.59297/nqysjq45.'
 ---
 
