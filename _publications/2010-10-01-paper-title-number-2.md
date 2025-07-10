@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation"
 collection: publications
 category: conferences
@@ -63,4 +63,82 @@ The **Multi-Agent** framework consistently outperforms baselines, including stat
   year={2025},
   url={https://openreview.net/forum?id=P61AgRyU7E}
 }
+ -->
+---
+title: "Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation"
+collection: publications
+category: conferences
+permalink: /publication/2025-colm-multiagent-counterspeech
+excerpt: 'We present a multi-agent LLM framework for generating evidence-based counterspeech grounded in dynamic and static retrieval sources.'
+date: 2025-03-21
+venue: 'Conference on Language Models (COLM 2025) – Accepted'
+paperurl: ''  # Add PDF link here when available
+citation: 'Anirban Saha Anik, Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, Lingzi Hong. (2025). "Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation." <i>Conference on Language Models (COLM 2025)</i>.'
+---
 
+**Abstract**  
+Large language models (LLMs) integrated with Retrieval-Augmented Generation (RAG) have shown strong potential in generating counterspeech against misinformation. However, existing methods often rely on limited evidence and offer minimal control over generated responses.
+
+To overcome these limitations, we propose a **Multi-Agent Retrieval-Augmented Framework** for generating evidence-based counterspeech targeting health misinformation. This framework coordinates multiple LLM agents responsible for evidence retrieval, summarization, generation, and refinement. By integrating both static and dynamic sources, the framework ensures that responses are timely, well-supported, and contextually appropriate.
+
+Our approach significantly outperforms single-agent and traditional RAG baselines across multiple metrics, including **politeness, relevance, informativeness, and factual accuracy**. Human evaluations further validate the quality and credibility of the responses.
+
+**Keywords**: Large Language Models, Multi-Agent Systems, Retrieval-Augmented Generation, Health Misinformation, Counterspeech
+
+---
+
+### 🔍 Method Overview
+
+<div align="center">
+  <img src="\images\Paper-2\marf_page-0001.jpg" alt="Multi-Agent Counterspeech Framework" width="85%">
+</div>
+
+**Figure 1**: Overview of our proposed Multi-Agent Counterspeech Generation Framework.  
+- The **Static Retrieval Agent** collects evidence from trusted offline knowledge bases.  
+- The **Dynamic Retrieval Agent** uses DuckDuckGo to fetch real-time online content.  
+- The **Summarization Agent** filters and condenses the evidence.  
+- The **Counterspeech Agent** generates a draft response.  
+- The **Refinement Agent** polishes the response for tone, clarity, and factuality.
+
+This pipeline ensures high-quality, context-aware counterspeech tailored for misinformation correction in critical domains.
+
+---
+
+### 📊 Experimental Results
+
+<div align="center">
+  <img src="\images\Paper-2\bar_chart_with_std_page-0001.jpg" alt="Evaluation Results Bar Chart" width="75%">
+</div>
+
+**Figure 2**: Performance comparison across four evaluation metrics — *Politeness*, *Relevance*, *Informativeness*, and *Factual Accuracy*.  
+Our **Multi-Agent** framework consistently outperforms LLM prompting and RAG-only baselines. Error bars represent standard deviation from human annotator ratings.
+
+---
+
+### 🧠 Key Findings
+
+- **Polished Outputs**: Refinement improves tone and credibility.
+- **Hybrid Retrieval**: Combining static + dynamic sources boosts factual accuracy.
+- **Modular Importance**: Removing any agent leads to significant performance drops.
+- **Human Preference**: Evaluators favor responses from our system in 82% of test cases.
+
+---
+
+### 📎 Downloads
+
+- 📄 [Paper (PDF)](TBD)  
+- 🧾 [Poster (PDF)](TBD)  
+- 🔗 [OpenReview Discussion](https://openreview.net/forum?id=P61AgRyU7E)
+
+---
+
+### 📚 BibTeX
+
+```bibtex
+@inproceedings{anik2025multiagent,
+  title={Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation},
+  author={Anirban Saha Anik and Xiaoying Song and Elliott Wang and Bryan Wang and Bengisu Yarimbas and Lingzi Hong},
+  booktitle={Proceedings of the Second Conference on Language Modeling (COLM)},
+  year={2025},
+  url={https://openreview.net/forum?id=P61AgRyU7E}
+}
