@@ -23,11 +23,13 @@ My research lies at the intersection of Natural Language Processing (NLP), crisi
 - Responsible AI and Human-Centered NLP
 
 ---
-<!-- 
+
+
 ## Recent Highlights
 
-- Submitted counterspeech personalization research to **EMNLP 2025**
-- Submitted a multi-agent RAG framework for health misinformation to **COLM 2025**
+- 📄 Paper accepted at **COLM 2025**: Multi-Agent Retrieval-Augmented Framework for Health Misinformation Counterspeech
+- 📄 Paper accepted at **CLEF 2025**: Fact-checking numerical claims with prompted and fine-tuned LLMs
+- 🧪 Participating in **CheckThat! CLEF 2025** Task 3 on Numerical Claim Verification
 - Presented our LLM fusion framework for crisis response at **ISCRAM 2025** -->
 
 ---
