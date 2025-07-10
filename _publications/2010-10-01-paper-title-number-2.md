@@ -24,7 +24,7 @@ Our approach significantly outperforms single-agent and traditional RAG baseline
 ### Method Overview
 
 <div align="center">
-  <img src="images\Paper-2\marf_page-0001.jpg" alt="Multi-Agent Counterspeech Framework" width="85%">
+  <img src="images/Paper-2/marf_page-0001.jpg" alt="Multi-Agent Counterspeech Framework" width="85%">
 </div>
 
 **Figure 1**: Overview of our proposed Multi-Agent Counterspeech Generation Framework.  
@@ -41,7 +41,7 @@ This pipeline ensures high-quality, context-aware counterspeech tailored for mis
 ### Experimental Results
 
 <div align="center">
-  <img src="images\Paper-2\bar_chart_with_std_page-0001.jpg" alt="Evaluation Results Bar Chart" width="75%">
+  <img src="images/Paper-2/bar_chart_with_std_page-0001.jpg" alt="Evaluation Results Bar Chart" width="75%">
 </div>
 
 **Figure 2**: Performance comparison across four evaluation metrics — *Politeness*, *Relevance*, *Informativeness*, and *Factual Accuracy*.  
