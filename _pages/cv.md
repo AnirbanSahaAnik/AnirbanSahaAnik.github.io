@@ -73,7 +73,7 @@ Passionate and detail-oriented NLP researcher with expertise in large language m
 - Proposed and documented feature enhancements to improve usability and efficiency in branch operations.
 ---
 ## Publications
-(*Full list available on [Google Scholar](#)*)
+(*Full list available on [Google Scholar](https://scholar.google.com/citations?user=yhtMiNoAAAAJ&hl=en)*)
 
 1. **Anik, A. S.**, Song, X., Wang, E., Wang, B., Yarimbas, B., & Hong, L. (2025).  
    *Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation.*  
