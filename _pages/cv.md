@@ -5,36 +5,18 @@ permalink: /cv/
 author_profile: true
 ---
 
-# Anirban Saha Anik
-**Graduate Researcher | M.S. in Data Science (UNT)**  
-📍 Denton, TX | 📞 (940) 977-1183 | 📧 [AnirbanSahaAnik@my.unt.edu](mailto:AnirbanSahaAnik@my.unt.edu)  
-🌐 [Website](https://anirbansahaanik.github.io) | [GitHub](https://github.com/anirbansahaanik) | [LinkedIn](https://linkedin.com/in/anirban-saha-anik) | [Google Scholar](#) | [ORCID](#)
-
----
-
-## Table of Contents
-1. [Professional Summary](#professional-summary)  
-2. [Research Interests](#research-interests)  
-3. [Education](#education)  
-4. [Technical Skills](#technical-skills)  
-5. [Professional Experience](#professional-experience)  
-6. [Research Projects](#research-projects)  
-7. [Publications](#publications)  
-8. [Academic Presentations](#academic-presentations)  
-9. [Awards and Honors](#awards-and-honors)  
-10. [Certifications](#certifications)  
-11. [Mentorship & Service](#mentorship--service)  
-12. [Projects](#projects)  
-
----
 ## Professional Summary
 Passionate and detail-oriented NLP researcher with expertise in large language models (LLMs), misinformation detection, and retrieval-augmented generation (RAG). Currently serving as a Graduate Research Assistant at the University of North Texas, contributing to peer-reviewed papers accepted at COLM, CLEF, ISCRAM, and ICMI. Skilled at developing context-aware, interpretable, and socially responsible AI systems for applications in public health, crisis communication, and digital literacy. Aspiring Ph.D. candidate aiming to advance human-aligned AI models that foster trust, transparency, and effective decision-making.
 
-## Research Interests
-- **Core Technical Areas:** Retrieval-Augmented Generation (RAG), Health Misinformation Detection, Fact-Grounded Communication, Reinforcement Learning with Human Feedback (RLHF), Explainable AI.
-- **Applied Domains:** Public Health Communication, Crisis Response, Educational Technology, Human-AI Collaboration.
-- **Methodologies:** Multi-Agent Systems, Context-Aware Text Generation, Real-Time Data Integration, Knowledge-Augmented Language Models, Model Evaluation Frameworks.
 ---
+
+## Research Interests
+- **Core Technical Areas:** Retrieval-Augmented Generation (RAG), Health Misinformation Detection, Fact-Grounded Communication, Reinforcement Learning with Human Feedback (RLHF), Explainable AI.  
+- **Applied Domains:** Public Health Communication, Crisis Response, Educational Technology, Human-AI Collaboration.  
+- **Methodologies:** Multi-Agent Systems, Context-Aware Text Generation, Real-Time Data Integration, Knowledge-Augmented Language Models, Model Evaluation Frameworks.
+
+---
+
 ## Professional Experience
 
 ### Graduate Research Assistant  
@@ -71,6 +53,7 @@ Passionate and detail-oriented NLP researcher with expertise in large language m
 - Collaborated with the development team to test and debug software, ensuring compliance with **User Acceptance Testing (UAT)** standards.  
 - Collected and documented feedback from **5+ microfinance branches** via site visits and interviews to guide software improvements.  
 - Proposed and documented feature enhancements to improve usability and efficiency in branch operations.
+
 ---
 ## Publications
 (*Full list available on [Google Scholar](https://scholar.google.com/citations?user=yhtMiNoAAAAJ&hl=en)*)
