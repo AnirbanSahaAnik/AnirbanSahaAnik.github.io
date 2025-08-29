@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-📄 [**Download CV (PDF)**](/assets/files/Anirban_Saha_Anik_CV.pdf)
+📄 [**Download CV (PDF)**](/assets/files/CV_Anirban_Saha_Anik.pdf)
 
 
 ## Professional Summary
@@ -19,7 +19,6 @@ Passionate and detail-oriented NLP researcher with expertise in large language m
 - **Applied Domains:** Public Health Communication, Crisis Response, Educational Technology, Human-AI Collaboration.  
 - **Methodologies:** Multi-Agent Systems, Context-Aware Text Generation, Real-Time Data Integration, Knowledge-Augmented Language Models, Model Evaluation Frameworks.
 
----
 
 ---
 
