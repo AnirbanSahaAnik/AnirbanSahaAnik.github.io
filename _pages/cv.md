@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-📄 [**Download CV (PDF)**](/assets/files/CV_Anirban_Saha_Anik.pdf)
+📄 [**Download CV (PDF)**](/files/CV_Anirban_Saha_Anik.pdf)
 
 
 ## Professional Summary
