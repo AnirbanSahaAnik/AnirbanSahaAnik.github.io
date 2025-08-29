@@ -5,8 +5,12 @@ permalink: /cv/
 author_profile: true
 ---
 
+
+📄 [**Download CV (PDF)**](/assets/files/Anirban_Saha_Anik_CV.pdf)
+
+
 ## Professional Summary
-Passionate and detail-oriented NLP researcher with expertise in large language models (LLMs), misinformation detection, and retrieval-augmented generation (RAG). Currently serving as a Graduate Research Assistant at the University of North Texas, contributing to peer-reviewed papers accepted at COLM, CLEF, ISCRAM, and ICMI. Skilled at developing context-aware, interpretable, and socially responsible AI systems for applications in public health, crisis communication, and digital literacy. Aspiring Ph.D. candidate aiming to advance human-aligned AI models that foster trust, transparency, and effective decision-making.
+Passionate and detail-oriented NLP researcher with expertise in large language models (LLMs), misinformation detection, and retrieval-augmented generation (RAG). Currently serving as a Graduate Research Assistant at the University of North Texas, contributing to peer-reviewed papers accepted at EMNLP, COLM, ISCRAM, and CLEF. Skilled at developing context-aware, interpretable, and socially responsible AI systems for applications in public health, crisis communication, and digital literacy. Aspiring Ph.D. candidate aiming to advance human-aligned AI models that foster trust, transparency, and effective decision-making.
 
 ---
 
@@ -17,7 +21,15 @@ Passionate and detail-oriented NLP researcher with expertise in large language m
 
 ---
 
+---
+
 ## Professional Experience
+
+### Data Insights Analyst (Internship)  
+**SEES Group**, Franklin, TN (Remote) — *Aug 2025 – Present*  
+- Supporting data insights and analytics projects with focus on **data quality, reporting, and visualization**.  
+- Building dashboards and reports in **Power BI** and **Excel**, leveraging **Microsoft Fabric** for scalable data integration and analytics.  
+- Collaborating with cross-functional teams to optimize workflows, manage data pipelines, and ensure **data integrity**.
 
 ### Graduate Research Assistant  
 **University of North Texas**, Denton, TX — *May 2025 – Present*  
@@ -55,6 +67,7 @@ Passionate and detail-oriented NLP researcher with expertise in large language m
 - Proposed and documented feature enhancements to improve usability and efficiency in branch operations.
 
 ---
+
 ## Publications
 (*Full list available on [Google Scholar](https://scholar.google.com/citations?user=yhtMiNoAAAAJ&hl=en)*)
 
@@ -63,26 +76,38 @@ Passionate and detail-oriented NLP researcher with expertise in large language m
    Conference on Language Modeling (COLM 2025).  
    [arXiv:2507.07307](https://doi.org/10.48550/arXiv.2507.07307)
 
-2. Song, X., **Anik, A. S.**, Frías-Martínez, V., & Hong, L. (2025).  
+2. Song, X., **Anik, A. S.**, Blanco, E., Frías-Martínez, V., & Hong, L. (2025).  
+   *A Dynamic Fusion Model for Consistent Crisis Response.*  
+   Empirical Methods in Natural Language Processing (EMNLP 2025 Findings). *(Accepted)*  
+
+3. Song, X., **Anik, A. S.**, Blanco, E., Luo, P., Ding, J., & Hong, L. (2025).  
+   *Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL.*  
+   Empirical Methods in Natural Language Processing (EMNLP 2025 Findings). *(Accepted)*  
+
+4. Song, X., **Anik, A. S.**, Frías-Martínez, V., & Hong, L. (2025).  
    *Dynamic Fusion of Large Language Models for Crisis Communication.*  
    International Conference on Information Systems for Crisis Response and Management (ISCRAM 2025).  
    [DOI: 10.59297/nqysjq45](https://doi.org/10.59297/nqysjq45)
 
-3. Arman, M., Prottush, N., Rusho, M. A., Datta, A., **Anik, A. S.**, Dohan, D. M., Sajid, M. A. U. I., Sheikh, I. A., & Jahna, M. K. (2025).  
+5. Arman, M., Prottush, N., Rusho, M. A., Datta, A., **Anik, A. S.**, Dohan, D. M., Sajid, M. A. U. I., Sheikh, I. A., & Jahna, M. K. (2025).  
    *A Hybrid Attention-Guided Fusion Network with Grad-CAM for MPox Skin Lesion Classification.*  
    4th International Conference on Computing and Machine Intelligence (ICMI 2025). *(Accepted)*
 
-4. Das, S. S., **Anik, A. S.**, Morol, M. K., & Mahmood, M. S. (2024).  
+6. Anik, A. S., Chowdhury, M. F. K., Wyckoff, A., & Choudhury, S. R. (2025).  
+   *ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims.*  
+   Conference and Labs of the Evaluation Forum (CLEF 2025). *(Notebook Paper, Accepted)*  
+
+7. Das, S. S., **Anik, A. S.**, Morol, M. K., & Mahmood, M. S. (2024).  
    *Outcome-Based Education: Evaluating Students’ Perspectives Using Transformer.*  
    27th International Conference on Computer and Information Technology (ICCIT 2024).  
    [DOI: 10.1109/ICCIT64611.2024.11021724](https://doi.org/10.1109/ICCIT64611.2024.11021724)
 
-5. Das, S. S., **Anik, A. S.**, Hossain, M. M., Morol, M. K., Jahan, F., & Al-Jubair, M. A. (2023).  
+8. Das, S. S., **Anik, A. S.**, Hossain, M. M., Morol, M. K., Jahan, F., & Al-Jubair, M. A. (2023).  
    *A Study on Future Lockdown Predictions Using ANN.*  
    International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM 2023).  
    [DOI: 10.1109/NCIM59001.2023.10212686](https://doi.org/10.1109/NCIM59001.2023.10212686)
 
-6. **Anik, A. S.**, Chakraborty, K., Datta, B., Kader, A., & Morol, M. K. (2022).  
+9. **Anik, A. S.**, Chakraborty, K., Datta, B., Kader, A., & Morol, M. K. (2022).  
    *A Comparative Analysis for the Detection of COVID-19 from Chest X-ray Dataset.*  
    International Conference on Recent Progresses in Science, Engineering and Technology (ICRPSET 2022).  
    [DOI: 10.1109/ICRPSET57982.2022.10188570](https://doi.org/10.1109/ICRPSET57982.2022.10188570)
