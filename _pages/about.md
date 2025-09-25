@@ -9,7 +9,7 @@ redirect_from:
 
 ---
 
-## Hi, I'm Anirban Saha Anik  
+
 
 [🔗 Connect with me on LinkedIn](https://www.linkedin.com/in/anirban-saha-anik/)  
 
