@@ -9,8 +9,6 @@ redirect_from:
 
 ---
 
-
-
 [🔗 Connect with me on LinkedIn](https://www.linkedin.com/in/anirban-saha-anik/)  
 
 ---
@@ -23,6 +21,7 @@ I work at the [Human-Centered Computing Lab](https://lingzihong.github.io/index.
 My research focuses on **Natural Language Processing (NLP)**, **crisis informatics**, and **trustworthy AI**. I develop methods to enhance public communication through **Large Language Models (LLMs)**, particularly in **health misinformation** and **crisis response** contexts.
 
 ### Research Interests
+
 - Large Language Models (LLaMA, Mistral, GPT)  
 - Retrieval-Augmented Generation (RAG)  
 - Health & Crisis Misinformation Detection  
@@ -43,6 +42,7 @@ My research focuses on **Natural Language Processing (NLP)**, **crisis informati
 ---
 
 ## Learn More
+
 - [📄 CV](/cv/)  
 - [📚 Publications](/publications/)  
 - [✉️ Contact](mailto:anirbansahaanik@my.unt.edu)  
