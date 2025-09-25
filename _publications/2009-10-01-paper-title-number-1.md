@@ -4,11 +4,13 @@ collection: publications
 category: conferences
 permalink: /publication/2025-colm-multiagent-counterspeech
 excerpt: 'A multi-agent LLM framework that generates evidence-based counterspeech grounded in dynamic and static retrieval sources, achieving significant improvements over RAG baselines.'
-date: 2025-03-21
+date: 2025-10-07
 venue: 'Conference on Language Models (COLM 2025) – Accepted'
 paperurl: 'https://arxiv.org/abs/2507.07307'
 dataseturl: 'https://github.com/AnirbanSahaAnik/health-misinformation-reddit-dataset'
 citation: 'Anirban Saha Anik, Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, Lingzi Hong. (2025). "Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation." <i>Conference on Language Models (COLM 2025)</i>.'
+layout: single
+sidebar: false
 ---
 
 **Abstract**  

@@ -42,6 +42,7 @@ Experiments demonstrate that Controlled-Literacy outperforms baselines in **Poli
 ![Figure: Controlled-Literacy Framework](/images/Paper-3/literacy_framework.jpg)  
 
 **Figure**: The Controlled-Literacy framework pipeline.  
+
 - **Evidence Retrieval Module** filters documents based on readability (FKRE) and user preference scores.  
 - **Counterspeech Generator** produces responses optimized with Group Relative Policy Optimization (GRPO).  
 - **Reward Function** balances readability alignment with subjective accessibility.  
@@ -51,6 +52,7 @@ Experiments demonstrate that Controlled-Literacy outperforms baselines in **Poli
 ## Experimental Results
 
 Controlled-Literacy demonstrates superior performance:  
+
 - **Politeness**: 0.84 (LLaMA-8B) vs. 0.41 in prompt-only baseline  
 - **Target Distance (↓)**: 0.90 vs. 2.74 baseline (closer to intended readability)  
 - **User Preference**: 0.74 vs. 0.71 (RAG baseline)  
@@ -61,6 +63,7 @@ Cross-evaluation confirms that audiences rate responses highest when counterspee
 ---
 
 ## Resources
+
 - 📄 **Paper**: [arXiv:2509.01058v3](https://arxiv.org/abs/2509.01058v3)  
 
 ---
