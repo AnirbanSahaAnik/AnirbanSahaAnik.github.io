@@ -93,3 +93,4 @@ Our multi-agent approach consistently outperforms static RAG, dynamic RAG, and p
   booktitle={Proceedings of the Conference on Language Models (COLM 2025)},
   year={2025}
 }
+```
