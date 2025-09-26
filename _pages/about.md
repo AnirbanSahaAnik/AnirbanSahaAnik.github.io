@@ -9,8 +9,7 @@ redirect_from:
 
 ---
 
-[![LinkedIn](https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg#gh-dark-mode-only)](https://www.linkedin.com/in/anirban-saha-anik/ " Let’s get connected on LinkedIn 🤝)!")
-&nbsp;[Let’s get connected on LinkedIn 🤝!](https://www.linkedin.com/in/anirban-saha-anik/)
+## [Let’s get connected on LinkedIn 🤝](https://www.linkedin.com/in/anirban-saha-anik/)
 
 ---
 
