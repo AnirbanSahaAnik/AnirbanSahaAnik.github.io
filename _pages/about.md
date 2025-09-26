@@ -7,11 +7,8 @@ redirect_from:
   - /about.html
 ---
 
----
-
 ## [Let’s get connected on LinkedIn 🤝](https://www.linkedin.com/in/anirban-saha-anik/)
 
----
 
 ## About Me
 
