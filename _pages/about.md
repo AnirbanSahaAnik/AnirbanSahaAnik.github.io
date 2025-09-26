@@ -13,20 +13,11 @@ redirect_from:
 
 ---
 
-## Welcome
+## About Me
 
-I’m **Anirban Saha Anik**, a graduate researcher in Data Science at the **University of North Texas (UNT)**.  
-I work at the [Human-Centered Computing Lab](https://lingzihong.github.io/index.html), supervised by **Dr. Lingzi Hong**.  
+Hello! I’m **Anirban Saha Anik**, a graduate student in Data Science at the University of North Texas. Before coming to UNT, I received my B.Sc. in Computer Science and Engineering from the American International University–Bangladesh (AIUB). My journey began with a fascination for how technology can shape society, and over time this curiosity led me toward the intersection of ***AI and human communication***.  
 
-My research focuses on **Natural Language Processing (NLP)**, **crisis informatics**, and **trustworthy AI**. I develop methods to enhance public communication through **Large Language Models (LLMs)**, particularly in **health misinformation** and **crisis response** contexts.
-
-### Research Interests
-
-- Large Language Models (LLaMA, Mistral, GPT)  
-- Retrieval-Augmented Generation (RAG)  
-- Health & Crisis Misinformation Detection  
-- Evidence-Based & Personalized Counterspeech  
-- Responsible & Human-Centered AI  
+During my master’s studies, I joined the [Human-Centered Computing Lab](https://lingzihong.github.io/index.html) under ****Dr. Lingzi Hong***, where I work on building ***Large Language Model (LLM)***–based systems that can help people navigate critical situations. Whether it’s countering health misinformation or responding to crisis events, my research aims to design AI that is not only intelligent but also *responsible, trustworthy, and sensitive to human needs*.  
 
 ---
 
