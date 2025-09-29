@@ -1,4 +1,14 @@
 ---
+layout: none
+permalink: /cv/
+redirect_to:
+  - /files/CV_Anirban_Saha_Anik.pdf
+---
+
+
+
+
+<!-- ---
 layout: single
 title: "Anik's Curriculum Vitae"
 permalink: /cv/
@@ -14,7 +24,7 @@ Passionate and detail-oriented NLP researcher with expertise in large language m
 
 --- -->
 
-## Research Interests
+<!-- ## Research Interests
 - **Core Technical Areas:** Retrieval-Augmented Generation (RAG), Health Misinformation Detection, Fact-Grounded Communication, Reinforcement Learning with Human Feedback (RLHF), Explainable AI.  
 - **Applied Domains:** Public Health Communication, Crisis Response, Educational Technology, Human-AI Collaboration.  
 - **Methodologies:** Multi-Agent Systems, Context-Aware Text Generation, Real-Time Data Integration, Knowledge-Augmented Language Models, Model Evaluation Frameworks.
@@ -109,4 +119,4 @@ Passionate and detail-oriented NLP researcher with expertise in large language m
 9. **Anik, A. S.**, Chakraborty, K., Datta, B., Kader, A., & Morol, M. K. (2022).  
    *A Comparative Analysis for the Detection of COVID-19 from Chest X-ray Dataset.*  
    International Conference on Recent Progresses in Science, Engineering and Technology (ICRPSET 2022).  
-   [DOI: 10.1109/ICRPSET57982.2022.10188570](https://doi.org/10.1109/ICRPSET57982.2022.10188570)
+   [DOI: 10.1109/ICRPSET57982.2022.10188570](https://doi.org/10.1109/ICRPSET57982.2022.10188570) --> -->
