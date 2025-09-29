@@ -9,10 +9,10 @@ author_profile: true
 📄 [**Download CV (PDF)**](/files/CV_Anirban_Saha_Anik.pdf)
 
 
-## Professional Summary
+<!-- ## Professional Summary
 Passionate and detail-oriented NLP researcher with expertise in large language models (LLMs), misinformation detection, and retrieval-augmented generation (RAG). Currently serving as a Graduate Research Assistant at the University of North Texas, contributing to peer-reviewed papers accepted at EMNLP, COLM, ISCRAM, and CLEF. Skilled at developing context-aware, interpretable, and socially responsible AI systems for applications in public health, crisis communication, and digital literacy. Aspiring Ph.D. candidate aiming to advance human-aligned AI models that foster trust, transparency, and effective decision-making.
 
----
+--- -->
 
 ## Research Interests
 - **Core Technical Areas:** Retrieval-Augmented Generation (RAG), Health Misinformation Detection, Fact-Grounded Communication, Reinforcement Learning with Human Feedback (RLHF), Explainable AI.  
