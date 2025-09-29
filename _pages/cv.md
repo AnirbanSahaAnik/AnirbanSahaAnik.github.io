@@ -1,12 +1,15 @@
 ---
-layout: none
+layout: single
+title: "Anik's Curriculum Vitae"
 permalink: /cv/
-redirect_to:
-  - /files/CV_Anirban_Saha_Anik.pdf
+author_profile: true
 ---
 
+📄 [**Download CV (PDF)**](/files/CV_Anirban_Saha_Anik.pdf)
 
+---
 
+<embed src="/files/CV_Anirban_Saha_Anik.pdf" type="application/pdf" width="100%" height="800px" />
 
 <!-- ---
 layout: single
