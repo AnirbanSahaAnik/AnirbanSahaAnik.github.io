@@ -4,11 +4,11 @@ collection: publications
 category: conferences
 permalink: /publication/2025-emnlp-fusion
 excerpt: 'We introduce a dynamic fusion framework that integrates multiple LLMs to generate consistent, high-quality crisis responses across professionalism, actionability, and relevance dimensions.'
-date: 2025-12-01
+date: 2025-05-01
 venue: 'The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)'
 paperurl: 'https://arxiv.org/abs/2509.01053'
-slidesurl: '/files/MC-2_Anik.pdf'
-citation: 'Song, X., Saha Anik, A., Blanco, E., Frías-Martínez, V., & Hong, L. (2025). "A Dynamic Fusion Model for Consistent Crisis Response." <i>The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)</i>. arXiv:2509.01053.'
+citation: 'Song, Xiaoying, Anirban Saha Anik, Eduardo Blanco, Vanessa Frias-Martinez, and Lingzi Hong. "A Dynamic Fusion Model for Consistent Crisis Response." arXiv preprint arXiv:2509.01053 (2025).'
+mathjax: true
 ---
 
 ## Overview
@@ -53,9 +53,9 @@ We test several fusion variants:
 ## Consistency Metric
 We define **Consistency** as the inverse of variance across the three communicative dimensions:
 
-\[
-\text{Consistency Score} = 1 - \frac{1}{3}(Var_{prof} + Var_{act} + Var_{rel})
-\]
+$$
+\text{Consistency Score} = 1 - \frac{1}{3}\big(\mathrm{Var}_{\text{prof}} + \mathrm{Var}_{\text{act}} + \mathrm{Var}_{\text{rel}}\big)
+$$
 
 Higher score → more uniform style and quality.
 
@@ -81,11 +81,47 @@ Higher score → more uniform style and quality.
 ---
 
 ## Results
-| Model | Method | Professionalism | Actionability | Relevance | Consistency |
-|--------|---------|------------------|----------------|-------------|--------------|
-| **LLaMA** | Instructional Prompt | 0.74 | 0.52 | 0.80 | 0.76 |
-| **LLaMA** | RAG | 0.96 | 0.63 | 0.80 | 0.84 |
-| **LLaMA** | **Fusion w/ Eval & Weight Instruct** | **0.99** | **0.99** | **0.79** | **0.94** |
+
+<div class="table-wrapper">
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Method</th>
+      <th>Professionalism</th>
+      <th>Actionability</th>
+      <th>Relevance</th>
+      <th>Consistency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>LLaMA</strong></td>
+      <td>Instructional Prompt</td>
+      <td>0.74</td>
+      <td>0.52</td>
+      <td>0.80</td>
+      <td>0.76</td>
+    </tr>
+    <tr>
+      <td><strong>LLaMA</strong></td>
+      <td>RAG</td>
+      <td>0.96</td>
+      <td>0.63</td>
+      <td>0.80</td>
+      <td>0.84</td>
+    </tr>
+    <tr>
+      <td><strong>LLaMA</strong></td>
+      <td><strong>Fusion w/ Eval &amp; Weight Instruct</strong></td>
+      <td><strong>0.99</strong></td>
+      <td><strong>0.99</strong></td>
+      <td><strong>0.79</strong></td>
+      <td><strong>0.94</strong></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 ✅ **Fusion outperforms all baselines**, delivering the **most consistent and highest-quality** responses.  
 ✅ **Cross-crisis generalization** (earthquake, typhoon): maintains >0.95 overall quality.  
@@ -108,8 +144,9 @@ Higher score → more uniform style and quality.
 - Framework can extend to **health misinformation**, **public safety**, and **customer support**.
 
 ---
+
 ## Resources
-- 📄 **Paper**: [arXiv:2509.01053v3](https://arxiv.org/abs/2509.01053v3)  
+- 📄 **Paper**: [arXiv:2509.01053v3](https://arxiv.org/abs/2509.01053v3)
 
 ---
 
@@ -121,6 +158,4 @@ Higher score → more uniform style and quality.
   author={Song, Xiaoying and Anik, Anirban Saha and Blanco, Eduardo and Frias-Martinez, Vanessa and Hong, Lingzi},
   journal={arXiv preprint arXiv:2509.01053},
   year={2025}
-}
-
-```
+}```

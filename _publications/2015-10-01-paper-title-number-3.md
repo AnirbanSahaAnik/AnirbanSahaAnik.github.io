@@ -7,7 +7,7 @@ excerpt: 'We propose a Controlled-Literacy framework that integrates Retrieval-A
 date: 2025-09-22
 venue: 'The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025 Findings) – Accepted'
 paperurl: 'https://arxiv.org/abs/2509.01058v3'
-citation: 'Xiaoying Song, Anirban Saha Anik, Dibakar Barua, Pengcheng Luo, Junhua Ding, Lingzi Hong. (2025). "Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL." <i>Findings of Conference on Empirical Methods in Natural Language Processing: EMNLP 2025</i>.'
+citation: 'Song, Xiaoying, Anirban Saha Anik, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong. "Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL." arXiv preprint arXiv:2509.01058 (2025).</i>.'
 ---
 
 **Abstract**  
