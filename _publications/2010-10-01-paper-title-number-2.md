@@ -5,10 +5,10 @@ category: conferences
 permalink: /publication/2025-emnlp-fusion
 excerpt: 'We introduce a dynamic fusion framework that integrates multiple LLMs to generate consistent, high-quality crisis responses across professionalism, actionability, and relevance dimensions.'
 date: 2025-12-01
-venue: 'Findings of the Association for Computational Linguistics: EMNLP 2025'
+venue: 'The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)'
 paperurl: 'https://arxiv.org/abs/2509.01053'
 slidesurl: '/files/MC-2_Anik.pdf'
-citation: 'Song, X., Saha Anik, A., Blanco, E., Frías-Martínez, V., & Hong, L. (2025). "A Dynamic Fusion Model for Consistent Crisis Response." <i>Findings of the Association for Computational Linguistics: EMNLP 2025</i>. arXiv:2509.01053.'
+citation: 'Song, X., Saha Anik, A., Blanco, E., Frías-Martínez, V., & Hong, L. (2025). "A Dynamic Fusion Model for Consistent Crisis Response." <i>The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)</i>. arXiv:2509.01053.'
 ---
 
 ## Overview
@@ -116,12 +116,11 @@ Higher score → more uniform style and quality.
 ## BibTeX
 
 ```bibtex
-@inproceedings{
-   anik2025multiagent,
-   title={Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation},
-   author={Anirban Saha Anik and Xiaoying Song and Elliott Wang and Bryan Wang and Bengisu Yarimbas and Lingzi Hong},
-   booktitle={Second Conference on Language Modeling},
-   year={2025},
-   url={https://openreview.net/forum?id=P61AgRyU7E}
+@article{song2025dynamic,
+  title={A Dynamic Fusion Model for Consistent Crisis Response},
+  author={Song, Xiaoying and Anik, Anirban Saha and Blanco, Eduardo and Frias-Martinez, Vanessa and Hong, Lingzi},
+  journal={arXiv preprint arXiv:2509.01053},
+  year={2025}
 }
+
 ```
