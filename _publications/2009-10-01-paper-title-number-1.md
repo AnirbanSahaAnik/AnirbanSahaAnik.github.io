@@ -89,10 +89,12 @@ Our multi-agent approach consistently outperforms static RAG, dynamic RAG, and p
 ## BibTeX
 
 ```bibtex
-@inproceedings{anik2025multi,
-  title={Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation},
-  author={Anik, Anirban Saha and Song, Xiaoying and Wang, Elliott and Wang, Bryan and Yarimbas, Bengisu and Hong, Lingzi},
-  booktitle={Proceedings of the Conference on Language Models (COLM 2025)},
-  year={2025}
-}
+@inproceedings{
+   anik2025multiagent,
+   title={Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation},
+   author={Anirban Saha Anik and Xiaoying Song and Elliott Wang and Bryan Wang and Bengisu Yarimbas and Lingzi Hong},
+   booktitle={Second Conference on Language Modeling},
+   year={2025},
+   url={https://openreview.net/forum?id=P61AgRyU7E}
+   }
 ```

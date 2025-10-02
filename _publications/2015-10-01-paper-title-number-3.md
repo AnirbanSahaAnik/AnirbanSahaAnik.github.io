@@ -39,7 +39,7 @@ Experiments demonstrate that Controlled-Literacy outperforms baselines in **Poli
 
 ## Method Overview
 
-![Figure: Controlled-Literacy Framework](/images/Paper-3/literacy_framework.jpg)  
+![Figure: Controlled-Literacy Framework](/images/speaking.jpg)  
 
 **Figure**: The Controlled-Literacy framework pipeline.  
 
@@ -71,10 +71,11 @@ Cross-evaluation confirms that audiences rate responses highest when counterspee
 ## BibTeX
 
 ```bibtex
-@inproceedings{song2025literacy,
+@article{song2025speaking,
   title={Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL},
   author={Song, Xiaoying and Anik, Anirban Saha and Barua, Dibakar and Luo, Pengcheng and Ding, Junhua and Hong, Lingzi},
-  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2025},
+  journal={arXiv preprint arXiv:2509.01058},
   year={2025}
 }
+
 ```
