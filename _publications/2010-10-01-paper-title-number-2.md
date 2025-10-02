@@ -158,4 +158,5 @@ Higher score → more uniform style and quality.
   author={Song, Xiaoying and Anik, Anirban Saha and Blanco, Eduardo and Frias-Martinez, Vanessa and Hong, Lingzi},
   journal={arXiv preprint arXiv:2509.01053},
   year={2025}
-}```
+}
+```
