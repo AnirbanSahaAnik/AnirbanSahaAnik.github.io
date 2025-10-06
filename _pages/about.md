@@ -18,12 +18,25 @@ During my master’s studies, I joined the [Human-Centered Computing Lab](https:
 
 ---
 
-## Recent Highlights
+## 🎤 Conference Update: COLM 2025 (Montréal, Canada)
 
-- 📄 **COLM 2025** – *Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation*  
-- 📄 **EMNLP 2025 (Findings)** –  
-  - *Dynamic Fusion Model for Consistent Crisis Response*  
-  - *Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL*  
+I’m excited to attend and present my research at the **Conference on Language Modeling (COLM 2025)** in **Montréal, Canada** (October 7–10, 2025).  
+If you scanned my QR code at the conference, welcome! 👋 Here are the key links to explore my work:
+
+- 📄 **Paper:** [*Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation*](https://arxiv.org/abs/2507.07307)
+- 🧠 **Focus:** Multi-agent RAG pipeline to generate **factual, informative**, and **empathetic** counterspeech responses  
+- 🧾 **Poster:** [View Poster (coming soon)](#)
+
+Feel free to connect with me or discuss ideas during the conference — I’d love to chat about **LLMs, RAG, RLHF,** and **trustworthy AI**!
+
+---
+
+## 🧠 Research Highlights & Publications
+
+- 📄 **COLM 2025** – [*Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation*](https://arxiv.org/abs/2507.07307)  
+- 📄 **EMNLP 2025**  
+  - [*Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL*](https://arxiv.org/abs/2509.01058)  
+  - [*Dynamic Fusion Model for Consistent Crisis Response*](https://arxiv.org/abs/2509.01053)  
 - 📄 **CLEF 2025** – *ClaimIQ at CheckThat! Task 3: Verifying Numerical Claims with Prompted and Fine-Tuned LLMs* *(Notebook Paper)*  
 - 📄 **ISCRAM 2025** – *Dynamic Fusion of Large Language Models for Crisis Communication*  
 
