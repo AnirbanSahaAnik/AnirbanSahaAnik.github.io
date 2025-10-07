@@ -25,7 +25,7 @@ If you scanned my QR code at the conference, welcome! 👋 Here are the key link
 
 - 📄 **Paper:** [*Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation*](https://arxiv.org/abs/2507.07307)
 - 🧠 **Focus:** Multi-agent RAG pipeline to generate **factual, informative**, and **empathetic** counterspeech responses  
-- 🧾 **Poster:** [View Poster (coming soon)](#)
+- 🧾 **Poster:** [View Poster](/files/Multi-Agent_Poster_COLM_2025_updated_new.pdf)
 
 Feel free to connect with me or discuss ideas during the conference — I’d love to chat about **LLMs, RAG, RLHF,** and **trustworthy AI**!
 
