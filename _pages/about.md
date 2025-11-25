@@ -9,9 +9,9 @@ redirect_from:
 
 ## About Me
 
-Hello! I'm **Anirban Saha Anik**, a graduate student in Data Science at the University of North Texas, graduating in December 2025. Before coming to UNT, I received my B.Sc. in Computer Science and Engineering from the American International University–Bangladesh (AIUB). I'm currently a **Graduate Researcher** in the [Human-Centered Computing Lab](https://lingzihong.github.io/index.html) under *Dr. Lingzi Hong*, where I work on building *Large Language Model (LLM)*-based systems that help people navigate critical situations. Whether it's countering health misinformation or responding to crisis events, my research aims to design AI that is not only intelligent but also *responsible, trustworthy, and sensitive to human needs*.
+Hello! I'm **Anirban Saha Anik**, a graduate student in Data Science at the University of North Texas, graduating in December 2025. Before coming to UNT, I received my B.Sc. in Computer Science and Engineering from the American International University–Bangladesh (AIUB). I'm currently a *Graduate Researcher* in the [Human-Centered Computing Lab](https://lingzihong.github.io/index.html) under *Dr. Lingzi Hong*, where I work on building *Large Language Model (LLM)*-based systems that help people navigate critical situations. Whether it's countering health misinformation or responding to crisis events, my research aims to design AI that is not only intelligent but also *responsible, trustworthy, and sensitive to human needs*.
 
-I'm also working as a **Data Insights Analyst Intern** at SEES Group, where I develop data engineering pipelines and analytics solutions using Microsoft Fabric for enterprise data integration. I'm actively pursuing **PhD opportunities** to continue advancing research in human-centered AI and trustworthy communication systems.
+I'm also working as a *Data Insights Analyst Intern* at SEES Group, where I develop data engineering pipelines and analytics solutions using Microsoft Fabric for enterprise data integration. I'm actively pursuing **PhD opportunities** to continue advancing research in human-centered AI and trustworthy communication systems.
 
 ---
 
@@ -38,7 +38,7 @@ My long-term goal is to design adaptive, **Human-Aligned AI** models that improv
 
 **Aug 2025** — Two papers accepted by *EMNLP 2025 Findings* 
 
-**Sep 2025** — **COLM 2025 Travel Scholarship** ($1,225)
+**Sep 2025** — *COLM 2025 Travel Scholarship* ($1,225)
 
 **Sep 2025** — One paper accepted by *CLEF 2025*
 
@@ -57,7 +57,7 @@ My long-term goal is to design adaptive, **Human-Aligned AI** models that improv
 <div style="margin-bottom: 30px;">
   <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">COLM</span>
   <h3 style="margin-top: 10px; margin-bottom: 5px;">Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation</h3>
-  <p style="margin: 5px 0;"><strong>Anirban Saha Anik*</strong>, Xiaoying Song*, Elliott Wang, Bryan Wang, Bengisu Yarimbas, and Lingzi Hong</p>
+  <p style="margin: 5px 0;"><strong>Anirban Saha Anik*</strong>, Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, and Lingzi Hong</p>
   <p style="margin: 5px 0; font-style: italic;">Conference on Language Modeling, 2025</p>
   <p style="margin: 5px 0;"><a href="https://arxiv.org/abs/2507.07307">arXiv:2507.07307</a></p>
   <p style="margin: 5px 0; color: #e74c3c;"><strong>🏆 Runner-Up, SIG-SM Social Media Research Competition 2025</strong></p>
@@ -67,24 +67,25 @@ My long-term goal is to design adaptive, **Human-Aligned AI** models that improv
   <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">EMNLP</span>
   <h3 style="margin-top: 10px; margin-bottom: 5px;">Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL</h3>
   <p style="margin: 5px 0;">Xiaoying Song, <strong>Anirban Saha Anik</strong>, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong</p>
-  <p style="margin: 5px 0; font-style: italic;">Conference on Empirical Methods in Natural Language Processing, 2025</p>
-  <p style="margin: 5px 0;"><a href="https://arxiv.org/abs/2509.01058">arXiv:2509.01058</a></p>
+  <p style="margin: 5px 0; font-style: italic;">Findings of the Association for Computational Linguistics: EMNLP 2025</p>
+  <p style="margin: 5px 0;"><a href="">10.18653/v1/2025.findings-emnlp.153</a></p>
+  <p style="margin: 5px 0; color: #e74c3c;"><strong>🏆 Finalist, SIG-SM Social Media Research Competition 2025</strong></p>
 </div>
 
 <div style="margin-bottom: 30px;">
   <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">EMNLP</span>
   <h3 style="margin-top: 10px; margin-bottom: 5px;">A Dynamic Fusion Model for Consistent Crisis Response</h3>
   <p style="margin: 5px 0;">Xiaoying Song, <strong>Anirban Saha Anik</strong>, Eduardo Blanco, Vanessa Frías-Martínez, and Lingzi Hong</p>
-  <p style="margin: 5px 0; font-style: italic;">Conference on Empirical Methods in Natural Language Processing, 2025</p>
-  <p style="margin: 5px 0;"><a href="https://arxiv.org/abs/2509.01053">arXiv:2509.01053</a></p>
+  <p style="margin: 5px 0; font-style: italic;">Findings of the Association for Computational Linguistics: EMNLP 2025</p>
+  <p style="margin: 5px 0;"><a href="https://aclanthology.org/2025.findings-emnlp.149/">10.18653/v1/2025.findings-emnlp.149</a></p>
 </div>
 
 <div style="margin-bottom: 30px;">
   <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">CLEF</span>
   <h3 style="margin-top: 10px; margin-bottom: 5px;">ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims</h3>
   <p style="margin: 5px 0;"><strong>Anirban Saha Anik</strong>, M. F. K. Chowdhury, A. Wyckoff, and Sagnik Ray Choudhury</p>
-  <p style="margin: 5px 0; font-style: italic;">Conference and Labs of the Evaluation Forum, 2025</p>
-  <p style="margin: 5px 0;">CEUR-WS Vol-4038</p>
+  <p style="margin: 5px 0; font-style: italic;">Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2025)</p>
+  <p style="margin: 5px 0;"><a href="https://ceur-ws.org/Vol-4038/paper_61.pdf">CEUR-WS Vol-4038</a></p>
 </div>
 
 <div style="margin-bottom: 30px;">
