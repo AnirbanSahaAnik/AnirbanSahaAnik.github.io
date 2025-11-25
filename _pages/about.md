@@ -25,7 +25,6 @@ My research focuses on **Natural Language Processing (NLP)** and **Large Languag
 - Fact-grounded response generation and misinformation detection
 
 My long-term goal is to design adaptive, Human-Aligned AI models that improve communication, decision-making, and trust in real-world scenarios.
-
 ---
 
 ## Recent News ⚡
