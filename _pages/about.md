@@ -55,33 +55,33 @@ My long-term goal is to design adaptive, **Human-Aligned AI** models that improv
 ## Selected Publications
 
 <div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">COLM</span>
+  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">COLM 2025</span>
   <h3 style="margin-top: 10px; margin-bottom: 5px;">Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation</h3>
-  <p style="margin: 5px 0;"><strong>Anirban Saha Anik*</strong>, Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, and Lingzi Hong</p>
+  <p style="margin: 5px 0;"><strong>Anirban Saha Anik</strong>, Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, and Lingzi Hong</p>
   <p style="margin: 5px 0; font-style: italic;">Conference on Language Modeling, 2025</p>
   <p style="margin: 5px 0;"><a href="https://arxiv.org/abs/2507.07307">arXiv:2507.07307</a></p>
   <p style="margin: 5px 0; color: #e74c3c;"><strong>🏆 Runner-Up, SIG-SM Social Media Research Competition 2025</strong></p>
 </div>
 
 <div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">EMNLP</span>
+  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">EMNLP 2025</span>
   <h3 style="margin-top: 10px; margin-bottom: 5px;">Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL</h3>
   <p style="margin: 5px 0;">Xiaoying Song, <strong>Anirban Saha Anik</strong>, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong</p>
   <p style="margin: 5px 0; font-style: italic;">Findings of the Association for Computational Linguistics: EMNLP 2025</p>
-  <p style="margin: 5px 0;"><a href="">10.18653/v1/2025.findings-emnlp.153</a></p>
+  <p style="margin: 5px 0;"><a href="https://aclanthology.org/2025.findings-emnlp.153/">DOI: 10.18653/v1/2025.findings-emnlp.153</a></p>
   <p style="margin: 5px 0; color: #e74c3c;"><strong>🏆 Finalist, SIG-SM Social Media Research Competition 2025</strong></p>
 </div>
 
 <div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">EMNLP</span>
+  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">EMNLP 2025</span>
   <h3 style="margin-top: 10px; margin-bottom: 5px;">A Dynamic Fusion Model for Consistent Crisis Response</h3>
   <p style="margin: 5px 0;">Xiaoying Song, <strong>Anirban Saha Anik</strong>, Eduardo Blanco, Vanessa Frías-Martínez, and Lingzi Hong</p>
   <p style="margin: 5px 0; font-style: italic;">Findings of the Association for Computational Linguistics: EMNLP 2025</p>
-  <p style="margin: 5px 0;"><a href="https://aclanthology.org/2025.findings-emnlp.149/">10.18653/v1/2025.findings-emnlp.149</a></p>
+  <p style="margin: 5px 0;"><a href="https://aclanthology.org/2025.findings-emnlp.149/">DOI: 10.18653/v1/2025.findings-emnlp.149</a></p>
 </div>
 
 <div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">CLEF</span>
+  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">CLEF 2025</span>
   <h3 style="margin-top: 10px; margin-bottom: 5px;">ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims</h3>
   <p style="margin: 5px 0;"><strong>Anirban Saha Anik</strong>, M. F. K. Chowdhury, A. Wyckoff, and Sagnik Ray Choudhury</p>
   <p style="margin: 5px 0; font-style: italic;">Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2025)</p>
@@ -89,45 +89,44 @@ My long-term goal is to design adaptive, **Human-Aligned AI** models that improv
 </div>
 
 <div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">ISCRAM</span>
+  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">ISCRAM 2025</span>
   <h3 style="margin-top: 10px; margin-bottom: 5px;">Dynamic Fusion of Large Language Models for Crisis Communication</h3>
   <p style="margin: 5px 0;">Xiaoying Song, <strong>Anirban Saha Anik</strong>, Vanessa Frías-Martínez, and Lingzi Hong</p>
   <p style="margin: 5px 0; font-style: italic;">International Conference on Information Systems for Crisis Response and Management, 2025</p>
-  <p style="margin: 5px 0;"><a href="https://doi.org/10.59297/nqysjq45">DOI:10.59297/nqysjq45</a></p>
+  <p style="margin: 5px 0;"><a href="https://doi.org/10.59297/nqysjq45">DOI: 10.59297/nqysjq45</a></p>
 </div>
 
 <div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">ICMI</span>
+  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">ICMI 2025</span>
   <h3 style="margin-top: 10px; margin-bottom: 5px;">A Hybrid Attention-Guided Fusion Network with Grad-CAM for MPox Skin Lesion Classification</h3>
   <p style="margin: 5px 0;">M. Arman, N. Prottush, M. A. Rusho, A. Datta, <strong>Anirban Saha Anik</strong>, D. M. Dohan, M. A. U. I. Sajid, I. A. Sheikh, and M. K. Jahna</p>
   <p style="margin: 5px 0; font-style: italic;">4th International Conference on Computing and Machine Intelligence, 2025</p>
-  <p style="margin: 5px 0;"><a href="https://doi.org/ICMI65310.2025.11141216">DOI:ICMI65310.2025.11141216</a></p>
+  <p style="margin: 5px 0;"><a href="https://doi.org/ICMI65310.2025.11141216">DOI: ICMI65310.2025.11141216</a></p>
 </div>
 
 <div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">ICCIT</span>
+  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">ICCIT 2024</span>
   <h3 style="margin-top: 10px; margin-bottom: 5px;">Outcome-Based Education: Evaluating Students' Perspectives Using Transformer</h3>
   <p style="margin: 5px 0;">S. S. Das, <strong>Anirban Saha Anik</strong>, Md. Kishor Morol, and M. S. Mahmood</p>
   <p style="margin: 5px 0; font-style: italic;">27th International Conference on Computer and Information Technology, 2024</p>
-  <p style="margin: 5px 0;"><a href="https://doi.org/10.1109/ICCIT64611.2024.11021724">DOI:10.1109/ICCIT64611.2024.11021724</a></p>
+  <p style="margin: 5px 0;"><a href="https://doi.org/10.1109/ICCIT64611.2024.11021724">DOI: 10.1109/ICCIT64611.2024.11021724</a></p>
 </div>
 
 <div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">NCIM</span>
+  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">NCIM 2023</span>
   <h3 style="margin-top: 10px; margin-bottom: 5px;">A Study on Future Lockdown Predictions Using ANN</h3>
   <p style="margin: 5px 0;">S. S. Das, <strong>Anirban Saha Anik</strong>, M. M. Hossain, Md. Kishor Morol, F. Jahan, and M. A.-A. Jubair</p>
   <p style="margin: 5px 0; font-style: italic;">International Conference on Next-Generation Computing, IoT and Machine Learning, 2023</p>
-  <p style="margin: 5px 0;"><a href="https://doi.org/10.1109/NCIM59001.2023.10212686">DOI:10.1109/NCIM59001.2023.10212686</a></p>
+  <p style="margin: 5px 0;"><a href="https://doi.org/10.1109/NCIM59001.2023.10212686">DOI: 10.1109/NCIM59001.2023.10212686</a></p>
 </div>
 
 <div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">ICRPSET</span>
+  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">ICRPSET 2022</span>
   <h3 style="margin-top: 10px; margin-bottom: 5px;">A Comparative Analysis for the Detection of COVID-19 from Chest X-ray Dataset</h3>
   <p style="margin: 5px 0;"><strong>Anirban Saha Anik</strong>, K. Chakraborty, B. Datta, A. Kader, and Md. Kishor Morol</p>
   <p style="margin: 5px 0; font-style: italic;">International Conference on Recent Progresses in Science, Engineering and Technology, 2022</p>
-  <p style="margin: 5px 0;"><a href="https://doi.org/10.1109/ICRPSET57982.2022.10188570">DOI:10.1109/ICRPSET57982.2022.10188570</a></p>
+  <p style="margin: 5px 0;"><a href="https://doi.org/10.1109/ICRPSET57982.2022.10188570">DOI: 10.1109/ICRPSET57982.2022.10188570</a></p>
 </div>
----
 
 ## Learn More
 
