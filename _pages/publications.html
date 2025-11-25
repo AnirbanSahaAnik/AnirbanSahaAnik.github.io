@@ -5,35 +5,34 @@ permalink: /publications/
 author_profile: true
 ---
 
-<!-- {% if site.author.googlescholar %}
+{% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
+<h2>Conference Papers</h2>
 
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %} -->
-
+{% for post in site.publications reversed %}
+  <div style="margin-bottom: 30px;">
+    <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">{{ post.venue_short }}</span>
+    <h3 style="margin-top: 10px; margin-bottom: 5px;"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+    <p style="margin: 5px 0;">{{ post.authors }}</p>
+    <p style="margin: 5px 0; font-style: italic;">{{ post.venue }}, {{ post.date | date: "%Y" }}</p>
+    {% if post.excerpt %}
+      <p style="margin: 5px 0;">{{ post.excerpt }}</p>
+    {% endif %}
+    {% if post.paperurl %}
+      <p style="margin: 5px 0;"><a href="{{ post.paperurl }}">{{ post.paperurl_text | default: "Download Paper" }}</a></p>
+    {% endif %}
+    {% if post.award %}
+      <p style="margin: 5px 0; color: #e74c3c;"><strong>🏆 {{ post.award }}</strong></p>
+    {% endif %}
+  </div>
+{% endfor %}
 
 
+<!-- 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
@@ -113,4 +112,4 @@ Publications
   <p style="margin: 5px 0;"><strong>Anirban Saha Anik</strong>, K. Chakraborty, B. Datta, A. Kader, and Md. Kishor Morol</p>
   <p style="margin: 5px 0; font-style: italic;">International Conference on Recent Progresses in Science, Engineering and Technology, 2022</p>
   <p style="margin: 5px 0;"><a href="https://doi.org/10.1109/ICRPSET57982.2022.10188570">DOI: 10.1109/ICRPSET57982.2022.10188570</a></p>
-</div>
+</div> -->

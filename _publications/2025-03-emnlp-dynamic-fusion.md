@@ -4,10 +4,15 @@ collection: publications
 category: conferences
 permalink: /publication/2025-emnlp-fusion
 excerpt: 'We introduce a dynamic fusion framework that integrates multiple LLMs to generate consistent, high-quality crisis responses across professionalism, actionability, and relevance dimensions.'
-date: 2025-05-01
-venue: 'The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)'
-paperurl: 'https://arxiv.org/abs/2509.01053'
-citation: 'Song, Xiaoying, Anirban Saha Anik, Eduardo Blanco, Vanessa Frias-Martinez, and Lingzi Hong. "A Dynamic Fusion Model for Consistent Crisis Response." arXiv preprint arXiv:2509.01053 (2025).'
+date: 2025-08-20
+venue: 'The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025 Findings)'
+venue_short: 'EMNLP 2025'
+paperurl: 'https://aclanthology.org/2025.findings-emnlp.149/'
+paperurl_text: 'DOI: 10.18653/v1/2025.findings-emnlp.149'
+authors: 'Xiaoying Song, <strong>Anirban Saha Anik</strong>, Eduardo Blanco, Vanessa Frías-Martínez, and Lingzi Hong'
+citation: 'Song, Xiaoying, Anirban Saha Anik, Eduardo Blanco, Vanessa Frias-Martinez, and Lingzi Hong. "A Dynamic Fusion Model for Consistent Crisis Response." <i>Findings of the Association for Computational Linguistics: EMNLP 2025</i>.'
+layout: single
+sidebar: false
 mathjax: true
 ---
 
@@ -37,7 +42,7 @@ Our goal:
 We propose a **two-stage fusion framework**:
 1. **Candidate Generation:**  
    - **Instructional Prompting**: Zero-shot structured prompts for general reasoning.  
-   - **Retrieval-Augmented Generation (RAG)**: Injects verified knowledge from **FEMA**’s official documents (e.g., Individual Assistance Guide).
+   - **Retrieval-Augmented Generation (RAG)**: Injects verified knowledge from **FEMA**'s official documents (e.g., Individual Assistance Guide).
 2. **Fusion Mechanism:**  
    - Evaluates candidate responses across three dimensions: **Professionalism**, **Actionability**, **Relevance**.  
    - Synthesizes a final response using **weighted evaluation guidance**, ensuring balanced optimization.
@@ -146,17 +151,18 @@ Higher score → more uniform style and quality.
 ---
 
 ## Resources
-- 📄 **Paper**: [arXiv:2509.01053v3](https://arxiv.org/abs/2509.01053v3)
+- 📄 **Paper**: [ACL Anthology](https://aclanthology.org/2025.findings-emnlp.149/)
+- 📄 **arXiv**: [arXiv:2509.01053](https://arxiv.org/abs/2509.01053)
 
 ---
 
 ## BibTeX
-
 ```bibtex
-@article{song2025dynamic,
+@inproceedings{song2025dynamic,
   title={A Dynamic Fusion Model for Consistent Crisis Response},
   author={Song, Xiaoying and Anik, Anirban Saha and Blanco, Eduardo and Frias-Martinez, Vanessa and Hong, Lingzi},
-  journal={arXiv preprint arXiv:2509.01053},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2025},
+  pages={2753--2768},
   year={2025}
 }
 ```

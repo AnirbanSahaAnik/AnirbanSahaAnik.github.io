@@ -4,14 +4,20 @@ collection: publications
 category: conferences
 permalink: /publication/2025-emnlp-literacy-counterspeech
 excerpt: 'We propose a Controlled-Literacy framework that integrates Retrieval-Augmented Generation (RAG) and Reinforcement Learning (RL) to generate counterspeech tailored to different health literacy levels.'
-date: 2025-09-22
+date: 2025-08-20
 venue: 'The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025 Findings) – Accepted'
-paperurl: 'https://arxiv.org/abs/2509.01058v3'
-citation: 'Song, Xiaoying, Anirban Saha Anik, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong. "Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL." arXiv preprint arXiv:2509.01058 (2025).</i>.'
+venue_short: 'EMNLP 2025'
+paperurl: 'https://aclanthology.org/2025.findings-emnlp.153/'
+paperurl_text: 'DOI: 10.18653/v1/2025.findings-emnlp.153'
+authors: 'Xiaoying Song, <strong>Anirban Saha Anik</strong>, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong'
+award: 'Finalist, SIG-SM Social Media Research Competition 2025'
+citation: 'Song, Xiaoying, Anirban Saha Anik, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong. "Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL." <i>Findings of the Association for Computational Linguistics: EMNLP 2025</i>.'
+layout: single
+sidebar: false
 ---
 
 **Abstract**  
-Health misinformation poses a critical risk to public well-being. Existing counterspeech approaches often generate uniform responses that fail to account for the audience’s health literacy level, limiting accessibility and effectiveness.  
+Health misinformation poses a critical risk to public well-being. Existing counterspeech approaches often generate uniform responses that fail to account for the audience's health literacy level, limiting accessibility and effectiveness.  
 
 We propose **Controlled-Literacy**, a framework that combines **Retrieval-Augmented Generation (RAG)** with **Reinforcement Learning (RL)** to adapt counterspeech to different health literacy levels (low, medium, high). The framework retrieves evidence aligned with the target literacy level and optimizes generation using a hybrid reward function incorporating both **readability (Flesch-Kincaid Reading Ease)** and **user preference ratings**.  
 
@@ -24,7 +30,7 @@ Experiments demonstrate that Controlled-Literacy outperforms baselines in **Poli
 ## Contributions
 
 1. **Health Literacy-Aware Counterspeech Framework**  
-   - Introduces Controlled-Literacy, integrating RAG + RL to tailor responses to users’ health literacy.  
+   - Introduces Controlled-Literacy, integrating RAG + RL to tailor responses to users' health literacy.  
 
 2. **Hybrid Reward Design**  
    - Combines readability-based scoring with simulated user preference ratings for effective optimization.  
@@ -56,7 +62,7 @@ Controlled-Literacy demonstrates superior performance:
 - **Politeness**: 0.84 (LLaMA-8B) vs. 0.41 in prompt-only baseline  
 - **Target Distance (↓)**: 0.90 vs. 2.74 baseline (closer to intended readability)  
 - **User Preference**: 0.74 vs. 0.71 (RAG baseline)  
-- **Factual Accuracy**: 0.91 vs. 0.87 (prompt-only baseline):contentReference[oaicite:1]{index=1}  
+- **Factual Accuracy**: 0.91 vs. 0.87 (prompt-only baseline)
 
 Cross-evaluation confirms that audiences rate responses highest when counterspeech matches their literacy level, reinforcing the need for tailored generation.  
 
@@ -64,18 +70,18 @@ Cross-evaluation confirms that audiences rate responses highest when counterspee
 
 ## Resources
 
-- 📄 **Paper**: [arXiv:2509.01058v3](https://arxiv.org/abs/2509.01058v3)  
+- 📄 **Paper**: [ACL Anthology](https://aclanthology.org/2025.findings-emnlp.153/)
+- 📄 **arXiv**: [arXiv:2509.01058](https://arxiv.org/abs/2509.01058)
 
 ---
 
 ## BibTeX
-
-```bibtex
-@article{song2025speaking,
+```bibtex 
+@inproceedings{song2025speaking,
   title={Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL},
   author={Song, Xiaoying and Anik, Anirban Saha and Barua, Dibakar and Luo, Pengcheng and Ding, Junhua and Hong, Lingzi},
-  journal={arXiv preprint arXiv:2509.01058},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2025},
+  pages={2812--2830},
   year={2025}
 }
-
 ```
