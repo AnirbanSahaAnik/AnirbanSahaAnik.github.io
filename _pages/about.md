@@ -19,13 +19,12 @@ During my master’s studies, I joined the [Human-Centered Computing Lab](https:
 
 
 ## 🧠 Research Highlights & Publications
-<div class="publication-item">
-  <span class="venue-badge emnlp">EMNLP</span>
-  <div class="pub-content">
-    <strong>Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL</strong><br>
-    <span class="authors"><u>Anirban Saha Anik</u>, Xiaoying Song, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong</span><br>
-    <span class="venue-info">In Conference on Empirical Methods in Natural Language Processing, 2025</span>
-  </div>
+
+<div style="margin-bottom: 30px;">
+  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">EMNLP</span>
+  <h3 style="margin-top: 10px; margin-bottom: 5px;">Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL</h3>
+  <p style="margin: 5px 0;">Xiaoying Song, <strong>Anirban Saha Anik</strong>, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong</p>
+  <p style="margin: 5px 0; font-style: italic;">In Conference on Empirical Methods in Natural Language Processing, 2025</p>
 </div>
 
 - 📄 **COLM 2025** – [*Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation*](https://arxiv.org/abs/2507.07307)  
