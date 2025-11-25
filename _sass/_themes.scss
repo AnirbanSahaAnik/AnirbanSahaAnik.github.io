@@ -105,4 +105,42 @@ $vimeo-color                : #1ab7ea;
 $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
-   
+
+/* ==========================================================================
+   CUSTOM ADJUSTMENTS
+   ========================================================================== */
+
+/* Adjust Recent News and Publication Details Font Sizes */
+.page__content {
+  
+  /* Recent News list items - smaller */
+  ul li {
+    font-size: 0.85em;
+    line-height: 1.6;
+  }
+  
+  /* Publication details */
+  .archive__item {
+    
+    /* Author names and venue info - smaller */
+    p {
+      font-size: 0.85em;
+    }
+    
+    /* Excerpts and descriptions - smaller */
+    .archive__item-excerpt {
+      font-size: 0.82em;
+    }
+    
+    /* Keep publication titles at normal size */
+    .archive__item-title {
+      font-size: 1em !important;
+    }
+  }
+  
+  /* Italic text (venues) slightly smaller */
+  p em,
+  p i {
+    font-size: 0.92em;
+  }
+}
