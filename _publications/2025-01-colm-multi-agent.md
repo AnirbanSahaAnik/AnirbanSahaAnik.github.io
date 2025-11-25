@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2025-colm-multiagent-counterspeech
 excerpt: 'A multi-agent LLM framework that generates evidence-based counterspeech grounded in dynamic and static retrieval sources, achieving significant improvements over RAG baselines.'
 date: 2025-07-01
-venue: 'Conference on Language Modeling'
+venue: 'Second Conference on Language Modeling'
 venue_short: 'COLM 2025'
 paperurl: 'https://arxiv.org/abs/2507.07307'
 paperurl_text: 'arXiv:2507.07307'
