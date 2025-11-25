@@ -9,10 +9,9 @@ redirect_from:
 
 ## About Me
 
-Hello! I'm **Anirban Saha Anik**, a graduate student in Data Science at the University of North Texas, graduating in December 2025. Before coming to UNT, I received my B.Sc. in Computer Science and Engineering from the American International University–Bangladesh (AIUB). I'm currently a *Graduate Researcher* in the [Human-Centered Computing Lab](https://lingzihong.github.io/index.html) under *Dr. Lingzi Hong*, where I work on building *Large Language Model (LLM)*-based systems that help people navigate critical situations. Whether it's countering health misinformation or responding to crisis events, my research aims to design AI that is not only intelligent but also *responsible, trustworthy, and sensitive to human needs*.
+Hello! I'm **Anirban Saha Anik**, a graduate student in Data Science at the University of North Texas, graduating in December 2025. Before coming to UNT, I received my B.Sc. in Computer Science and Engineering from the American International University–Bangladesh (AIUB). I'm currently a *Graduate Researcher* in the <a href="https://lingzihong.github.io/index.html" style="text-decoration: none;">Human-Centered Computing Lab</a> under <a href="https://ci.unt.edu/lingzi-hong/" style="text-decoration: none;">*Dr. Lingzi Hong*</a>, where I work on building *Large Language Model (LLM)*-based systems that help people navigate critical situations. Whether it's countering health misinformation or responding to crisis events, my research aims to design AI that is not only intelligent but also *responsible, trustworthy, and sensitive to human needs*. I'm also working as a *Data Insights Analyst Intern* at SEES Group, where I develop data engineering pipelines and analytics solutions using Microsoft Fabric for enterprise data integration.
 
-I'm also working as a *Data Insights Analyst Intern* at SEES Group, where I develop data engineering pipelines and analytics solutions using Microsoft Fabric for enterprise data integration. I'm actively pursuing **PhD opportunities** to continue advancing research in human-centered AI and trustworthy communication systems.
-
+I'm actively pursuing <span style="color: #5bc0de;">PhD opportunities</span> and <span style="color: #5bc0de;">summer research internships</span> in NLP, LLMs, and AI safety. If you have opportunities or would like to discuss potential collaborations, please feel free to [reach out](mailto:anirbansahaanik@my.unt.edu)!
 ---
 
 ## 🔬 Research Interests
@@ -24,7 +23,7 @@ My research focuses on **Natural Language Processing (NLP)** and **Large Languag
 - Crisis informatics and emergency response systems
 - Fact-grounded response generation and misinformation detection
 
-My long-term goal is to design adaptive, **Human-Aligned AI** models that improve communication, decision-making, and trust in real-world scenarios.
+My long-term goal is to design adaptive, Human-Aligned AI models that improve communication, decision-making, and trust in real-world scenarios.
 
 ---
 
@@ -32,7 +31,7 @@ My long-term goal is to design adaptive, **Human-Aligned AI** models that improv
 
 <ul style="list-style-type: disc; padding-left: 20px;">
   <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[November 2025]</span> Two papers selected as finalists at <a href="https://www.asist.org/meetings-events/am/am25/social-media-workposium/" style="color: #5bc0de; text-decoration: none;">SIG-SM Social Media Research Competition 2025</a> - <a href="https://arxiv.org/abs/2507.07307" style="color: #5bc0de; text-decoration: none;">Multi-Agent RAG Framework</a> (<span style="background-color: #f0ad4e; color: white; padding: 2px 8px; border-radius: 3px; font-weight: 600; font-size: 0.85em;">Runner-Up</span>) and <a href="https://aclanthology.org/2025.findings-emnlp.153/" style="color: #5bc0de; text-decoration: none;">Literacy-Controlled Counterspeech</a>!
+    <span style="color: #d9534f; font-weight: 600;">[November 2025]</span> Two papers selected as finalists at <a href="https://www.asist.org/meetings-events/am/am25/social-media-workposium/" style="color: #5bc0de; text-decoration: none;">SIG-SM Social Media Research Competition 2025</a> - <a href="https://arxiv.org/abs/2507.07307" style="color: #5bc0de; text-decoration: none;">Multi-Agent RAG Framework</a> (<strong>🥈 Runner-Up</strong>) and <a href="https://aclanthology.org/2025.findings-emnlp.153/" style="color: #5bc0de; text-decoration: none;">Literacy-Controlled Counterspeech</a>!
   </li>
   
   <li style="margin-bottom: 12px;">
