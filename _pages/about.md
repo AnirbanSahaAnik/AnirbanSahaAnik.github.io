@@ -96,38 +96,6 @@ My long-term goal is to design adaptive, **Human-Aligned AI** models that improv
   <p style="margin: 5px 0;"><a href="https://doi.org/10.59297/nqysjq45">DOI: 10.59297/nqysjq45</a></p>
 </div>
 
-<div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">ICMI 2025</span>
-  <h3 style="margin-top: 10px; margin-bottom: 5px;">A Hybrid Attention-Guided Fusion Network with Grad-CAM for MPox Skin Lesion Classification</h3>
-  <p style="margin: 5px 0;">M. Arman, N. Prottush, M. A. Rusho, A. Datta, <strong>Anirban Saha Anik</strong>, D. M. Dohan, M. A. U. I. Sajid, I. A. Sheikh, and M. K. Jahna</p>
-  <p style="margin: 5px 0; font-style: italic;">4th International Conference on Computing and Machine Intelligence, 2025</p>
-  <p style="margin: 5px 0;"><a href="https://doi.org/ICMI65310.2025.11141216">DOI: ICMI65310.2025.11141216</a></p>
-</div>
-
-<div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">ICCIT 2024</span>
-  <h3 style="margin-top: 10px; margin-bottom: 5px;">Outcome-Based Education: Evaluating Students' Perspectives Using Transformer</h3>
-  <p style="margin: 5px 0;">S. S. Das, <strong>Anirban Saha Anik</strong>, Md. Kishor Morol, and M. S. Mahmood</p>
-  <p style="margin: 5px 0; font-style: italic;">27th International Conference on Computer and Information Technology, 2024</p>
-  <p style="margin: 5px 0;"><a href="https://doi.org/10.1109/ICCIT64611.2024.11021724">DOI: 10.1109/ICCIT64611.2024.11021724</a></p>
-</div>
-
-<div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">NCIM 2023</span>
-  <h3 style="margin-top: 10px; margin-bottom: 5px;">A Study on Future Lockdown Predictions Using ANN</h3>
-  <p style="margin: 5px 0;">S. S. Das, <strong>Anirban Saha Anik</strong>, M. M. Hossain, Md. Kishor Morol, F. Jahan, and M. A.-A. Jubair</p>
-  <p style="margin: 5px 0; font-style: italic;">International Conference on Next-Generation Computing, IoT and Machine Learning, 2023</p>
-  <p style="margin: 5px 0;"><a href="https://doi.org/10.1109/NCIM59001.2023.10212686">DOI: 10.1109/NCIM59001.2023.10212686</a></p>
-</div>
-
-<div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">ICRPSET 2022</span>
-  <h3 style="margin-top: 10px; margin-bottom: 5px;">A Comparative Analysis for the Detection of COVID-19 from Chest X-ray Dataset</h3>
-  <p style="margin: 5px 0;"><strong>Anirban Saha Anik</strong>, K. Chakraborty, B. Datta, A. Kader, and Md. Kishor Morol</p>
-  <p style="margin: 5px 0; font-style: italic;">International Conference on Recent Progresses in Science, Engineering and Technology, 2022</p>
-  <p style="margin: 5px 0;"><a href="https://doi.org/10.1109/ICRPSET57982.2022.10188570">DOI: 10.1109/ICRPSET57982.2022.10188570</a></p>
-</div>
-
 ## Learn More
 
 - [📄 CV](/cv/)  
