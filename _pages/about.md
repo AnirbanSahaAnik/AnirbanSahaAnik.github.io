@@ -28,27 +28,37 @@ My long-term goal is to design adaptive, **Human-Aligned AI** models that improv
 
 ---
 
-## Recent Highlights
+## Recent News ⚡
 
-**Nov 2025** — **Runner-Up**, SIG-SM Social Media Research Competition 2025 [Multi-Agent (COLM Paper)]
-
-**Nov 2025** — **Top 6 Finalist**, SIG-SM Social Media Research Competition 2025 [Literacy-Controlled (EMNLP Paper)]
-
-**OCT 2025** — Presented at COLM 2025 Conference & SIG-SM Competition
-
-**Aug 2025** — Two papers accepted by *EMNLP 2025 Findings* 
-
-**Sep 2025** — *COLM 2025 Travel Scholarship* ($1,225)
-
-**Sep 2025** — One paper accepted by *CLEF 2025*
-
-**Jul 2025** — One paper accepted by *COLM 2025* 
-
-**Summer 2025** — Graduate Student Travel Award & TGS Summer Award, Toulouse Graduate School, UNT
-
-**Apr 2025** — One paper accepted by *ISCRAM 2025*
-
-**Oct 2024** — **1st Place**, Health Informatics & Data Science Day (Poster), University of North Texas 🏆
+<ul style="list-style-type: disc; padding-left: 20px;">
+  <li style="margin-bottom: 12px;">
+    <span style="color: #d9534f; font-weight: 600;">[November 2025]</span> Two papers selected as finalists at <a href="https://www.asist.org/meetings-events/am/am25/social-media-workposium/" style="color: #5bc0de; text-decoration: none;">SIG-SM Social Media Research Competition 2025</a> - <a href="https://arxiv.org/abs/2507.07307" style="color: #5bc0de; text-decoration: none;">Multi-Agent RAG Framework</a> (Runner-Up) and <a href="https://aclanthology.org/2025.findings-emnlp.153/" style="color: #5bc0de; text-decoration: none;">Literacy-Controlled Counterspeech</a>!
+  </li>
+  
+  <li style="margin-bottom: 12px;">
+    <span style="color: #d9534f; font-weight: 600;">[October 2025]</span> Presented at <a href="https://colmweb.org/" style="color: #5bc0de; text-decoration: none;">COLM 2025</a> Conference in Montreal, Canada!
+  </li>
+  
+  <li style="margin-bottom: 12px;">
+    <span style="color: #d9534f; font-weight: 600;">[September 2025]</span> Two papers accepted at <a href="https://2025.emnlp.org/" style="color: #5bc0de; text-decoration: none;">EMNLP 2025 Findings</a> - <a href="https://aclanthology.org/2025.findings-emnlp.153/" style="color: #5bc0de; text-decoration: none;">Literacy-Controlled Counterspeech</a> and <a href="https://aclanthology.org/2025.findings-emnlp.149/" style="color: #5bc0de; text-decoration: none;">Dynamic Fusion for Crisis Response</a>!
+  </li>
+  
+  <li style="margin-bottom: 12px;">
+    <span style="color: #d9534f; font-weight: 600;">[September 2025]</span> Awarded <a href="https://colmweb.org/" style="color: #5bc0de; text-decoration: none;">COLM 2025 Travel Scholarship</a> ($1,225) to attend the Conference on Language Modeling in Montreal!
+  </li>
+  
+  <li style="margin-bottom: 12px;">
+    <span style="color: #d9534f; font-weight: 600;">[July 2025]</span> Paper accepted at <a href="https://colmweb.org/" style="color: #5bc0de; text-decoration: none;">COLM 2025</a> - <a href="https://arxiv.org/abs/2507.07307" style="color: #5bc0de; text-decoration: none;"> Multi-Agent Retrieval-Augmented Framework</a> for countering health misinformation!
+  </li>
+  
+  <li style="margin-bottom: 12px;">
+    <span style="color: #d9534f; font-weight: 600;">[April 2025]</span> Paper accepted at <a href="https://www.iscram2025.com/" style="color: #5bc0de; text-decoration: none;">ISCRAM 2025</a> - Dynamic Fusion of LLMs for Crisis Communication!
+  </li>
+  
+  <li style="margin-bottom: 12px;">
+    <span style="color: #d9534f; font-weight: 600;">[October 2024]</span> Won <strong>1st Place</strong> at <a href="https://www.iscram2025.com/" style="color: #5bc0de; text-decoration: none;">Health Informatics & Data Science Day</a> Poster Competition, University of North Texas 🏆
+  </li>
+</ul>
 
 ---
 
@@ -96,12 +106,12 @@ My long-term goal is to design adaptive, **Human-Aligned AI** models that improv
   <p style="margin: 5px 0;"><a href="https://doi.org/10.59297/nqysjq45">DOI: 10.59297/nqysjq45</a></p>
 </div>
 
-## Learn More
+<!-- ## Learn More
 
 - [📄 CV](/cv/)  
 - [📚 Publications](/publications/)  
 - [✉️ Contact](mailto:anirbansahaanik@my.unt.edu)  
 
----
+--- -->
 
 Thank you for visiting my site. I welcome opportunities for collaboration and connection.
