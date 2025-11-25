@@ -13,7 +13,7 @@ Hello! I'm **Anirban Saha Anik**, a graduate student in Data Science at the Univ
 
 I'm actively pursuing *PhD Opportunities* and *Summer Research Internships* in NLP, LLMs, and AI safety. If you have opportunities or would like to discuss potential collaborations, please feel free to [reach out](mailto:anirbansahaanik@my.unt.edu)!
 
----
+<!-- ---
 
 ## 🔬 Research Interests
 
@@ -25,7 +25,7 @@ My research focuses on **Natural Language Processing (NLP)** and **Large Languag
 - Fact-grounded response generation and misinformation detection
 
 My long-term goal is to design adaptive, Human-Aligned AI models that improve communication, decision-making, and trust in real-world scenarios.
----
+--- -->
 
 ## Recent News ⚡
 
@@ -89,7 +89,7 @@ My long-term goal is to design adaptive, Human-Aligned AI models that improve co
   <p style="margin: 5px 0;"><a href="https://aclanthology.org/2025.findings-emnlp.149/">DOI: 10.18653/v1/2025.findings-emnlp.149</a></p>
 </div>
 
-<div style="margin-bottom: 30px;">
+<!-- <div style="margin-bottom: 30px;">
   <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">CLEF 2025</span>
   <h3 style="margin-top: 10px; margin-bottom: 5px;">ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims</h3>
   <p style="margin: 5px 0;"><strong>Anirban Saha Anik</strong>, M. F. K. Chowdhury, A. Wyckoff, and Sagnik Ray Choudhury</p>
@@ -103,7 +103,7 @@ My long-term goal is to design adaptive, Human-Aligned AI models that improve co
   <p style="margin: 5px 0;">Xiaoying Song, <strong>Anirban Saha Anik</strong>, Vanessa Frías-Martínez, and Lingzi Hong</p>
   <p style="margin: 5px 0; font-style: italic;">International Conference on Information Systems for Crisis Response and Management, 2025</p>
   <p style="margin: 5px 0;"><a href="https://doi.org/10.59297/nqysjq45">DOI: 10.59297/nqysjq45</a></p>
-</div>
+</div> -->
 
 <!-- ## Learn More
 

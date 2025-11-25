@@ -5,9 +5,12 @@
 /* ==========================================================================
    TYPOGRAPHY
    ========================================================================== */
+/* Import Google Font at the top of the file */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 
 /* Used to set the size for <em> */
-$doc-font-size              : 16;
+$doc-font-size              : 12;
 
 /* Paragraph indention */
 $paragraph-indent           : false; // true, false (default)
@@ -15,7 +18,7 @@ $indent-var                 : 1.3em;
 
 /* System typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$sans-serif                 : 'Inter', -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* Sans serif typefaces */
@@ -29,12 +32,12 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-/* Type scale */
-$type-size-1                : 2.441em;  // ~39.056px
-$type-size-2                : 1.953em;  // ~31.248px
-$type-size-3                : 1.563em;  // ~25.008px
-$type-size-4                : 1.25em;   // ~20px
-$type-size-5                : 1em;      // ~16px
+/* Type scale - adjust these for specific heading sizes */
+$type-size-1                : 2.2em;    // Smaller h1
+$type-size-2                : 1.8em;    // Smaller h2
+$type-size-3                : 1.4em;    // Smaller h3
+$type-size-4                : 1.15em;   // Smaller h4
+$type-size-5                : 0.95em;   // Smaller body text
 $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
