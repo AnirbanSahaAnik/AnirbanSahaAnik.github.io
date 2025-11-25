@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-## [Let’s get connected on LinkedIn 🤝](https://www.linkedin.com/in/anirban-saha-anik/)
 
 
 ## About Me
@@ -18,20 +17,16 @@ During my master’s studies, I joined the [Human-Centered Computing Lab](https:
 
 ---
 
-## 🎤 Conference Update: COLM 2025 (Montréal, Canada)
-
-I’m excited to attend and present my research at the **Conference on Language Modeling (COLM 2025)** in **Montréal, Canada** (October 7–10, 2025).  
-If you scanned my QR code at the conference, welcome! 👋 Here are the key links to explore my work:
-
-- 📄 **Paper:** [*Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation*](https://arxiv.org/abs/2507.07307)
-- 🧠 **Focus:** Multi-agent RAG pipeline to generate **factual, informative**, and **empathetic** counterspeech responses  
-- 🧾 **Poster:** [View Poster](/files/Multi-Agent_Poster_COLM_2025_updated_new.pdf)
-
-Feel free to connect with me or discuss ideas during the conference — I’d love to chat about **LLMs, RAG, RLHF,** and **trustworthy AI**!
-
----
 
 ## 🧠 Research Highlights & Publications
+<div class="publication-item">
+  <span class="venue-badge emnlp">EMNLP</span>
+  <div class="pub-content">
+    <strong>Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL</strong><br>
+    <span class="authors"><u>Anirban Saha Anik</u>, Xiaoying Song, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong</span><br>
+    <span class="venue-info">In Conference on Empirical Methods in Natural Language Processing, 2025</span>
+  </div>
+</div>
 
 - 📄 **COLM 2025** – [*Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation*](https://arxiv.org/abs/2507.07307)  
 - 📄 **EMNLP 2025**  
