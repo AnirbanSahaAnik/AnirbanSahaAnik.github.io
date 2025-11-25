@@ -22,15 +22,31 @@ author_profile: true
     {% if post.excerpt %}
       <p style="margin: 5px 0;">{{ post.excerpt }}</p>
     {% endif %}
-    {% if post.paperurl %}
-      <p style="margin: 5px 0;"><a href="{{ post.paperurl }}">{{ post.paperurl_text | default: "Download Paper" }}</a></p>
-    {% endif %}
+    
+    <!-- Links section -->
+    <p style="margin: 5px 0;">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" style="margin-right: 10px;">Paper</a>
+      {% endif %}
+      {% if post.posterurl %}
+        <a href="{{ post.posterurl }}" style="margin-right: 10px;">Poster</a>
+      {% endif %}
+      {% if post.slidesurl %}
+        <a href="{{ post.slidesurl }}" style="margin-right: 10px;">Slides</a>
+      {% endif %}
+      {% if post.codeurl %}
+        <a href="{{ post.codeurl }}" style="margin-right: 10px;">Code</a>
+      {% endif %}
+      {% if post.dataseturl %}
+        <a href="{{ post.dataseturl }}" style="margin-right: 10px;">Dataset</a>
+      {% endif %}
+    </p>
+    
     {% if post.award %}
       <p style="margin: 5px 0; color: #e74c3c;"><strong>🏆 {{ post.award }}</strong></p>
     {% endif %}
   </div>
 {% endfor %}
-
 
 <!-- 
 {% if site.author.googlescholar %}
