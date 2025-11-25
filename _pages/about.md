@@ -32,7 +32,7 @@ My long-term goal is to design adaptive, **Human-Aligned AI** models that improv
 
 <ul style="list-style-type: disc; padding-left: 20px;">
   <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[November 2025]</span> Two papers selected as finalists at <a href="https://www.asist.org/meetings-events/am/am25/social-media-workposium/" style="color: #5bc0de; text-decoration: none;">SIG-SM Social Media Research Competition 2025</a> - <a href="https://arxiv.org/abs/2507.07307" style="color: #5bc0de; text-decoration: none;">Multi-Agent RAG Framework</a> (Runner-Up) and <a href="https://aclanthology.org/2025.findings-emnlp.153/" style="color: #5bc0de; text-decoration: none;">Literacy-Controlled Counterspeech</a>!
+    <span style="color: #d9534f; font-weight: 600;">[November 2025]</span> Two papers selected as finalists at <a href="https://www.asist.org/meetings-events/am/am25/social-media-workposium/" style="color: #5bc0de; text-decoration: none;">SIG-SM Social Media Research Competition 2025</a> - <a href="https://arxiv.org/abs/2507.07307" style="color: #5bc0de; text-decoration: none;">Multi-Agent RAG Framework</a> (<span style="background-color: #f0ad4e; color: white; padding: 2px 8px; border-radius: 3px; font-weight: 600; font-size: 0.85em;">Runner-Up</span>) and <a href="https://aclanthology.org/2025.findings-emnlp.153/" style="color: #5bc0de; text-decoration: none;">Literacy-Controlled Counterspeech</a>!
   </li>
   
   <li style="margin-bottom: 12px;">
@@ -56,7 +56,7 @@ My long-term goal is to design adaptive, **Human-Aligned AI** models that improv
   </li>
   
   <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[October 2024]</span> Won <strong>1st Place</strong> at <a href="https://www.iscram2025.com/" style="color: #5bc0de; text-decoration: none;">Health Informatics & Data Science Day</a> Poster Competition, University of North Texas 🏆
+    <span style="color: #d9534f; font-weight: 600;">[October 2024]</span> Won <strong>1st Place</strong> at <a href="https://ci.unt.edu/day-of-health-informatics-data-science.html" style="color: #5bc0de; text-decoration: none;">Health Informatics & Data Science Day</a> Poster Competition, University of North Texas 🏆
   </li>
 </ul>
 
