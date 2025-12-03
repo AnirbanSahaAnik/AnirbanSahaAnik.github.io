@@ -32,7 +32,7 @@ My long-term goal is to design adaptive, Human-Aligned AI models that improve co
 <ul style="list-style-type: disc; padding-left: 20px;">
   <li style="margin-bottom: 12px;">
     <span style="color: #d9534f; font-weight: 600;">[November 2025]</span> Two papers selected as finalists at <a href="https://www.asist.org/meetings-events/am/am25/social-media-workposium/" style="color: #5bc0de; text-decoration: none;">SIG-SM Social Media Research Competition 2025</a> - <a href="https://arxiv.org/abs/2507.07307" style="color: #5bc0de; text-decoration: none;">Multi-Agent RAG Framework</a> (<strong>🥈 Runner-Up</strong>) and <a href="https://aclanthology.org/2025.findings-emnlp.153/" style="color: #5bc0de; text-decoration: none;">Literacy-Controlled Counterspeech</a>!
-  </li>
+  
   
   <li style="margin-bottom: 12px;">
     <span style="color: #d9534f; font-weight: 600;">[October 2025]</span> Presented at <a href="https://colmweb.org/" style="color: #5bc0de; text-decoration: none;">COLM 2025</a> Conference in Montreal, Canada!
@@ -47,6 +47,7 @@ My long-term goal is to design adaptive, Human-Aligned AI models that improve co
       <li>Simulating Crisis-Driven Social Media Streams for Context-Aware Language Model Response Evaluation <a href="#" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
       <li>Leveraging Machine Learning for Early Detection of College Student Mental Health Problems <a href="#" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
     </ul>
+  </li>
   
   <li style="margin-bottom: 12px;">
     <span style="color: #d9534f; font-weight: 600;">[September 2025]</span> Two papers accepted at <a href="https://2025.emnlp.org/" style="color: #5bc0de; text-decoration: none;">EMNLP 2025 Findings</a> - <a href="https://aclanthology.org/2025.findings-emnlp.153/" style="color: #5bc0de; text-decoration: none;">Literacy-Controlled Counterspeech</a> and <a href="https://aclanthology.org/2025.findings-emnlp.149/" style="color: #5bc0de; text-decoration: none;">Dynamic Fusion for Crisis Response</a>!
