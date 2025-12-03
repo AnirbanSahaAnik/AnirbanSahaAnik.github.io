@@ -37,12 +37,22 @@ My long-term goal is to design adaptive, Human-Aligned AI models that improve co
   <li style="margin-bottom: 12px;">
     <span style="color: #d9534f; font-weight: 600;">[October 2025]</span> Presented at <a href="https://colmweb.org/" style="color: #5bc0de; text-decoration: none;">COLM 2025</a> Conference in Montreal, Canada!
   </li>
-
+  
+  <li style="margin-bottom: 12px;">
+    <span style="color: #d9534f; font-weight: 600;">[October 2025]</span> Showcased five research posters at <a href="https://ci.unt.edu/news/coi-students-shine-university-research-day.html" style="color: #5bc0de; text-decoration: none;">University Research Day 2025</a>, UNT:
+    <ul style="list-style-type: circle; padding-left: 20px; margin-top: 5px;">
+      <li>Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation <a href="https://drive.google.com/file/d/1UBCx6ETjpZyAH8iJidcAsl-IlAelEKWI/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
+      <li>Dynamic Fusion of Large Language Models for Crisis Communication <a href="https://drive.google.com/file/d/1y2Lfcm-bHyxHQynqW5N4AAE5mVGeCnOT/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
+      <li>Integrating Real-time Context into the Language Models for Dynamic Response Generation <a href="#" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
+      <li>Simulating Crisis-Driven Social Media Streams for Context-Aware Language Model Response Evaluation <a href="#" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
+      <li>Leveraging Machine Learning for Early Detection of College Student Mental Health Problems <a href="#" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
+    </ul>
+  </li>
      <li style="margin-bottom: 12px;">
     <span style="color: #d9534f; font-weight: 600;">[October 2025]</span> Showcased five research posters at <a href="https://ci.unt.edu/news/coi-students-shine-university-research-day.html" style="color: #5bc0de; text-decoration: none;">University Research Day 2025</a>, UNT:
     <ul style="list-style-type: circle; padding-left: 20px; margin-top: 5px;">
-      <li><a href="https://drive.google.com/file/d/1UBCx6ETjpZyAH8iJidcAsl-IlAelEKWI/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation</a></li>
-      <li><a href="https://drive.google.com/file/d/1y2Lfcm-bHyxHQynqW5N4AAE5mVGeCnOT/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">Dynamic Fusion of Large Language Models for Crisis Communication</a></li>
+      <li><a href="" style="color: #5bc0de; text-decoration: none;">Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation</a></li>
+      <li><a href="" style="color: #5bc0de; text-decoration: none;">Dynamic Fusion of Large Language Models for Crisis Communication</a></li>
       <li><a href="#" style="color: #5bc0de; text-decoration: none;">Integrating Real-time Context into the Language Models for Dynamic Response Generation</a></li>
       <li><a href="#" style="color: #5bc0de; text-decoration: none;">Simulating Crisis-Driven Social Media Streams for Context-Aware Language Model Response Evaluation</a></li>
       <li><a href="#" style="color: #5bc0de; text-decoration: none;">Leveraging Machine Learning for Early Detection of College Student Mental Health Problems</a></li>
