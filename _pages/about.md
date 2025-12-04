@@ -57,8 +57,8 @@ My long-term goal is to design adaptive, Human-Aligned AI models that improve co
     <ul style="list-style-type: circle; padding-left: 20px; margin-top: 5px;">
       <li>Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation <a href="https://drive.google.com/file/d/1UBCx6ETjpZyAH8iJidcAsl-IlAelEKWI/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
       <li>Dynamic Fusion of Large Language Models for Crisis Communication <a href="https://drive.google.com/file/d/1y2Lfcm-bHyxHQynqW5N4AAE5mVGeCnOT/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
-      <li>Integrating Real-time Context into the Language Models for Dynamic Response Generation <a href="#" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
-      <li>Simulating Crisis-Driven Social Media Streams for Context-Aware Language Model Response Evaluation <a href="https://drive.google.com/file/d/10y3RrQUcxXCMB_SUPUXMMZMMDukWXxTC/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
+      <li>Integrating Real-time Context into the Language Models for Dynamic Response Generation <a href="https://drive.google.com/file/d/1_bto8iEeZ6aKzV4fB1Jv3TUfF-hpNgDj/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
+      <li>Simulating Crisis-Driven Social Media Streams for Context-Aware Language Model Response Evaluation <a href="https://drive.google.com/file/d/127svQIG_jobSwVjyrBP3bih2Kbdb9ezZ/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
       <li>Leveraging Machine Learning for Early Detection of College Student Mental Health Problems <a href="https://drive.google.com/file/d/10L6cGq4Yn3knqNEYdvgOqyKKUMSexBuD/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
     </ul>
   </li>
