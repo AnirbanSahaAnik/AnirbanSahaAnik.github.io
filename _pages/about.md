@@ -9,9 +9,16 @@ redirect_from:
 
 ## About Me
 
-Hello! I'm **Anirban Saha Anik**, a graduate student in Data Science at the University of North Texas, graduating in December 2025. Before coming to UNT, I received my B.Sc. in Computer Science and Engineering from the American International University–Bangladesh (AIUB). I'm currently a Graduate Researcher in the <a href="https://lingzihong.github.io/index.html" style="text-decoration: none;">Human-Centered Computing Lab</a> under <a href="https://ci.unt.edu/lingzi-hong/" style="text-decoration: none;">Dr. Lingzi Hong</a>, where I work on building Large Language Model (LLM)-based systems that help people navigate critical situations. Whether it's countering health misinformation or responding to crisis events, my research aims to design AI that is not only intelligent but also responsible, trustworthy, and sensitive to human needs. I'm also working as a Data Insights Analyst Intern at SEES Group, where I develop data engineering pipelines and analytics solutions using Microsoft Fabric for enterprise data integration.
+<div style="font-size: 0.95em; max-width: 820px;">
+  <p>Hello! I'm <strong>Anirban Saha Anik</strong>, a graduate student in Data Science at the University of North Texas.</p>
 
-I'm actively pursuing **PhD Opportunities** and **Summer Research Internships** in NLP, LLMs, and AI safety. If you have opportunities or would like to discuss potential collaborations, please feel free to [reach out](mailto:anirbansahaanik@my.unt.edu)!
+  <details>
+    <summary style="cursor: pointer; font-weight: 600;">Read more</summary>
+    <p>Before coming to UNT, I received my B.Sc. in Computer Science and Engineering from the American International University–Bangladesh (AIUB). I'm currently a Graduate Researcher in the <a href="https://lingzihong.github.io/index.html" style="text-decoration: none;">Human-Centered Computing Lab</a> under <a href="https://ci.unt.edu/lingzi-hong/" style="text-decoration: none;">Dr. Lingzi Hong</a>, where I work on building Large Language Model (LLM)-based systems that help people navigate critical situations. Whether it's countering health misinformation or responding to crisis events, my research aims to design AI that is not only intelligent but also responsible, trustworthy, and sensitive to human needs. I'm also working as a Data Insights Analyst Intern at SEES Group, where I develop data engineering pipelines and analytics solutions using Microsoft Fabric for enterprise data integration.</p>
+
+    <p>I'm actively pursuing <strong>PhD Opportunities</strong> and <strong>Summer Research Internships</strong> in NLP, LLMs, and AI safety. If you have opportunities or would like to discuss potential collaborations, please feel free to <a href="mailto:anirbansahaanik@my.unt.edu">reach out</a>!</p>
+  </details>
+</div>
 
 <!-- ---
 
@@ -30,6 +37,12 @@ My long-term goal is to design adaptive, Human-Aligned AI models that improve co
 ## Recent News ⚡
 
 <ul style="list-style-type: disc; padding-left: 20px;">
+    <li style="margin-bottom: 12px;">
+    <span style="color: #d9534f; font-weight: 600;">[November 2025]</span> Awarded the <strong>Sinha Scholars Scholarship</strong> for the 2025–2026 academic year.
+  </li>
+  
+  
+  
   <li style="margin-bottom: 12px;">
     <span style="color: #d9534f; font-weight: 600;">[November 2025]</span> Two papers selected as finalists at <a href="https://www.asist.org/meetings-events/am/am25/social-media-workposium/" style="color: #5bc0de; text-decoration: none;">SIG-SM Social Media Research Competition 2025</a> - <a href="https://arxiv.org/abs/2507.07307" style="color: #5bc0de; text-decoration: none;">Multi-Agent RAG Framework</a> (<strong>🥈 Runner-Up</strong>) and <a href="https://aclanthology.org/2025.findings-emnlp.153/" style="color: #5bc0de; text-decoration: none;">Literacy-Controlled Counterspeech</a>!
   </li>
@@ -49,6 +62,7 @@ My long-term goal is to design adaptive, Human-Aligned AI models that improve co
       <li>Leveraging Machine Learning for Early Detection of College Student Mental Health Problems <a href="https://drive.google.com/file/d/10L6cGq4Yn3knqNEYdvgOqyKKUMSexBuD/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
     </ul>
   </li>
+
   
   <li style="margin-bottom: 12px;">
     <span style="color: #d9534f; font-weight: 600;">[September 2025]</span> Two papers accepted at <a href="https://2025.emnlp.org/" style="color: #5bc0de; text-decoration: none;">EMNLP 2025 Findings</a> - <a href="https://aclanthology.org/2025.findings-emnlp.153/" style="color: #5bc0de; text-decoration: none;">Literacy-Controlled Counterspeech</a> and <a href="https://aclanthology.org/2025.findings-emnlp.149/" style="color: #5bc0de; text-decoration: none;">Dynamic Fusion for Crisis Response</a>!
@@ -61,6 +75,7 @@ My long-term goal is to design adaptive, Human-Aligned AI models that improve co
   <li style="margin-bottom: 12px;">
     <span style="color: #d9534f; font-weight: 600;">[July 2025]</span> Paper accepted at <a href="https://colmweb.org/" style="color: #5bc0de; text-decoration: none;">COLM 2025</a> - <a href="https://arxiv.org/abs/2507.07307" style="color: #5bc0de; text-decoration: none;"> Multi-Agent Retrieval-Augmented Framework</a> for countering health misinformation!
   </li>
+  
   
   <li style="margin-bottom: 12px;">
     <span style="color: #d9534f; font-weight: 600;">[April 2025]</span> Paper accepted at <a href="https://www.iscram2025.com/" style="color: #5bc0de; text-decoration: none;">ISCRAM 2025</a> - Dynamic Fusion of LLMs for Crisis Communication!
