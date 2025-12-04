@@ -40,7 +40,7 @@ My long-term goal is to design adaptive, Human-Aligned AI models that improve co
       <li>Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation <a href="https://drive.google.com/file/d/1UBCx6ETjpZyAH8iJidcAsl-IlAelEKWI/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
       <li>Dynamic Fusion of Large Language Models for Crisis Communication <a href="https://drive.google.com/file/d/1y2Lfcm-bHyxHQynqW5N4AAE5mVGeCnOT/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
       <li>Integrating Real-time Context into the Language Models for Dynamic Response Generation <a href="#" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
-      <li>Simulating Crisis-Driven Social Media Streams for Context-Aware Language Model Response Evaluation <a href="#" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
+      <li>Simulating Crisis-Driven Social Media Streams for Context-Aware Language Model Response Evaluation <a href="https://drive.google.com/file/d/10y3RrQUcxXCMB_SUPUXMMZMMDukWXxTC/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
       <li>Leveraging Machine Learning for Early Detection of College Student Mental Health Problems <a href="#" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
     </ul>
   </li>
@@ -79,8 +79,7 @@ My long-term goal is to design adaptive, Human-Aligned AI models that improve co
   <h3 style="margin-top: 10px; margin-bottom: 5px;">Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation</h3>
   <p style="margin: 5px 0;"><strong>Anirban Saha Anik</strong>, Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, and Lingzi Hong</p>
   <p style="margin: 5px 0; font-style: italic;">Conference on Language Modeling, 2025</p>
-  <p style="margin: 5px 0;"><a href="https://arxiv.org/abs/2507.07307">arXiv:2507.07307</a></p>
-  <p style="margin: 5px 0; color: #e74c3c;"><strong>🏆 Runner-Up, SIG-SM Social Media Research Competition 2025</strong></p>
+  <p style="margin: 5px 0;"><a href="https://arxiv.org/abs/2507.07307">arXiv:2507.07307</a></p><p style="margin: 5px 0; color: #e74c3c;"><strong>[🏆 Runner-Up, SIG-SM Social Media Research Competition 2025]</strong></p>
 </div>
 
 <div style="margin-bottom: 30px;">
@@ -88,8 +87,7 @@ My long-term goal is to design adaptive, Human-Aligned AI models that improve co
   <h3 style="margin-top: 10px; margin-bottom: 5px;">Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL</h3>
   <p style="margin: 5px 0;">Xiaoying Song, <strong>Anirban Saha Anik</strong>, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong</p>
   <p style="margin: 5px 0; font-style: italic;">Findings of the Association for Computational Linguistics: EMNLP 2025</p>
-  <p style="margin: 5px 0;"><a href="https://aclanthology.org/2025.findings-emnlp.153/">DOI: 10.18653/v1/2025.findings-emnlp.153</a></p>
-  <p style="margin: 5px 0; color: #e74c3c;"><strong>🏆 Finalist, SIG-SM Social Media Research Competition 2025</strong></p>
+  <p style="margin: 5px 0;"><a href="https://aclanthology.org/2025.findings-emnlp.153/">DOI: 10.18653/v1/2025.findings-emnlp.153</a></p><p style="margin: 5px 0; color: #e74c3c;"><strong>[🏆 Finalist, SIG-SM Social Media Research Competition 2025]</strong></p>
 </div>
 
 <div style="margin-bottom: 30px;">
