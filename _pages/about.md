@@ -90,25 +90,25 @@ My long-term goal is to design adaptive, Human-Aligned AI models that improve co
 ## Selected Publications
 
 <div style="margin-bottom: 20px;">
-  <span style="background-color: #9b59b6; color: white; padding: 3px 10px; border-radius: 4px; font-weight: bold; font-size: 11px;">COLM 2025</span>
+  <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 4px; font-weight: bold; font-size: 11px;">COLM 2025</span>
   <h4 style="margin-top: 8px; margin-bottom: 3px; font-size: 16px;">Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation</h4>
-  <p style="margin: 2px 0; font-size: 14px;"><strong style="color: #27ae60;">Anirban Saha Anik</strong>, Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, and Lingzi Hong</p>
+  <p style="margin: 2px 0; font-size: 14px;"><strong style="color: #355E3B;">Anirban Saha Anik</strong>, Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, and Lingzi Hong</p>
   <p style="margin: 2px 0; font-style: italic; font-size: 13px;">Conference on Language Modeling, 2025</p>
   <p style="margin: 2px 0; font-size: 13px;"><a href="https://arxiv.org/abs/2507.07307">arXiv:2507.07307</a> | <span style="color: #e74c3c;"><strong>🥈 Runner-Up, SIG-SM 2025</strong></span></p>
 </div>
 
 <div style="margin-bottom: 20px;">
-  <span style="background-color: #9b59b6; color: white; padding: 3px 10px; border-radius: 4px; font-weight: bold; font-size: 11px;">EMNLP 2025</span>
+  <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 4px; font-weight: bold; font-size: 11px;">EMNLP 2025</span>
   <h4 style="margin-top: 8px; margin-bottom: 3px; font-size: 16px;">Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL</h4>
-  <p style="margin: 2px 0; font-size: 14px;">Xiaoying Song, <strong style="color: #27ae60;">Anirban Saha Anik</strong>, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong</p>
+  <p style="margin: 2px 0; font-size: 14px;">Xiaoying Song, <strong style="color: #355E3B;">Anirban Saha Anik</strong>, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong</p>
   <p style="margin: 2px 0; font-style: italic; font-size: 13px;">Findings of the Association for Computational Linguistics: EMNLP 2025</p>
   <p style="margin: 2px 0; font-size: 13px;"><a href="https://aclanthology.org/2025.findings-emnlp.153/">DOI: 10.18653/v1/2025.findings-emnlp.153</a> | <span style="color: #e74c3c;"><strong>🏆 Finalist, SIG-SM 2025</strong></span></p>
 </div>
 
 <div style="margin-bottom: 20px;">
-  <span style="background-color: #9b59b6; color: white; padding: 3px 10px; border-radius: 4px; font-weight: bold; font-size: 11px;">EMNLP 2025</span>
+  <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 4px; font-weight: bold; font-size: 11px;">EMNLP 2025</span>
   <h4 style="margin-top: 8px; margin-bottom: 3px; font-size: 16px;">A Dynamic Fusion Model for Consistent Crisis Response</h4>
-  <p style="margin: 2px 0; font-size: 14px;">Xiaoying Song, <strong style="color: #27ae60;">Anirban Saha Anik</strong>, Eduardo Blanco, Vanessa Frías-Martínez, and Lingzi Hong</p>
+  <p style="margin: 2px 0; font-size: 14px;">Xiaoying Song, <strong style="color: #355E3B;">Anirban Saha Anik</strong>, Eduardo Blanco, Vanessa Frías-Martínez, and Lingzi Hong</p>
   <p style="margin: 2px 0; font-style: italic; font-size: 13px;">Findings of the Association for Computational Linguistics: EMNLP 2025</p>
   <p style="margin: 2px 0; font-size: 13px;"><a href="https://aclanthology.org/2025.findings-emnlp.149/">DOI: 10.18653/v1/2025.findings-emnlp.149</a></p>
 </div>
