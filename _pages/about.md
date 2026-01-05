@@ -11,13 +11,10 @@ redirect_from:
 
 <div style="font-size: 0.95em; max-width: 820px;">
   <p>Hello! I'm <strong>Anirban Saha Anik</strong>, a graduate student in Data Science at the University of North Texas.</p>
-
-  <details>
-    <summary style="cursor: pointer; font-weight: 600;">Read more</summary>
     <p>Before coming to UNT, I received my B.Sc. in Computer Science and Engineering from the American International University–Bangladesh (AIUB). I'm currently a Graduate Researcher in the <a href="https://lingzihong.github.io/index.html" style="text-decoration: none;">Human-Centered Computing Lab</a> under <a href="https://ci.unt.edu/lingzi-hong/" style="text-decoration: none;">Dr. Lingzi Hong</a>, where I work on building Large Language Model (LLM)-based systems that help people navigate critical situations. Whether it's countering health misinformation or responding to crisis events, my research aims to design AI that is not only intelligent but also responsible, trustworthy, and sensitive to human needs. I'm also working as a Data Insights Analyst Intern at SEES Group, where I develop data engineering pipelines and analytics solutions using Microsoft Fabric for enterprise data integration.</p>
 
     <p>I'm actively pursuing <strong>PhD Opportunities</strong> and <strong>Summer Research Internships</strong> in NLP, LLMs, and AI safety. If you have opportunities or would like to discuss potential collaborations, please feel free to <a href="mailto:anirbansahaanik@my.unt.edu">reach out</a>!</p>
-  </details>
+
 </div>
 
 <!-- ---
