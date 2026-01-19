@@ -16,7 +16,7 @@ redirect_from:
   </p>
 
   <p>
-    I am currently a <strong>Graduate Research Assistant</strong> in the<a href="https://lingzihong.github.io/index.html" style="text-decoration: none;">Human-Centered Computing Lab</a> under 
+    I am currently a <strong>Graduate Research Assistant</strong> in the <a href="https://lingzihong.github.io/index.html" style="text-decoration: none;">Human-Centered Computing Lab</a> under 
     <a href="https://ci.unt.edu/lingzi-hong/" style="text-decoration: none;">Dr. Lingzi Hong</a>, where I work on building 
     <strong>knowledge-aware and cognitively-aware large language model (LLM) systems</strong> for high-stakes domains such as 
     health communication and crisis response. 
