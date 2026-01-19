@@ -16,20 +16,19 @@ redirect_from:
   </p>
 
   <p>
-    I am currently a <strong>Graduate Researcher in the Human-Centered Computing Lab</strong> under 
+    I am currently a <strong>Graduate Research Assistent</strong> in the<a href="https://lingzihong.github.io/index.html" style="text-decoration: none;">Human-Centered Computing Lab</a> under 
     <a href="https://ci.unt.edu/lingzi-hong/" style="text-decoration: none;">Dr. Lingzi Hong</a>, where I work on building 
     <strong>knowledge-aware and cognitively-aware large language model (LLM) systems</strong> for high-stakes domains such as 
-    <strong>health communication and crisis response</strong>. 
-    My research focuses on <strong>retrieval-augmented generation (RAG)</strong>, <strong>multi-agent reasoning</strong>, 
-    <strong>counterspeech against misinformation</strong>, and <strong>human-centered AI</strong>, with the goal of designing 
-    AI systems that are <strong>trustworthy, explainable, and aligned with human needs</strong>. 
+    health communication and crisis response. 
+    My research focuses on retrieval-augmented generation (RAG), multi-agent reasoning, counterspeech against misinformation, and human-centered AI, with the goal of designing 
+    AI systems that are trustworthy, explainable, and aligned with human needs. 
     I am particularly interested in integrating <strong>knowledge graphs and cognitive signals</strong> (e.g., eye-tracking, reading behavior, and user knowledge states) 
     to improve factuality, personalization, and safety in LLM-driven systems.
   </p>
 
   <p>
     I am actively seeking <strong>Summer 2026 Research Internships</strong> and <strong>Industry Internships</strong> in 
-    <strong>NLP, Large Language Models, AI Safety, and Responsible AI</strong>. 
+    NLP, Large Language Models, AI Safety, and Responsible AI. 
     If you have opportunities or would like to discuss potential collaborations, please feel free to 
     <a href="mailto:anirbansahaanik@my.unt.edu" style="text-decoration: none;">reach out</a>.
   </p>
