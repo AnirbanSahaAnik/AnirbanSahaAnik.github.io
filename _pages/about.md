@@ -10,12 +10,31 @@ redirect_from:
 ## About Me
 
 <div style="font-size: 0.95em; max-width: 820px;">
-  <p>Hello! I'm <strong>Anirban Saha Anik</strong>, a PhD student in Computer Science and Engineering at the University of North Texas. I completed my MS in Data Science at UNT.</p>
-    <p>Before coming to UNT, I received my B.Sc. in Computer Science and Engineering from the American International University–Bangladesh (AIUB). I'm currently a Graduate Researcher in the <a href="https://lingzihong.github.io/index.html" style="text-decoration: none;">Human-Centered Computing Lab</a> under <a href="https://ci.unt.edu/lingzi-hong/" style="text-decoration: none;">Dr. Lingzi Hong</a>, where I work on building Large Language Model (LLM)-based systems that help people navigate critical situations. Whether it's countering health misinformation or responding to crisis events, my research aims to design AI that is not only intelligent but also responsible, trustworthy, and sensitive to human needs. I'm also working as a Data Insights Analyst Intern at SEES Group, where I develop data engineering pipelines and analytics solutions using Microsoft Fabric for enterprise data integration.</p>
+  <p>
+    Hello! I'm <strong>Anirban Saha Anik</strong>, a Ph.D. student in <strong>Computer Science and Engineering</strong> at the <strong>University of North Texas</strong>. 
+    I completed my <strong>M.S. in Data Science</strong> at UNT and received my <strong>B.Sc. in Computer Science and Engineering</strong> from the American International University–Bangladesh (AIUB).
+  </p>
 
-    <p>I'm actively pursuing <strong>Summer internship</strong> and <strong>Research Internships</strong> in NLP, LLMs, and AI safety. If you have opportunities or would like to discuss potential collaborations, please feel free to <a href="mailto:anirbansahaanik@my.unt.edu">reach out</a>!</p>
+  <p>
+    I am currently a <strong>Graduate Researcher in the Human-Centered Computing Lab</strong> under 
+    <a href="https://ci.unt.edu/lingzi-hong/" style="text-decoration: none;">Dr. Lingzi Hong</a>, where I work on building 
+    <strong>knowledge-aware and cognitively-aware large language model (LLM) systems</strong> for high-stakes domains such as 
+    <strong>health communication and crisis response</strong>. 
+    My research focuses on <strong>retrieval-augmented generation (RAG)</strong>, <strong>multi-agent reasoning</strong>, 
+    <strong>counterspeech against misinformation</strong>, and <strong>human-centered AI</strong>, with the goal of designing 
+    AI systems that are <strong>trustworthy, explainable, and aligned with human needs</strong>. 
+    I am particularly interested in integrating <strong>knowledge graphs and cognitive signals</strong> (e.g., eye-tracking, reading behavior, and user knowledge states) 
+    to improve factuality, personalization, and safety in LLM-driven systems.
+  </p>
 
+  <p>
+    I am actively seeking <strong>Summer 2026 Research Internships</strong> and <strong>Industry Internships</strong> in 
+    <strong>NLP, Large Language Models, AI Safety, and Responsible AI</strong>. 
+    If you have opportunities or would like to discuss potential collaborations, please feel free to 
+    <a href="mailto:anirbansahaanik@my.unt.edu" style="text-decoration: none;">reach out</a>.
+  </p>
 </div>
+
 
 <!-- ---
 
