@@ -35,11 +35,11 @@ My long-term goal is to design adaptive, Human-Aligned AI models that improve co
 
 <ul style="list-style-type: disc; padding-left: 20px;">
     <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[January 2026]</span> Started PhD in Computer Science and Engineering at the University of North Texas.
+    <span style="color: #d9534f; font-weight: 600;">[January 2026]</span> Started <strong>PhD in Computer Science and Engineering</strong> at the University of North Texas.
   </li>
 
     <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[December 2025]</span> Graduated with MS in Data Science from the University of North Texas.
+    <span style="color: #d9534f; font-weight: 600;">[December 2025]</span> <strong>Graduated with MS in Data Science</strong> from the University of North Texas.
   </li>
 
     <li style="margin-bottom: 12px;">
