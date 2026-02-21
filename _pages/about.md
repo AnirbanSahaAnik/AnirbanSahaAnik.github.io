@@ -74,34 +74,6 @@ redirect_from:
   top: 1.1rem;
 }
 
-.about-more {
-  margin-top: 0.5rem;
-}
-
-.about-more summary {
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.about-more summary:hover {
-  text-decoration: underline;
-}
-
-.about-sublist {
-  margin: 0.35rem 0 0;
-  padding-left: 1rem;
-}
-
-.about-sublist li {
-  margin: 0.18rem 0;
-  border-left: none;
-  padding: 0;
-}
-
-.about-sublist li::before {
-  content: none;
-}
-
 .about-date {
   display: inline-block;
   font-size: 0.78rem;
@@ -121,6 +93,26 @@ redirect_from:
 
 .about-links a {
   margin-right: 0.5rem;
+}
+
+.about-cta {
+  margin-top: 0.9rem;
+}
+
+.about-cta a {
+  display: inline-block;
+  padding: 0.36rem 0.72rem;
+  border-radius: 999px;
+  border: 1px solid #dbe1ea;
+  background: #f8fafc;
+  color: #1d4ed8;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.about-cta a:hover {
+  background: #eef2ff;
 }
 
 @media (max-width: 900px) {
@@ -183,38 +175,11 @@ redirect_from:
     </li>
     <li>
       <span class="about-date">October 2025</span><br>
-      Presented at COLM 2025 in Montreal, Canada, and showcased five research posters at UNT Research Day:
-      <ul class="about-sublist">
-        <li><a href="https://drive.google.com/file/d/1UBCx6ETjpZyAH8iJidcAsl-IlAelEKWI/view?usp=sharing">Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation</a></li>
-        <li><a href="https://drive.google.com/file/d/1y2Lfcm-bHyxHQynqW5N4AAE5mVGeCnOT/view?usp=sharing">Dynamic Fusion of Large Language Models for Crisis Communication</a></li>
-        <li><a href="https://drive.google.com/file/d/1_bto8iEeZ6aKzV4fB1Jv3TUfF-hpNgDj/view?usp=sharing">Integrating Real-Time Context into Language Models for Dynamic Response Generation</a></li>
-        <li><a href="https://drive.google.com/file/d/127svQIG_jobSwVjyrBP3bih2Kbdb9ezZ/view?usp=sharing">Simulating Crisis-Driven Social Media Streams for Context-Aware LLM Response Evaluation</a></li>
-        <li><a href="https://drive.google.com/file/d/10L6cGq4Yn3knqNEYdvgOqyKKUMSexBuD/view?usp=sharing">Early Detection of College Student Mental Health Problems</a></li>
-      </ul>
+      Presented at COLM 2025 in Montreal, Canada, and showcased five research posters at UNT Research Day.
     </li>
   </ul>
 
-  <details class="about-more">
-    <summary>See more older news</summary>
-    <ul class="about-timeline">
-      <li>
-        <span class="about-date">September 2025</span><br>
-        Two papers accepted at EMNLP 2025 Findings.
-      </li>
-      <li>
-        <span class="about-date">July 2025</span><br>
-        Paper accepted at COLM 2025 on multi-agent RAG for health misinformation.
-      </li>
-      <li>
-        <span class="about-date">April 2025</span><br>
-        Paper accepted at ISCRAM 2025 on dynamic fusion of LLMs for crisis communication.
-      </li>
-      <li>
-        <span class="about-date">October 2024</span><br>
-        Won 1st Place at UNT Health Informatics and Data Science Day poster competition.
-      </li>
-    </ul>
-  </details>
+  <p class="about-cta"><a href="/news/">See all news and older updates</a></p>
 
   <h2>Quick Links</h2>
   <p><a href="/cv/">CV</a> | <a href="/publications/">Publications</a> | <a href="mailto:anirbansahaanik@my.unt.edu">Contact</a></p>
