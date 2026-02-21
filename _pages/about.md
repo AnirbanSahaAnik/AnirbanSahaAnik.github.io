@@ -87,6 +87,21 @@ redirect_from:
   text-decoration: underline;
 }
 
+.about-sublist {
+  margin: 0.35rem 0 0;
+  padding-left: 1rem;
+}
+
+.about-sublist li {
+  margin: 0.18rem 0;
+  border-left: none;
+  padding: 0;
+}
+
+.about-sublist li::before {
+  content: none;
+}
+
 .about-date {
   display: inline-block;
   font-size: 0.78rem;
@@ -168,7 +183,14 @@ redirect_from:
     </li>
     <li>
       <span class="about-date">October 2025</span><br>
-      Presented at COLM 2025 in Montreal, Canada, and showcased five research posters at UNT Research Day.
+      Presented at COLM 2025 in Montreal, Canada, and showcased five research posters at UNT Research Day:
+      <ul class="about-sublist">
+        <li><a href="https://drive.google.com/file/d/1UBCx6ETjpZyAH8iJidcAsl-IlAelEKWI/view?usp=sharing">Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation</a></li>
+        <li><a href="https://drive.google.com/file/d/1y2Lfcm-bHyxHQynqW5N4AAE5mVGeCnOT/view?usp=sharing">Dynamic Fusion of Large Language Models for Crisis Communication</a></li>
+        <li><a href="https://drive.google.com/file/d/1_bto8iEeZ6aKzV4fB1Jv3TUfF-hpNgDj/view?usp=sharing">Integrating Real-Time Context into Language Models for Dynamic Response Generation</a></li>
+        <li><a href="https://drive.google.com/file/d/127svQIG_jobSwVjyrBP3bih2Kbdb9ezZ/view?usp=sharing">Simulating Crisis-Driven Social Media Streams for Context-Aware LLM Response Evaluation</a></li>
+        <li><a href="https://drive.google.com/file/d/10L6cGq4Yn3knqNEYdvgOqyKKUMSexBuD/view?usp=sharing">Early Detection of College Student Mental Health Problems</a></li>
+      </ul>
     </li>
   </ul>
 
