@@ -74,6 +74,19 @@ redirect_from:
   top: 1.1rem;
 }
 
+.about-more {
+  margin-top: 0.5rem;
+}
+
+.about-more summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.about-more summary:hover {
+  text-decoration: underline;
+}
+
 .about-date {
   display: inline-block;
   font-size: 0.78rem;
@@ -84,40 +97,6 @@ redirect_from:
   border-radius: 999px;
   padding: 0.12rem 0.5rem;
   margin-bottom: 0.28rem;
-}
-
-.about-pubs {
-  display: grid;
-  gap: 0.8rem;
-}
-
-.about-pub {
-  border: 1px solid #e6e8eb;
-  border-radius: 10px;
-  background: #fff;
-  padding: 0.85rem 0.9rem;
-}
-
-.about-pub h3 {
-  margin: 0.1rem 0 0.32rem;
-  font-size: 1rem;
-  line-height: 1.4;
-}
-
-.about-pub .meta {
-  margin: 0.08rem 0;
-  font-size: 0.92rem;
-}
-
-.about-pub .meta strong {
-  color: #0b8f33;
-}
-
-.about-pub .venue {
-  margin: 0.08rem 0;
-  font-size: 0.9rem;
-  color: #475467;
-  font-style: italic;
 }
 
 .about-links {
@@ -193,29 +172,27 @@ redirect_from:
     </li>
   </ul>
 
-  <h2>Selected Publications</h2>
-  <div class="about-pubs">
-    <article class="about-pub">
-      <h3>Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation</h3>
-      <p class="meta"><strong>Anirban Saha Anik</strong>, Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, and Lingzi Hong</p>
-      <p class="venue">Conference on Language Modeling (COLM), 2025</p>
-      <p class="about-links"><a href="https://arxiv.org/abs/2507.07307">[Paper]</a><span>Runner-Up, SIG-SM 2025</span></p>
-    </article>
-
-    <article class="about-pub">
-      <h3>Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL</h3>
-      <p class="meta">Xiaoying Song, <strong>Anirban Saha Anik</strong>, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong</p>
-      <p class="venue">Findings of ACL: EMNLP, 2025</p>
-      <p class="about-links"><a href="https://aclanthology.org/2025.findings-emnlp.153/">[Paper]</a><span>Finalist, SIG-SM 2025</span></p>
-    </article>
-
-    <article class="about-pub">
-      <h3>A Dynamic Fusion Model for Consistent Crisis Response</h3>
-      <p class="meta">Xiaoying Song, <strong>Anirban Saha Anik</strong>, Eduardo Blanco, Vanessa Frias-Martinez, and Lingzi Hong</p>
-      <p class="venue">Findings of ACL: EMNLP, 2025</p>
-      <p class="about-links"><a href="https://aclanthology.org/2025.findings-emnlp.149/">[Paper]</a></p>
-    </article>
-  </div>
+  <details class="about-more">
+    <summary>See more older news</summary>
+    <ul class="about-timeline">
+      <li>
+        <span class="about-date">September 2025</span><br>
+        Two papers accepted at EMNLP 2025 Findings.
+      </li>
+      <li>
+        <span class="about-date">July 2025</span><br>
+        Paper accepted at COLM 2025 on multi-agent RAG for health misinformation.
+      </li>
+      <li>
+        <span class="about-date">April 2025</span><br>
+        Paper accepted at ISCRAM 2025 on dynamic fusion of LLMs for crisis communication.
+      </li>
+      <li>
+        <span class="about-date">October 2024</span><br>
+        Won 1st Place at UNT Health Informatics and Data Science Day poster competition.
+      </li>
+    </ul>
+  </details>
 
   <h2>Quick Links</h2>
   <p><a href="/cv/">CV</a> | <a href="/publications/">Publications</a> | <a href="mailto:anirbansahaanik@my.unt.edu">Contact</a></p>
