@@ -12,37 +12,62 @@ author_profile: true
   max-width: 980px;
 }
 
+.publications-page h1,
+.publications-page .page__title {
+  margin-bottom: 0.6rem;
+  color: #343a40;
+}
+
 .publications-page .pub-intro {
-  margin-bottom: 1.5rem;
-  color: #30343a;
+  margin-bottom: 2rem;
+  color: #1f2328;
+  line-height: 1.45;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.08rem;
 }
 
 .publications-page .pub-intro p {
   margin: 0.2rem 0;
 }
 
+.publications-page .pub-intro a {
+  color: #8a1a8a;
+  text-decoration: none;
+}
+
+.publications-page .pub-intro a:hover {
+  text-decoration: underline;
+}
+
 .publications-page .pub-year {
-  margin-top: 2rem;
-  margin-bottom: 0.8rem;
-  padding-bottom: 0.35rem;
-  border-bottom: 1px solid #e6e6e6;
-  font-size: 1.9rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid #dddddd;
+  color: #3b424a;
+  font-size: 2.1rem;
   font-weight: 700;
-  color: #3c434b;
+  line-height: 1.15;
 }
 
 .publications-page .pub-item {
-  margin: 0 0 1.5rem;
+  margin: 0 0 1.75rem;
   line-height: 1.45;
+  color: #101418;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.08rem;
 }
 
 .publications-page .pub-title {
-  margin: 0 0 0.25rem;
-  font-size: 1.22rem;
+  margin: 0 0 0.22rem;
+  font-size: 1.86rem;
+  line-height: 1.28;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 .publications-page .pub-title a {
-  color: #0d3de0;
+  color: #0738d6;
   text-decoration: none;
 }
 
@@ -51,9 +76,9 @@ author_profile: true
 }
 
 .publications-page .pub-pin {
-  margin-right: 0.5rem;
-  color: #d5235a;
-  font-size: 0.95em;
+  margin-right: 0.55rem;
+  color: #da2b5f;
+  font-size: 0.9em;
 }
 
 .publications-page .pub-rank {
@@ -62,27 +87,34 @@ author_profile: true
 }
 
 .publications-page .pub-meta {
-  margin: 0.15rem 0;
+  margin: 0.08rem 0;
 }
 
 .publications-page .pub-meta strong {
-  color: #111;
+  color: #101418;
+}
+
+.publications-page .pub-meta i {
+  color: #20252a;
 }
 
 .publications-page .pub-self,
-.publications-page .pub-meta .pub-self a {
-  color: #0e8e37;
+.publications-page .pub-self a {
+  color: #0b8f33;
   font-weight: 700;
 }
 
 .publications-page .pub-links {
-  margin-top: 0.25rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+  line-height: 1.4;
 }
 
 .publications-page .pub-links a {
-  margin-right: 0.45rem;
-  color: #c81313;
+  margin-right: 0.15rem;
+  color: #c91313;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .publications-page .pub-links a:hover {
@@ -90,17 +122,32 @@ author_profile: true
 }
 
 .publications-page .pub-award {
-  color: #c81313;
+  margin-top: 0.2rem;
+  color: #c91313;
   font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .publications-page .pub-year {
+    font-size: 1.9rem;
+  }
+
+  .publications-page .pub-title {
+    font-size: 1.55rem;
+  }
+
+  .publications-page .pub-item {
+    font-size: 1.02rem;
+  }
 }
 </style>
 
 <div class="publications-page">
   <div class="pub-intro">
     {% if site.author.googlescholar %}
-      <p>Most recent publication updates can be found on my <a href="{{ site.author.googlescholar }}">Google Scholar</a> profile.</p>
+      <p>Most recent publication updates can be found on my <a href="{{ site.author.googlescholar }}">[Google Scholar]</a> profile.</p>
     {% endif %}
-    <p>[*] denotes equal contribution.</p>
+    <p>[*] denotes equal contribution</p>
   </div>
 
   {% assign sorted_pubs = site.publications | sort: "date" | reverse %}
@@ -116,10 +163,21 @@ author_profile: true
 
     {% capture myself %}<span class="pub-self">{{ site.author.name }}</span>{% endcapture %}
     {% assign rendered_authors = post.authors | default: "" | replace: site.author.name, myself %}
+    {% assign venue_label = "Venue" %}
+    {% if post.category == "manuscripts" %}
+      {% assign venue_label = "Journal" %}
+    {% elsif post.category == "conferences" %}
+      {% assign venue_label = "Conference" %}
+    {% endif %}
 
     <article class="pub-item">
       <h3 class="pub-title">
-        <i class="fa fa-thumb-tack pub-pin" aria-hidden="true"></i><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+        <i class="fa fa-thumb-tack pub-pin" aria-hidden="true"></i>
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}">{{ post.title }}</a>
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+        {% endif %}
         {% if post.venue_short %}
           <span class="pub-rank">({{ post.venue_short }})</span>
         {% endif %}
@@ -130,16 +188,21 @@ author_profile: true
       {% endif %}
 
       {% if post.venue %}
-        <p class="pub-meta"><strong>Venue:</strong> <i>{{ post.venue }}</i></p>
+        <p class="pub-meta"><strong>{{ venue_label }}:</strong> <i>{{ post.venue }}</i></p>
       {% endif %}
 
       <p class="pub-links">
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">[Paper]</a>{% endif %}
+        <a href="{{ base_path }}{{ post.url }}">[Abstract]</a>
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
+        {% if post.codeurl and post.dataseturl %}
+          <a href="{{ post.codeurl }}">[Code &amp; Dataset]</a>
+        {% else %}
+          {% if post.codeurl %}<a href="{{ post.codeurl }}">[Code]</a>{% endif %}
+          {% if post.dataseturl %}<a href="{{ post.dataseturl }}">[Dataset]</a>{% endif %}
+        {% endif %}
         {% if post.posterurl %}<a href="{{ post.posterurl }}">[Poster]</a>{% endif %}
-        {% if post.slidesurl %}<a href="{{ post.slidesurl }}">[Slides]</a>{% endif %}
-        {% if post.codeurl %}<a href="{{ post.codeurl }}">[Code]</a>{% endif %}
-        {% if post.dataseturl %}<a href="{{ post.dataseturl }}">[Dataset]</a>{% endif %}
-        {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">[Citation bib]</a>{% endif %}
+        {% if post.slidesurl %}<a href="{{ post.slidesurl }}">[Presentation]</a>{% endif %}
+        {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">[Citation bib]</a>{% else %}<a href="{{ base_path }}{{ post.url }}#bibtex">[Citation bib]</a>{% endif %}
       </p>
 
       {% if post.award %}
