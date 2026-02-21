@@ -10,29 +10,34 @@ author_profile: true
 <style>
 .publications-page {
   max-width: 980px;
+  color: #1f2937;
 }
 
 .publications-page h1,
 .publications-page .page__title {
-  margin-bottom: 0.6rem;
-  color: #343a40;
+  margin-bottom: 0.4rem;
+  color: #1f2937;
+  letter-spacing: -0.01em;
 }
 
 .publications-page .pub-intro {
-  margin-bottom: 2rem;
-  color: #1f2328;
-  line-height: 1.45;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.98rem;
+  margin: 0 0 1.6rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  line-height: 1.55;
+  font-size: 0.96rem;
 }
 
 .publications-page .pub-intro p {
-  margin: 0.2rem 0;
+  margin: 0.2rem 0 0;
 }
 
 .publications-page .pub-intro a {
-  color: #8a1a8a;
+  color: #6d28d9;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .publications-page .pub-intro a:hover {
@@ -40,34 +45,33 @@ author_profile: true
 }
 
 .publications-page .pub-year {
-  margin-top: 2.2rem;
-  margin-bottom: 0.9rem;
-  padding-bottom: 0.45rem;
-  border-bottom: 1px solid #dddddd;
-  color: #3b424a;
-  font-size: 1.6rem;
+  margin: 2rem 0 0.9rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  color: #111827;
+  font-size: 1.5rem;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.2;
 }
 
 .publications-page .pub-item {
-  margin: 0 0 1.75rem;
-  line-height: 1.45;
-  color: #101418;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.95rem;
+  margin: 0 0 1rem;
+  padding: 0.95rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
 }
 
 .publications-page .pub-title {
-  margin: 0 0 0.22rem;
-  font-size: 0.95rem;
-  line-height: 1.28;
+  margin: 0 0 0.4rem;
+  font-size: 1.15rem;
+  line-height: 1.35;
   font-weight: 700;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 .publications-page .pub-title a {
-  color: #0738d6;
+  color: #1239c9;
   text-decoration: none;
 }
 
@@ -76,68 +80,84 @@ author_profile: true
 }
 
 .publications-page .pub-pin {
-  margin-right: 0.55rem;
-  color: #da2b5f;
-  font-size: 0.9em;
+  margin-right: 0.45rem;
+  color: #e11d48;
+  font-size: 0.82em;
+  vertical-align: middle;
 }
 
 .publications-page .pub-rank {
-  color: #cc1f1f;
+  color: #b91c1c;
   font-weight: 700;
+  font-size: 0.95em;
 }
 
 .publications-page .pub-meta {
-  margin: 0.08rem 0;
+  margin: 0.22rem 0;
+  line-height: 1.5;
+  font-size: 0.97rem;
 }
 
 .publications-page .pub-meta strong {
-  color: #101418;
+  color: #111827;
 }
 
 .publications-page .pub-meta i {
-  color: #20252a;
+  color: #374151;
 }
 
 .publications-page .pub-self,
 .publications-page .pub-self a {
-  color: #0b8f33;
+  color: #15803d;
   font-weight: 700;
 }
 
 .publications-page .pub-links {
-  margin-top: 0.2rem;
-  margin-bottom: 0;
-  line-height: 1.4;
+  margin: 0.55rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
 }
 
 .publications-page .pub-links a {
-  margin-right: 0.15rem;
-  color: #c91313;
+  display: inline-block;
+  padding: 0.2rem 0.52rem;
+  border: 1px solid #f1d2d2;
+  border-radius: 999px;
+  background: #fff7f7;
+  color: #b91c1c;
+  font-size: 0.82rem;
+  font-weight: 600;
   text-decoration: none;
-  white-space: nowrap;
 }
 
 .publications-page .pub-links a:hover {
-  text-decoration: underline;
+  background: #fee2e2;
+  border-color: #efb8b8;
 }
 
 .publications-page .pub-award {
-  margin-top: 0.2rem;
-  color: #c91313;
+  margin-top: 0.5rem;
+  color: #b91c1c;
+  font-size: 0.88rem;
   font-weight: 700;
 }
 
 @media (max-width: 900px) {
   .publications-page .pub-year {
-    font-size: 1.45rem;
+    font-size: 1.35rem;
   }
 
   .publications-page .pub-title {
-    font-size: 0.9rem;
+    font-size: 1.02rem;
   }
 
   .publications-page .pub-item {
-    font-size: 0.92rem;
+    padding: 0.82rem 0.85rem;
+  }
+
+  .publications-page .pub-meta {
+    font-size: 0.94rem;
   }
 }
 </style>
@@ -145,7 +165,7 @@ author_profile: true
 <div class="publications-page">
   <div class="pub-intro">
     {% if site.author.googlescholar %}
-      <p>Most recent publication updates can be found on my <a href="{{ site.author.googlescholar }}">[Google Scholar]</a> profile.</p>
+      <p>Most recent publication updates can be found on my <a href="{{ site.author.googlescholar }}">Google Scholar</a> profile.</p>
     {% endif %}
     <p>[*] denotes equal contribution</p>
   </div>
