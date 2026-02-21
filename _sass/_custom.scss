@@ -22,3 +22,350 @@ h1, h2, h3, h4, h5, h6 {
 .greedy-nav a {
   font-family: 'Inter', sans-serif;
 }
+
+/* About page */
+.about-page {
+  max-width: 900px;
+}
+
+.about-page h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  color: #2f3640;
+  font-size: 1.35rem;
+}
+
+.about-page p {
+  line-height: 1.7;
+  color: #1f2328;
+}
+
+.about-hero {
+  border: 1px solid #e6e8eb;
+  border-radius: 12px;
+  padding: 1.15rem 1.2rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+}
+
+.about-hero p {
+  margin: 0.55rem 0;
+}
+
+.about-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+}
+
+.about-chip {
+  border: 1px solid #d7dbe2;
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.82rem;
+  color: #34495e;
+}
+
+.about-timeline {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+}
+
+.about-timeline li {
+  padding: 0.68rem 0 0.68rem 1.05rem;
+  border-left: 2px solid #e4e7ec;
+  position: relative;
+}
+
+.about-timeline li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #dc2626;
+  position: absolute;
+  left: -5px;
+  top: 1.1rem;
+}
+
+.about-date {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #b91c1c;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 999px;
+  padding: 0.12rem 0.5rem;
+  margin-bottom: 0.28rem;
+}
+
+.about-links {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.about-links a {
+  margin-right: 0.5rem;
+}
+
+.about-cta {
+  margin-top: 0.9rem;
+}
+
+.about-cta a {
+  display: inline-block;
+  padding: 0.36rem 0.72rem;
+  border-radius: 999px;
+  border: 1px solid #dbe1ea;
+  background: #f8fafc;
+  color: #1d4ed8;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.about-cta a:hover {
+  background: #eef2ff;
+}
+
+/* News page */
+.news-page {
+  max-width: 920px;
+}
+
+.news-page .news-intro {
+  margin-bottom: 1rem;
+  color: #374151;
+}
+
+.news-page .news-year {
+  margin: 0.7rem 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.news-page .news-year summary {
+  cursor: pointer;
+  padding: 0.55rem 0.8rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.news-page .news-year summary:hover {
+  background: #f9fafb;
+}
+
+.news-page .news-year summary::-webkit-details-marker {
+  color: #4b5563;
+}
+
+.news-page .news-timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0.2rem 0.8rem 0.8rem;
+}
+
+.news-page .news-timeline li {
+  padding: 0.75rem 0 0.75rem 1.1rem;
+  border-left: 2px solid #e5e7eb;
+  position: relative;
+}
+
+.news-page .news-timeline li::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 1.2rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #dc2626;
+}
+
+.news-page .news-date {
+  display: inline-block;
+  margin-bottom: 0.25rem;
+  padding: 0.12rem 0.5rem;
+  border: 1px solid #fecaca;
+  border-radius: 999px;
+  background: #fef2f2;
+  color: #b91c1c;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.news-page .news-sublist {
+  margin: 0.35rem 0 0;
+  padding-left: 1rem;
+}
+
+.news-page .news-sublist li {
+  border-left: none;
+  padding: 0.18rem 0;
+}
+
+.news-page .news-sublist li::before {
+  content: none;
+}
+
+/* Publications page */
+.publications-page {
+  max-width: 980px;
+  color: #1f2937;
+}
+
+.publications-page h1,
+.publications-page .page__title {
+  margin-bottom: 0.4rem;
+  color: #1f2937;
+  letter-spacing: -0.01em;
+}
+
+.publications-page .pub-intro {
+  margin: 0 0 1.6rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  line-height: 1.55;
+  font-size: 0.96rem;
+}
+
+.publications-page .pub-intro p {
+  margin: 0.2rem 0 0;
+}
+
+.publications-page .pub-intro a {
+  color: #6d28d9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.publications-page .pub-intro a:hover {
+  text-decoration: underline;
+}
+
+.publications-page .pub-year {
+  margin: 2rem 0 0.9rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  color: #111827;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.publications-page .pub-item {
+  margin: 0 0 1rem;
+  padding: 0.95rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.publications-page .pub-title {
+  margin: 0 0 0.4rem;
+  font-size: 1.15rem;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.publications-page .pub-title a {
+  color: #1239c9;
+  text-decoration: none;
+}
+
+.publications-page .pub-title a:hover {
+  text-decoration: underline;
+}
+
+.publications-page .pub-pin {
+  margin-right: 0.45rem;
+  color: #e11d48;
+  font-size: 0.82em;
+  vertical-align: middle;
+}
+
+.publications-page .pub-rank {
+  color: #b91c1c;
+  font-weight: 700;
+  font-size: 0.95em;
+}
+
+.publications-page .pub-meta {
+  margin: 0.22rem 0;
+  line-height: 1.5;
+  font-size: 0.97rem;
+}
+
+.publications-page .pub-meta strong {
+  color: #111827;
+}
+
+.publications-page .pub-meta i {
+  color: #374151;
+}
+
+.publications-page .pub-self,
+.publications-page .pub-self a {
+  color: #15803d;
+  font-weight: 700;
+}
+
+.publications-page .pub-links {
+  margin: 0.55rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+}
+
+.publications-page .pub-links a {
+  display: inline-block;
+  padding: 0.2rem 0.52rem;
+  border: 1px solid #f1d2d2;
+  border-radius: 999px;
+  background: #fff7f7;
+  color: #b91c1c;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.publications-page .pub-links a:hover {
+  background: #fee2e2;
+  border-color: #efb8b8;
+}
+
+.publications-page .pub-award {
+  margin-top: 0.5rem;
+  color: #b91c1c;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .about-page {
+    max-width: 100%;
+  }
+
+  .publications-page .pub-year {
+    font-size: 1.35rem;
+  }
+
+  .publications-page .pub-title {
+    font-size: 1.02rem;
+  }
+
+  .publications-page .pub-item {
+    padding: 0.82rem 0.85rem;
+  }
+
+  .publications-page .pub-meta {
+    font-size: 0.94rem;
+  }
+}
