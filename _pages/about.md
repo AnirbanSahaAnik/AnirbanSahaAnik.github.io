@@ -2,162 +2,221 @@
 permalink: /
 title: "Hi, I'm Anirban Saha Anik"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-## About Me
+<style>
+.about-page {
+  max-width: 900px;
+}
 
-<div style="font-size: 0.95em; max-width: 820px;">
-  <p>
-    Hello! I'm <strong>Anirban Saha Anik</strong>, a Ph.D. student in <strong>Computer Science and Engineering</strong> at the <strong>University of North Texas</strong>. 
-    I completed my <strong>M.S. in Data Science</strong> at UNT and received my <strong>B.Sc. in Computer Science and Engineering</strong> from the American International University–Bangladesh (AIUB).
-  </p>
+.about-page h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  color: #2f3640;
+  font-size: 1.35rem;
+}
 
-  <p>
-    I am currently a <strong>Graduate Research Assistant</strong> in the <a href="https://lingzihong.github.io/index.html" style="text-decoration: none;">Human-Centered Computing Lab</a> under 
-    <a href="https://ci.unt.edu/lingzi-hong/" style="text-decoration: none;">Dr. Lingzi Hong</a>, where I work on building 
-    <strong>knowledge-aware and cognitively-aware large language model (LLM) systems</strong> for high-stakes domains such as 
-    health communication and crisis response. 
-    My research focuses on retrieval-augmented generation (RAG), multi-agent reasoning, counterspeech against misinformation, and human-centered AI, with the goal of designing 
-    AI systems that are trustworthy, explainable, and aligned with human needs. 
-    I am particularly interested in integrating <strong>knowledge graphs and cognitive signals</strong> (e.g., eye-tracking, reading behavior, and user knowledge states) 
-    to improve factuality, personalization, and safety in LLM-driven systems.
-  </p>
+.about-page p {
+  line-height: 1.7;
+  color: #1f2328;
+}
 
-  <p>
-    I am actively seeking <strong>Summer 2026 Research Internships</strong> and <strong>Industry Internships</strong> in 
-    NLP, Large Language Models, AI Safety, and Responsible AI. 
-    If you have opportunities or would like to discuss potential collaborations, please feel free to 
-    <a href="mailto:anirbansahaanik@my.unt.edu" style="text-decoration: none;">reach out</a>.
-  </p>
+.about-hero {
+  border: 1px solid #e6e8eb;
+  border-radius: 12px;
+  padding: 1.15rem 1.2rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+}
+
+.about-hero p {
+  margin: 0.55rem 0;
+}
+
+.about-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+}
+
+.about-chip {
+  border: 1px solid #d7dbe2;
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.82rem;
+  color: #34495e;
+}
+
+.about-timeline {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+}
+
+.about-timeline li {
+  padding: 0.68rem 0 0.68rem 1.05rem;
+  border-left: 2px solid #e4e7ec;
+  position: relative;
+}
+
+.about-timeline li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #dc2626;
+  position: absolute;
+  left: -5px;
+  top: 1.1rem;
+}
+
+.about-date {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #b91c1c;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 999px;
+  padding: 0.12rem 0.5rem;
+  margin-bottom: 0.28rem;
+}
+
+.about-pubs {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.about-pub {
+  border: 1px solid #e6e8eb;
+  border-radius: 10px;
+  background: #fff;
+  padding: 0.85rem 0.9rem;
+}
+
+.about-pub h3 {
+  margin: 0.1rem 0 0.32rem;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.about-pub .meta {
+  margin: 0.08rem 0;
+  font-size: 0.92rem;
+}
+
+.about-pub .meta strong {
+  color: #0b8f33;
+}
+
+.about-pub .venue {
+  margin: 0.08rem 0;
+  font-size: 0.9rem;
+  color: #475467;
+  font-style: italic;
+}
+
+.about-links {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.about-links a {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .about-page {
+    max-width: 100%;
+  }
+}
+</style>
+
+<div class="about-page">
+  <div class="about-hero">
+    <p>
+      I am a Ph.D. student in <strong>Computer Science and Engineering</strong> at the
+      <strong>University of North Texas</strong>. I previously completed my
+      <strong>M.S. in Data Science</strong> at UNT and my
+      <strong>B.Sc. in Computer Science and Engineering</strong> at the
+      American International University-Bangladesh (AIUB).
+    </p>
+    <p>
+      I am currently a <strong>Graduate Research Assistant</strong> in the
+      <a href="https://lingzihong.github.io/index.html">Human-Centered Computing Lab</a>
+      under <a href="https://ci.unt.edu/lingzi-hong/">Dr. Lingzi Hong</a>, where I build
+      knowledge-aware and cognitively-aware large language model systems for high-stakes
+      domains including health communication and crisis response.
+    </p>
+    <p>
+      I am actively seeking <strong>Summer 2026 research internships</strong> and
+      <strong>industry internships</strong> in NLP, LLMs, AI safety, and responsible AI.
+      Please feel free to <a href="mailto:anirbansahaanik@my.unt.edu">reach out</a>.
+    </p>
+    <div class="about-chips">
+      <span class="about-chip">RAG</span>
+      <span class="about-chip">Multi-Agent LLMs</span>
+      <span class="about-chip">Health Communication</span>
+      <span class="about-chip">Crisis Informatics</span>
+      <span class="about-chip">Human-Centered AI</span>
+      <span class="about-chip">AI Safety</span>
+    </div>
+  </div>
+
+  <h2>Recent News</h2>
+  <ul class="about-timeline">
+    <li>
+      <span class="about-date">January 2026</span><br>
+      Started Ph.D. in Computer Science and Engineering at the University of North Texas.
+    </li>
+    <li>
+      <span class="about-date">December 2025</span><br>
+      Graduated with M.S. in Data Science from the University of North Texas.
+    </li>
+    <li>
+      <span class="about-date">November 2025</span><br>
+      Awarded the Sinha Scholars Scholarship for the 2025-2026 academic year.
+    </li>
+    <li>
+      <span class="about-date">November 2025</span><br>
+      Two papers selected as finalists at
+      <a href="https://www.asist.org/meetings-events/am/am25/social-media-workposium/">SIG-SM Social Media Research Competition 2025</a>,
+      including one Runner-Up.
+    </li>
+    <li>
+      <span class="about-date">October 2025</span><br>
+      Presented at COLM 2025 in Montreal, Canada, and showcased five research posters at UNT Research Day.
+    </li>
+  </ul>
+
+  <h2>Selected Publications</h2>
+  <div class="about-pubs">
+    <article class="about-pub">
+      <h3>Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation</h3>
+      <p class="meta"><strong>Anirban Saha Anik</strong>, Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, and Lingzi Hong</p>
+      <p class="venue">Conference on Language Modeling (COLM), 2025</p>
+      <p class="about-links"><a href="https://arxiv.org/abs/2507.07307">[Paper]</a><span>Runner-Up, SIG-SM 2025</span></p>
+    </article>
+
+    <article class="about-pub">
+      <h3>Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL</h3>
+      <p class="meta">Xiaoying Song, <strong>Anirban Saha Anik</strong>, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong</p>
+      <p class="venue">Findings of ACL: EMNLP, 2025</p>
+      <p class="about-links"><a href="https://aclanthology.org/2025.findings-emnlp.153/">[Paper]</a><span>Finalist, SIG-SM 2025</span></p>
+    </article>
+
+    <article class="about-pub">
+      <h3>A Dynamic Fusion Model for Consistent Crisis Response</h3>
+      <p class="meta">Xiaoying Song, <strong>Anirban Saha Anik</strong>, Eduardo Blanco, Vanessa Frias-Martinez, and Lingzi Hong</p>
+      <p class="venue">Findings of ACL: EMNLP, 2025</p>
+      <p class="about-links"><a href="https://aclanthology.org/2025.findings-emnlp.149/">[Paper]</a></p>
+    </article>
+  </div>
+
+  <h2>Quick Links</h2>
+  <p><a href="/cv/">CV</a> | <a href="/publications/">Publications</a> | <a href="mailto:anirbansahaanik@my.unt.edu">Contact</a></p>
 </div>
-
-
-<!-- ---
-
-## 🔬 Research Interests
-
-My research focuses on **Natural Language Processing (NLP)** and **Large Language Models (LLMs)**, with special interest in:
-- Retrieval-Augmented Generation (RAG) systems
-- Multi-agent frameworks for misinformation countering
-- Health communication and literacy-aware text generation
-- Crisis informatics and emergency response systems
-- Fact-grounded response generation and misinformation detection
-
-My long-term goal is to design adaptive, Human-Aligned AI models that improve communication, decision-making, and trust in real-world scenarios.
---- -->
-
-## Recent News ⚡
-
-<ul style="list-style-type: disc; padding-left: 20px;">
-    <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[January 2026]</span> Started <strong>PhD in Computer Science and Engineering</strong> at the University of North Texas.
-  </li>
-
-    <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[December 2025]</span> <strong>Graduated with MS in Data Science</strong> from the University of North Texas.
-  </li>
-
-    <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[November 2025]</span> Awarded the <strong>Sinha Scholars Scholarship</strong> for the 2025–2026 academic year.
-  </li>
-  
-  
-  
-  <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[November 2025]</span> Two papers selected as finalists at <a href="https://www.asist.org/meetings-events/am/am25/social-media-workposium/" style="color: #5bc0de; text-decoration: none;">SIG-SM Social Media Research Competition 2025</a> - <a href="https://arxiv.org/abs/2507.07307" style="color: #5bc0de; text-decoration: none;">Multi-Agent RAG Framework</a> (<strong>🥈 Runner-Up</strong>) and <a href="https://aclanthology.org/2025.findings-emnlp.153/" style="color: #5bc0de; text-decoration: none;">Literacy-Controlled Counterspeech</a>!
-  </li>
-  
-  
-  <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[October 2025]</span> Presented at <a href="https://colmweb.org/" style="color: #5bc0de; text-decoration: none;">COLM 2025</a> Conference in Montreal, Canada!
-  </li>
-
-  <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[October 2025]</span> Showcased five research posters at <a href="https://ci.unt.edu/news/coi-students-shine-university-research-day.html" style="color: #5bc0de; text-decoration: none;">University Research Day 2025</a>, UNT:
-    <ul style="list-style-type: circle; padding-left: 20px; margin-top: 5px;">
-      <li>Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation <a href="https://drive.google.com/file/d/1UBCx6ETjpZyAH8iJidcAsl-IlAelEKWI/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
-      <li>Dynamic Fusion of Large Language Models for Crisis Communication <a href="https://drive.google.com/file/d/1y2Lfcm-bHyxHQynqW5N4AAE5mVGeCnOT/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
-      <li>Integrating Real-time Context into the Language Models for Dynamic Response Generation <a href="https://drive.google.com/file/d/1_bto8iEeZ6aKzV4fB1Jv3TUfF-hpNgDj/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
-      <li>Simulating Crisis-Driven Social Media Streams for Context-Aware Language Model Response Evaluation <a href="https://drive.google.com/file/d/127svQIG_jobSwVjyrBP3bih2Kbdb9ezZ/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
-      <li>Leveraging Machine Learning for Early Detection of College Student Mental Health Problems <a href="https://drive.google.com/file/d/10L6cGq4Yn3knqNEYdvgOqyKKUMSexBuD/view?usp=sharing" style="color: #5bc0de; text-decoration: none;">[Poster]</a></li>
-    </ul>
-  </li>
-
-  
-  <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[September 2025]</span> Two papers accepted at <a href="https://2025.emnlp.org/" style="color: #5bc0de; text-decoration: none;">EMNLP 2025 Findings</a> - <a href="https://aclanthology.org/2025.findings-emnlp.153/" style="color: #5bc0de; text-decoration: none;">Literacy-Controlled Counterspeech</a> and <a href="https://aclanthology.org/2025.findings-emnlp.149/" style="color: #5bc0de; text-decoration: none;">Dynamic Fusion for Crisis Response</a>!
-  </li>
-  
-  <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[September 2025]</span> Awarded <a href="https://colmweb.org/" style="color: #5bc0de; text-decoration: none;">COLM 2025 Travel Scholarship</a> ($1,225) to attend the Conference on Language Modeling in Montreal!
-  </li>
-  
-  <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[July 2025]</span> Paper accepted at <a href="https://colmweb.org/" style="color: #5bc0de; text-decoration: none;">COLM 2025</a> - <a href="https://arxiv.org/abs/2507.07307" style="color: #5bc0de; text-decoration: none;"> Multi-Agent Retrieval-Augmented Framework</a> for countering health misinformation!
-  </li>
-  
-  
-  <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[April 2025]</span> Paper accepted at <a href="https://www.iscram2025.com/" style="color: #5bc0de; text-decoration: none;">ISCRAM 2025</a> - Dynamic Fusion of LLMs for Crisis Communication!
-  </li>
-  
-  <li style="margin-bottom: 12px;">
-    <span style="color: #d9534f; font-weight: 600;">[October 2024]</span> Won <strong>1st Place</strong> at <a href="https://ci.unt.edu/day-of-health-informatics-data-science.html" style="color: #5bc0de; text-decoration: none;">Health Informatics & Data Science Day</a> Poster Competition, University of North Texas 🏆
-  </li>
-</ul>
-
----
-## Selected Publications
-
-<div style="margin-bottom: 20px;">
-  <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 4px; font-weight: bold; font-size: 11px;">COLM 2025</span>
-  <h4 style="margin-top: 8px; margin-bottom: 3px; font-size: 16px;">Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation</h4>
-  <p style="margin: 2px 0; font-size: 14px;"><strong style="color: #355E3B;">Anirban Saha Anik</strong>, Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, and Lingzi Hong</p>
-  <p style="margin: 2px 0; font-style: italic; font-size: 13px;">Conference on Language Modeling, 2025</p>
-  <p style="margin: 2px 0; font-size: 13px;"><a href="https://arxiv.org/abs/2507.07307">arXiv:2507.07307</a> | <span style="color: #e74c3c;"><strong>🥈 Runner-Up, SIG-SM 2025</strong></span></p>
-</div>
-
-<div style="margin-bottom: 20px;">
-  <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 4px; font-weight: bold; font-size: 11px;">EMNLP 2025</span>
-  <h4 style="margin-top: 8px; margin-bottom: 3px; font-size: 16px;">Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL</h4>
-  <p style="margin: 2px 0; font-size: 14px;">Xiaoying Song, <strong style="color: #355E3B;">Anirban Saha Anik</strong>, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong</p>
-  <p style="margin: 2px 0; font-style: italic; font-size: 13px;">Findings of the Association for Computational Linguistics: EMNLP 2025</p>
-  <p style="margin: 2px 0; font-size: 13px;"><a href="https://aclanthology.org/2025.findings-emnlp.153/">DOI: 10.18653/v1/2025.findings-emnlp.153</a> | <span style="color: #e74c3c;"><strong>🏆 Finalist, SIG-SM 2025</strong></span></p>
-</div>
-
-<div style="margin-bottom: 20px;">
-  <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 4px; font-weight: bold; font-size: 11px;">EMNLP 2025</span>
-  <h4 style="margin-top: 8px; margin-bottom: 3px; font-size: 16px;">A Dynamic Fusion Model for Consistent Crisis Response</h4>
-  <p style="margin: 2px 0; font-size: 14px;">Xiaoying Song, <strong style="color: #355E3B;">Anirban Saha Anik</strong>, Eduardo Blanco, Vanessa Frías-Martínez, and Lingzi Hong</p>
-  <p style="margin: 2px 0; font-style: italic; font-size: 13px;">Findings of the Association for Computational Linguistics: EMNLP 2025</p>
-  <p style="margin: 2px 0; font-size: 13px;"><a href="https://aclanthology.org/2025.findings-emnlp.149/">DOI: 10.18653/v1/2025.findings-emnlp.149</a></p>
-</div>
-
-<!-- <div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">CLEF 2025</span>
-  <h3 style="margin-top: 10px; margin-bottom: 5px;">ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims</h3>
-  <p style="margin: 5px 0;"><strong>Anirban Saha Anik</strong>, M. F. K. Chowdhury, A. Wyckoff, and Sagnik Ray Choudhury</p>
-  <p style="margin: 5px 0; font-style: italic;">Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2025)</p>
-  <p style="margin: 5px 0;"><a href="https://ceur-ws.org/Vol-4038/paper_61.pdf">CEUR-WS Vol-4038</a></p>
-</div>
-
-<div style="margin-bottom: 30px;">
-  <span style="background-color: #9b59b6; color: white; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 12px;">ISCRAM 2025</span>
-  <h3 style="margin-top: 10px; margin-bottom: 5px;">Dynamic Fusion of Large Language Models for Crisis Communication</h3>
-  <p style="margin: 5px 0;">Xiaoying Song, <strong>Anirban Saha Anik</strong>, Vanessa Frías-Martínez, and Lingzi Hong</p>
-  <p style="margin: 5px 0; font-style: italic;">International Conference on Information Systems for Crisis Response and Management, 2025</p>
-  <p style="margin: 5px 0;"><a href="https://doi.org/10.59297/nqysjq45">DOI: 10.59297/nqysjq45</a></p>
-</div>
-
-## Learn More
-
-- [📄 CV](/cv/)  
-- [📚 Publications](/publications/)  
-- [✉️ Contact](mailto:anirbansahaanik@my.unt.edu)  
-
---- -->
----
-Thank you for visiting my site. I welcome opportunities for collaboration and connection.
