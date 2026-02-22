@@ -24,9 +24,8 @@ redirect_from:
       domains including health communication and crisis response.
     </p>
     <p>
-      I am actively seeking <strong>Summer 2026 research internships</strong> and
-      <strong>industry internships</strong> in NLP, LLMs, AI safety, and responsible AI.
-      Please feel free to <a href="mailto:anirbansahaanik@my.unt.edu">reach out</a>.
+      For collaboration and internship opportunities, please visit the
+      <a href="/contact/">Contact &amp; Collaboration</a> page.
     </p>
     <div class="about-chips">
       <span class="about-chip">RAG</span>

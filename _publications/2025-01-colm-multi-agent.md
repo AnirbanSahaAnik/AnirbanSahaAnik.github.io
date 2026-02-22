@@ -8,13 +8,14 @@ date: 2025-07-01
 venue: 'Second Conference on Language Modeling'
 venue_short: 'COLM 2025'
 paperurl: 'https://arxiv.org/abs/2507.07307'
+codeurl: ''
 dataseturl: 'https://github.com/AnirbanSahaAnik/health-misinformation-reddit-dataset'
+bibtexurl: ''
 # posterurl: '/files/colm_poster.pdf'  # Add when available
 # slidesurl: '/files/colm_slides.pdf'  # Add when available
 # codeurl: 'https://github.com/username/repo'  # Add when available
 authors: '<strong>Anirban Saha Anik</strong>, Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, and Lingzi Hong'
 award: 'Runner-Up, SIG-SM Social Media Research Competition 2025'
-dataseturl: 'https://github.com/AnirbanSahaAnik/health-misinformation-reddit-dataset'
 citation: 'Anirban Saha Anik, Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, Lingzi Hong. (2025). "Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation." <i>Conference on Language Models (COLM 2025)</i>.'
 layout: single
 sidebar: false

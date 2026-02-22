@@ -369,3 +369,96 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.94rem;
   }
 }
+
+/* Research page */
+.research-page {
+  max-width: 940px;
+}
+
+.research-page .research-intro {
+  margin-bottom: 1rem;
+  color: #334155;
+}
+
+.research-page .theme-grid {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.research-page .theme-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 1rem;
+}
+
+.research-page .theme-card h2 {
+  margin: 0 0 0.45rem;
+  color: #0f172a;
+  font-size: 1.2rem;
+}
+
+.research-page .theme-card p {
+  margin: 0.32rem 0;
+  color: #334155;
+  line-height: 1.6;
+}
+
+.research-page .theme-tags {
+  margin-top: 0.45rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.research-page .theme-tags span {
+  display: inline-block;
+  padding: 0.12rem 0.55rem;
+  border: 1px solid #dbe3f1;
+  border-radius: 999px;
+  background: #f8fbff;
+  color: #1e3a8a;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+/* Contact page */
+.contact-page {
+  max-width: 900px;
+}
+
+.contact-page .contact-intro {
+  margin-bottom: 1rem;
+  color: #334155;
+}
+
+.contact-page .contact-grid {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.contact-page .contact-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 0.95rem 1rem;
+}
+
+.contact-page .contact-card h2 {
+  margin: 0 0 0.4rem;
+  color: #0f172a;
+  font-size: 1.1rem;
+}
+
+.contact-page .contact-card p,
+.contact-page .contact-card li {
+  color: #334155;
+  line-height: 1.6;
+}
+
+.contact-page .contact-card ul {
+  margin: 0.25rem 0 0;
+  padding-left: 1.1rem;
+}
