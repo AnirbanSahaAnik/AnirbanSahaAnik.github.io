@@ -481,3 +481,88 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0.25rem 0 0;
   padding-left: 1.1rem;
 }
+
+/* CV page */
+.cv-page {
+  max-width: 940px;
+}
+
+.cv-page .cv-last-updated {
+  margin: 0.1rem 0 0.6rem;
+  color: #64748b;
+  font-size: 0.86rem;
+}
+
+.cv-page .cv-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 0 0 1rem;
+}
+
+.cv-page .cv-btn {
+  display: inline-block;
+  padding: 0.35rem 0.72rem;
+  border: 1px solid #dbe2f0;
+  border-radius: 999px;
+  background: #1d4ed8;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.87rem;
+}
+
+.cv-page .cv-btn:hover {
+  background: #1e40af;
+}
+
+.cv-page .cv-btn--light {
+  background: #f8fafc;
+  color: #1d4ed8;
+}
+
+.cv-page .cv-btn--light:hover {
+  background: #eef2ff;
+}
+
+.cv-page .cv-highlights {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+  background: #ffffff;
+}
+
+.cv-page .cv-highlights h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1.1rem;
+}
+
+.cv-page .cv-highlights ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.cv-page .cv-nav {
+  margin: 0.9rem 0 1.1rem;
+  font-size: 0.9rem;
+}
+
+.cv-page .cv-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 0.85rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.cv-page .cv-card p,
+.cv-page .cv-card li {
+  color: #334155;
+  line-height: 1.58;
+}
+
+.cv-page .cv-card ol,
+.cv-page .cv-card ul {
+  margin: 0.2rem 0 0;
+  padding-left: 1.1rem;
+}
