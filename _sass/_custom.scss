@@ -23,6 +23,25 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
 }
 
+/* Sidebar profile */
+.sidebar .author__avatar img,
+.author__avatar img.author__avatar {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center 28%;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.12);
+}
+
+.author__open-to {
+  margin-top: 0.35rem;
+  font-size: 0.86rem;
+  line-height: 1.45;
+  color: #1e3a8a;
+}
+
 /* About page */
 .about-page {
   max-width: 900px;

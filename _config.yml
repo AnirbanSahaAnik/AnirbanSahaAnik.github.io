@@ -26,10 +26,12 @@ author:
   name             : "Anirban Saha Anik"
   pronouns         : "he/him"
   bio              : "MS Data Science @ University of North Texas | LLM Researcher"
+  open_to          : "Summer 2026 NLP/LLM internships"
   location         : "Denton, TX"
   employer         : "University of North Texas"
   uri              : "https://anirbansahaanik.github.io"
   email            : "anirbansahaanik@my.unt.edu"
+  cv               : "/cv/"
 
   # Academic websites
   academia         : # URL
