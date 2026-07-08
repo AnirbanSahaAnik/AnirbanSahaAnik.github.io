@@ -35,9 +35,9 @@ author_profile: true
       </li>
       <li>
         <span class="news-date">November 2025</span><br>
-        Two papers selected as finalists at
-        <a href="https://www.asist.org/meetings-events/am/am25/social-media-workposium/">SIG-SM Social Media Research Competition 2025</a>
-        including one Runner-Up.
+        Two papers recognized at the
+        <a href="https://www.asist.org/meetings-events/am/am25/social-media-workposium/">SIG-SM Social Media Research Competition 2025</a>:
+        <strong>Runner-Up</strong> and <strong>Honorable Mention</strong>.
       </li>
       <li>
         <span class="news-date">October 2025</span><br>
