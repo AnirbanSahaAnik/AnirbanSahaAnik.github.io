@@ -367,6 +367,34 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+/* Inline Abstract / Citation toggles */
+.publications-page .pub-toggle {
+  display: inline-block;
+  padding: 0.15rem 0.42rem;
+  border: 1px solid #f1d2d2;
+  border-radius: 999px;
+  background: #fff7f7;
+  color: #b91c1c;
+  font-size: 0.77rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.publications-page .pub-extra {
+  margin-top: 0.6rem;
+  padding: 0.85rem;
+  border: 1px solid #eef2f2;
+  background: #ffffff;
+  border-radius: 8px;
+  color: #1f2937;
+}
+
+.publications-page .pub-citation {
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+}
+
 @media (max-width: 900px) {
   .about-page {
     max-width: 100%;

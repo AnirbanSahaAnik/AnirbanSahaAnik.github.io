@@ -57,18 +57,25 @@ author_profile: true
       {% endif %}
 
       <p class="pub-links">
-        <a href="{{ base_path }}{{ post.url }}">[Abstract]</a>
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
-        {% if post.codeurl and post.dataseturl %}
-          <a href="{{ post.codeurl }}">[Code &amp; Dataset]</a>
-        {% else %}
-          {% if post.codeurl %}<a href="{{ post.codeurl }}">[Code]</a>{% endif %}
-          {% if post.dataseturl %}<a href="{{ post.dataseturl }}">[Dataset]</a>{% endif %}
-        {% endif %}
-        {% if post.posterurl %}<a href="{{ post.posterurl }}">[Poster]</a>{% endif %}
-        {% if post.slidesurl %}<a href="{{ post.slidesurl }}">[Presentation]</a>{% endif %}
-        {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">[Citation bib]</a>{% else %}<a href="{{ base_path }}{{ post.url }}#bibtex">[Citation bib]</a>{% endif %}
+        <button class="pub-toggle" data-target="abstract-{{ forloop.index }}">[Abstract]</button>
+        {% comment %} Title already links to paper website; keep a direct paper link if desired {% endcomment %}
+        {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" rel="noopener">[Paper]</a>{% endif %}
+        {% if post.posterurl %}<a href="{{ post.posterurl }}" target="_blank" rel="noopener">[Poster]</a>{% endif %}
+        {% if post.slidesurl %}<a href="{{ post.slidesurl }}" target="_blank" rel="noopener">[Presentation]</a>{% endif %}
+        <button class="pub-toggle" data-target="bib-{{ forloop.index }}">[Citation bib]</button>
       </p>
+
+      <div id="abstract-{{ forloop.index }}" class="pub-extra" hidden>
+        {{ post.excerpt | markdownify }}
+      </div>
+
+      <div id="bib-{{ forloop.index }}" class="pub-extra" hidden>
+        {% if post.citation %}
+          <div class="pub-citation">{{ post.citation }}</div>
+        {% endif %}
+        {% comment %} show full content (including BibTeX block) so users can expand citation details inline {% endcomment %}
+        <div class="pub-fullcontent">{{ post.content | markdownify }}</div>
+      </div>
 
       {% if post.award %}
         <p class="pub-award">[Award: {{ post.award }}]</p>
