@@ -39,7 +39,7 @@ author_profile: true
       <h3 class="pub-title">
         <i class="fa fa-thumb-tack pub-pin" aria-hidden="true"></i>
         {% if post.paperurl %}
-          <a href="{{ post.paperurl }}">{{ post.title }}</a>
+          <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
         {% else %}
           <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
         {% endif %}
@@ -59,10 +59,13 @@ author_profile: true
       <p class="pub-links">
         <button class="pub-toggle" data-target="abstract-{{ forloop.index }}">[Abstract]</button>
         {% comment %} Title already links to paper website; keep a direct paper link if desired {% endcomment %}
-        {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" rel="noopener">[Paper]</a>{% endif %}
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.paperurl_text | default: "[Paper]" }}</a>
+        {% endif %}
         {% if post.posterurl %}<a href="{{ post.posterurl }}" target="_blank" rel="noopener">[Poster]</a>{% endif %}
         {% if post.slidesurl %}<a href="{{ post.slidesurl }}" target="_blank" rel="noopener">[Presentation]</a>{% endif %}
-        <button class="pub-toggle" data-target="bib-{{ forloop.index }}">[Citation bib]</button>
+        {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}" target="_blank" rel="noopener">[BibTeX]</a>{% endif %}
+        <button class="pub-toggle" data-target="bib-{{ forloop.index }}">[Citation]</button>
       </p>
 
       <div id="abstract-{{ forloop.index }}" class="pub-extra" hidden>
