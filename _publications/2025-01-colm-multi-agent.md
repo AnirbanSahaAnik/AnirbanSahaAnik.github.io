@@ -3,7 +3,8 @@ title: "Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspee
 collection: publications
 category: conferences
 permalink: /publication/2025-colm-multiagent-counterspeech
-excerpt: 'A multi-agent LLM framework that generates evidence-based counterspeech grounded in dynamic and static retrieval sources, achieving significant improvements over RAG baselines.'
+bibtexurl: 'https://arxiv.org/bibtex/2507.07307'
+excerpt: 'We propose a multi-agent retrieval-augmented framework that orchestrates specialized LLM agents for evidence retrieval, summarization, generation, and refinement to produce evidence-based counterspeech that outperforms RAG baselines.'
 date: 2025-07-01
 venue: 'Second Conference on Language Modeling'
 venue_short: 'COLM 2025'

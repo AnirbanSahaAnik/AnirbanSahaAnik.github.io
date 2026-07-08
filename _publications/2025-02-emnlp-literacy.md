@@ -3,14 +3,14 @@ title: "Speaking at the Right Level: Literacy-Controlled Counterspeech Generatio
 collection: publications
 category: conferences
 permalink: /publication/2025-emnlp-literacy-counterspeech
-excerpt: 'We propose a Controlled-Literacy framework that integrates Retrieval-Augmented Generation (RAG) and Reinforcement Learning (RL) to generate counterspeech tailored to different health literacy levels.'
+excerpt: 'We propose Controlled-Literacy, a framework that combines Retrieval-Augmented Generation and Reinforcement Learning to generate counterspeech tailored to users\' health literacy levels, optimizing readability and user preference while grounding responses in retrieved evidence.'
 date: 2025-08-20
 venue: 'The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025 Findings) – Accepted'
 venue_short: 'EMNLP 2025'
 paperurl: 'https://aclanthology.org/2025.findings-emnlp.153/'
 codeurl: ''
 dataseturl: ''
-bibtexurl: ''
+bibtexurl: 'https://aclanthology.org/2025.findings-emnlp.153.bib'
 paperurl_text: 'DOI: 10.18653/v1/2025.findings-emnlp.153'
 authors: 'Xiaoying Song, <strong>Anirban Saha Anik</strong>, Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong'
 award: 'Finalist, SIG-SM Social Media Research Competition 2025'

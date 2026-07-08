@@ -3,14 +3,14 @@ title: "A Dynamic Fusion Model for Consistent Crisis Response"
 collection: publications
 category: conferences
 permalink: /publication/2025-emnlp-fusion
-excerpt: 'We introduce a dynamic fusion framework that integrates multiple LLMs to generate consistent, high-quality crisis responses across professionalism, actionability, and relevance dimensions.'
+excerpt: 'We introduce a dynamic fusion framework that combines multiple LLMs and retrieval to produce consistent, professional, and actionable crisis responses, and propose a consistency metric to measure stylistic stability across outputs.'
 date: 2025-08-20
 venue: 'The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025 Findings)'
 venue_short: 'EMNLP 2025'
 paperurl: 'https://aclanthology.org/2025.findings-emnlp.149/'
 codeurl: ''
 dataseturl: ''
-bibtexurl: ''
+bibtexurl: 'https://aclanthology.org/2025.findings-emnlp.149.bib'
 paperurl_text: 'DOI: 10.18653/v1/2025.findings-emnlp.149'
 authors: 'Xiaoying Song, <strong>Anirban Saha Anik</strong>, Eduardo Blanco, Vanessa Frías-Martínez, and Lingzi Hong'
 citation: 'Song, Xiaoying, Anirban Saha Anik, Eduardo Blanco, Vanessa Frias-Martinez, and Lingzi Hong. "A Dynamic Fusion Model for Consistent Crisis Response." <i>Findings of the Association for Computational Linguistics: EMNLP 2025</i>.'

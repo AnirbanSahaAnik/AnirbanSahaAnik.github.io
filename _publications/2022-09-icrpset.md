@@ -3,7 +3,7 @@ title: "A Comparative Analysis for the Detection of COVID-19 from Chest X-ray Da
 collection: publications
 category: conferences
 permalink: /publication/2022-icrpset
-excerpt: 'A comprehensive comparative analysis of deep learning methods for detecting COVID-19 from chest X-ray images, evaluating multiple CNN architectures.'
+excerpt: 'We compare multiple deep CNN architectures on a large chest X-ray dataset (COVIDx CXR-3) for COVID-19 detection, finding EfficientNet-B3 yields the best balance of accuracy and sensitivity.'
 date: 2022-12-01
 venue: 'International Conference on Recent Progresses in Science, Engineering and Technology'
 venue_short: 'ICRPSET 2022'
