@@ -7,56 +7,85 @@ author_profile: true
 
 <div class="research-page">
   <p class="research-intro">
-    My research focuses on reliable and human-centered language technologies for high-stakes communication.
-    I work at the intersection of retrieval, generation, and evaluation to build systems that are factual, useful, and aligned with user needs.
+    My research is in natural language processing and large language models, focused on making
+    LLMs trustworthy and human-centered for high-stakes communication. I work across three
+    connected directions: knowledge-grounded generation, controllable and personalized generation,
+    and rigorous evaluation, with applications in health misinformation and crisis response.
   </p>
 
   <div class="theme-grid">
     <section class="theme-card">
-      <h2>Retrieval-Augmented Generation (RAG)</h2>
+      <h2>Knowledge-Grounded &amp; Retrieval-Augmented Generation</h2>
       <p>
-        I study RAG pipelines that combine static trusted sources and dynamic web evidence to improve factual grounding in generated responses.
-        My recent work explores multi-agent and controlled generation strategies that improve relevance and reduce unsupported claims.
+        I build retrieval-augmented generation (RAG) and knowledge-graph methods that ground LLM
+        outputs in trusted external evidence, combining static authoritative sources with dynamic
+        retrieval to improve factual reliability and reduce unsupported claims.
       </p>
       <p>
-        I am particularly interested in retrieval quality, evidence selection, and decision-time orchestration for robust long-form generation.
+        My work explores multi-agent orchestration, evidence selection, and structured knowledge
+        for robust long-form generation.
       </p>
       <div class="theme-tags">
-        <span>RAG</span>
+        <span>Retrieval-Augmented Generation</span>
+        <span>Knowledge Graphs</span>
         <span>Multi-Agent Systems</span>
         <span>Evidence Grounding</span>
       </div>
     </section>
 
     <section class="theme-card">
-      <h2>Crisis AI</h2>
+      <h2>Controllable &amp; Personalized Generation</h2>
       <p>
-        I design language-model systems for crisis communication where consistency, clarity, and actionability are critical.
-        This includes dynamic fusion across multiple models and evaluation methods for professionalism, relevance, and response quality.
+        I research generation methods that adapt LLM responses to individual users, including
+        health literacy, comprehension, and readability constraints, so that outputs are both
+        accurate and appropriate for their audience.
       </p>
       <p>
-        The goal is to produce reliable assistance during emergencies while maintaining trustworthy communication behavior across diverse user queries.
+        This includes literacy-controlled generation and multi-turn decision frameworks that learn
+        when to ask a clarifying question versus when to respond.
       </p>
       <div class="theme-tags">
-        <span>Crisis Informatics</span>
-        <span>Response Consistency</span>
-        <span>LLM Fusion</span>
+        <span>Controllable Generation</span>
+        <span>Personalization</span>
+        <span>Literacy-Aware NLP</span>
+        <span>Reinforcement Learning</span>
       </div>
     </section>
 
     <section class="theme-card">
-      <h2>Health NLP</h2>
+      <h2>LLM Evaluation &amp; Benchmarking</h2>
       <p>
-        I work on counterspeech and health misinformation mitigation using literacy-aware and evidence-based generation methods.
-        My research emphasizes adapting outputs to audience needs, including readability and accessibility constraints.
+        I design rigorous evaluation frameworks, benchmarks, and quality metrics to assess LLM
+        behavior, factuality, and reliability, using both automated methods and human evaluation.
       </p>
       <p>
-        I am interested in systems that can support safer public health communication without sacrificing factual precision.
+        My work includes diagnostic benchmarks for probing model reasoning and evaluation pipelines
+        that measure faithfulness and response quality.
       </p>
       <div class="theme-tags">
+        <span>LLM Evaluation</span>
+        <span>Benchmark Design</span>
+        <span>Factuality &amp; Faithfulness</span>
+        <span>Quality Metrics</span>
+      </div>
+    </section>
+
+    <section class="theme-card">
+      <h2>Applications: Crisis &amp; Health Communication</h2>
+      <p>
+        I apply these methods to high-stakes domains. In crisis communication, I study consistent,
+        actionable response generation, dynamic fusion across models, and spatiotemporal reasoning
+        over situational-awareness information.
+      </p>
+      <p>
+        In public health, I work on evidence-based counterspeech and health misinformation
+        mitigation that supports safer communication without sacrificing factual precision.
+      </p>
+      <div class="theme-tags">
+        <span>Crisis Informatics</span>
         <span>Health Misinformation</span>
-        <span>Literacy-Aware NLP</span>
         <span>Responsible AI</span>
+        <span>Human-Centered AI</span>
       </div>
     </section>
   </div>
