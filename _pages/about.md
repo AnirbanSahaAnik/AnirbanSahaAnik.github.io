@@ -19,21 +19,24 @@ redirect_from:
     <p>
       I am currently a <strong>Graduate Research Assistant</strong> in the
       <a href="https://lingzihong.github.io/index.html">Human-Centered Computing Lab</a>
-      under <a href="https://ci.unt.edu/lingzi-hong/">Dr. Lingzi Hong</a>, where I build
-      knowledge-aware and cognitively-aware large language model systems for high-stakes
-      domains including health communication and crisis response.
+      under <a href="https://ci.unt.edu/lingzi-hong/">Dr. Lingzi Hong</a>. My research is in
+      natural language processing and large language models, focused on making LLMs
+      trustworthy and human-centered: knowledge-grounded generation (retrieval-augmented
+      generation and knowledge graphs for factual reliability), controllable and personalized
+      text generation, and rigorous LLM evaluation, applied to high-stakes domains including
+      health communication and crisis response.
     </p>
     <p>
       For collaboration and internship opportunities, please visit the
       <a href="/contact/">Contact &amp; Collaboration</a> page.
     </p>
     <div class="about-chips">
-      <span class="about-chip">RAG</span>
+      <span class="about-chip">Large Language Models</span>
+      <span class="about-chip">Retrieval-Augmented Generation</span>
       <span class="about-chip">Multi-Agent LLMs</span>
-      <span class="about-chip">Health Communication</span>
-      <span class="about-chip">Crisis Informatics</span>
+      <span class="about-chip">LLM Evaluation</span>
       <span class="about-chip">Human-Centered AI</span>
-      <span class="about-chip">AI Safety</span>
+      <span class="about-chip">Crisis Informatics</span>
     </div>
   </div>
 
@@ -53,9 +56,9 @@ redirect_from:
     </li>
     <li>
       <span class="about-date">November 2025</span><br>
-      Two papers selected as finalists at
-      <a href="https://www.asist.org/meetings-events/am/am25/social-media-workposium/">SIG-SM Social Media Research Competition 2025</a>,
-      including one Runner-Up.
+      Two papers recognized at the
+      <a href="https://www.asist.org/meetings-events/am/am25/social-media-workposium/">SIG-SM Social Media Research Competition 2025</a>:
+      <strong>Runner-Up</strong> and <strong>Honorable Mention</strong>.
     </li>
     <li>
       <span class="about-date">October 2025</span><br>
