@@ -73,8 +73,9 @@ author_profile: true
         {% if post.citation %}
           <div class="pub-citation">{{ post.citation }}</div>
         {% endif %}
-        {% comment %} show full content (including BibTeX block) so users can expand citation details inline {% endcomment %}
-        <div class="pub-fullcontent">{{ post.content | markdownify }}</div>
+        <p>
+          <a href="{{ base_path }}{{ post.url }}" target="_blank" rel="noopener">View details on the publication page</a>
+        </p>
       </div>
 
       {% if post.award %}
