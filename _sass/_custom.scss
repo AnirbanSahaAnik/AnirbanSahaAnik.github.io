@@ -245,13 +245,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .publications-page .pub-intro {
-  margin: 0 0 1.6rem;
-  padding: 0.85rem 1rem;
+  margin: 0 0 1.1rem;
+  padding: 0.7rem 0.85rem;
   border: 1px solid #e5e7eb;
-  border-radius: 10px;
+  border-radius: 8px;
   background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
-  line-height: 1.55;
-  font-size: 0.96rem;
+  line-height: 1.45;
+  font-size: 0.9rem;
 }
 
 .publications-page .pub-intro p {
@@ -269,28 +269,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .publications-page .pub-year {
-  margin: 2rem 0 0.9rem;
-  padding-bottom: 0.5rem;
+  margin: 1.3rem 0 0.6rem;
+  padding-bottom: 0.35rem;
   border-bottom: 1px solid #e5e7eb;
   color: #111827;
-  font-size: 1.5rem;
+  font-size: 1.18rem;
   font-weight: 700;
   line-height: 1.2;
 }
 
 .publications-page .pub-item {
-  margin: 0 0 1rem;
-  padding: 0.95rem 1rem;
+  margin: 0 0 0.7rem;
+  padding: 0.72rem 0.8rem;
   border: 1px solid #e5e7eb;
-  border-radius: 12px;
+  border-radius: 10px;
   background: #ffffff;
   box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
 }
 
 .publications-page .pub-title {
-  margin: 0 0 0.4rem;
-  font-size: 1.15rem;
-  line-height: 1.35;
+  margin: 0 0 0.3rem;
+  font-size: 0.98rem;
+  line-height: 1.3;
   font-weight: 700;
 }
 
@@ -317,9 +317,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .publications-page .pub-meta {
-  margin: 0.22rem 0;
-  line-height: 1.5;
-  font-size: 0.97rem;
+  margin: 0.16rem 0;
+  line-height: 1.4;
+  font-size: 0.88rem;
 }
 
 .publications-page .pub-meta strong {
@@ -337,20 +337,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .publications-page .pub-links {
-  margin: 0.55rem 0 0;
+  margin: 0.45rem 0 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.38rem;
+  gap: 0.3rem;
 }
 
 .publications-page .pub-links a {
   display: inline-block;
-  padding: 0.2rem 0.52rem;
+  padding: 0.15rem 0.42rem;
   border: 1px solid #f1d2d2;
   border-radius: 999px;
   background: #fff7f7;
   color: #b91c1c;
-  font-size: 0.82rem;
+  font-size: 0.77rem;
   font-weight: 600;
   text-decoration: none;
 }
@@ -361,9 +361,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .publications-page .pub-award {
-  margin-top: 0.5rem;
+  margin-top: 0.35rem;
   color: #b91c1c;
-  font-size: 0.88rem;
+  font-size: 0.8rem;
   font-weight: 700;
 }
 
