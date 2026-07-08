@@ -43,6 +43,10 @@ redirect_from:
   <h2>Recent News</h2>
   <ul class="about-timeline">
     <li>
+      <span class="about-date">July 2026</span><br>
+      Participated in CLEF 2026 CheckThat! Lab across three tasks, recognized 2nd in Task 2.
+    </li>
+    <li>
       <span class="about-date">January 2026</span><br>
       Started Ph.D. in Computer Science and Engineering at the University of North Texas.
     </li>
