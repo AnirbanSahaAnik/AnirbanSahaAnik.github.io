@@ -12,6 +12,10 @@ author_profile: true
     <summary>2026</summary>
     <ul class="news-timeline">
       <li>
+        <span class="news-date">July 2026</span><br>
+        Our team participated in <a href="https://checkthat.gitlab.io/clef2026/">CLEF 2026 - CheckThat! Lab</a>, participating in 3 tasks and being recognized 2nd in Task 2.
+      </li>
+      <li>
         <span class="news-date">January 2026</span><br>
         Started Ph.D. in Computer Science and Engineering at the University of North Texas.
       </li>
