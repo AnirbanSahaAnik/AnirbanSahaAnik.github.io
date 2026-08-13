@@ -477,6 +477,135 @@ a:hover { color: var(--global-link-color-hover); }
 .page__footer-copyright, .page__footer a { color: var(--ink-soft); }
 .page__footer a:hover { color: var(--teal); }
 
+/* ==========================================================================
+   HOMEPAGE — full-width hero, no sidebar
+   ========================================================================== */
+
+/* Give the homepage the full 12 columns instead of the 10/12 Susy reserves
+   for a sidebar that no longer renders on this page. */
+body.home-page #main .page {
+  float: none !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+body.home-page .page__inner-wrap,
+body.home-page .page__content {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+body.home-page .page__content > .about-page,
+body.home-page .page__content > .home-hero { max-width: 1000px; margin-left: auto; margin-right: auto; }
+
+.home-hero {
+  padding: 1rem 0 2.2rem;
+}
+.home-hero-grid {
+  display: grid;
+  grid-template-columns: 1.35fr 0.9fr;
+  gap: 2.6rem;
+  align-items: center;
+}
+@media (max-width: 760px) {
+  .home-hero-grid { grid-template-columns: 1fr; }
+}
+
+.home-eyebrow {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.74rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.home-hero h1 {
+  font-size: clamp(2rem, 4.4vw, 2.9rem);
+  line-height: 1.1;
+  margin: 0.5rem 0 0;
+}
+.home-role { font-size: 1.02rem; color: var(--ink-soft); margin-top: 0.6rem; }
+.home-lede { margin-top: 1rem; font-size: 1.02rem; max-width: 54ch; color: var(--ink); }
+
+.home-badge {
+  display: inline-block;
+  margin-top: 1.1rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.76rem;
+  background: var(--teal-tint);
+  color: var(--teal);
+  border: 1px solid var(--teal);
+  border-radius: 999px;
+  padding: 0.35rem 0.85rem;
+}
+
+.home-link-row {
+  margin-top: 1.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem 1.1rem;
+  font-size: 0.9rem;
+}
+.home-link-row a {
+  color: var(--ink-soft);
+  border-bottom: 1px solid transparent;
+}
+.home-link-row a:hover {
+  color: var(--teal);
+  border-bottom-color: var(--teal);
+  text-decoration: none;
+}
+.home-loc {
+  margin-top: 0.9rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.76rem;
+  color: var(--ink-soft);
+}
+
+.home-portrait-wrap { position: relative; justify-self: center; }
+.home-portrait-frame {
+  width: 208px; height: 208px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--paper-card);
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 4px 18px rgba(21, 31, 27, 0.08);
+}
+.home-portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 28%; display: block; }
+.home-graph-svg { position: absolute; inset: -36px; z-index: 1; opacity: 0.55; pointer-events: none; }
+
+/* Quick-nav cards under the About block */
+.home-quicklinks {
+  margin-top: 1.6rem;
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (min-width: 700px) {
+  .home-quicklinks { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+.home-quicklinks a {
+  display: block;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper-card);
+  padding: 0.9rem 1rem;
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.home-quicklinks a:hover { border-color: var(--teal); color: var(--teal); }
+.home-quicklinks a span {
+  display: block;
+  margin-top: 0.25rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--ink-soft);
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { transition-duration: 0.001ms !important; animation-duration: 0.001ms !important; }
 }

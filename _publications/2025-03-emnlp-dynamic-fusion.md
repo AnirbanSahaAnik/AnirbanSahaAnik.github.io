@@ -4,6 +4,12 @@ collection: publications
 category: conferences
 permalink: /publication/2025-emnlp-fusion
 excerpt: 'We introduce a dynamic fusion framework that combines multiple LLMs and retrieval to produce consistent, professional, and actionable crisis responses, and propose a consistency metric to measure stylistic stability across outputs.'
+abstract: |
+  We present a dynamic fusion framework that integrates multiple Large Language Models (LLMs) to generate consistent, high-quality crisis responses. Ensuring that AI-generated responses maintain uniform professionalism, actionability, and relevance across diverse crisis needs is a critical gap in crisis communication, where inconsistent responses erode trust and reduce usability in high-stakes scenarios.
+
+  We introduce a new evaluation metric, Consistency, to measure stylistic stability, and a fusion-based response generation pipeline that combines Instructional Prompting with Retrieval-Augmented Generation (RAG) grounded in FEMA's official guidance. The approach is validated empirically across multiple LLMs (LLaMA 3.1 8B and Mistral 8B) on 540 need-related crisis tweets plus CrisisBench.
+
+  Our best fusion variant outperforms all baselines, delivering the most consistent and highest-quality responses, generalizes across crisis types (maintaining over 0.95 overall quality), and is preferred by human evaluators 86% of the time over non-fused outputs.
 date: 2025-08-20
 venue: 'The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025 Findings)'
 venue_short: 'EMNLP 2025'

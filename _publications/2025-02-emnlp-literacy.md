@@ -3,7 +3,13 @@ title: "Speaking at the Right Level: Literacy-Controlled Counterspeech Generatio
 collection: publications
 category: conferences
 permalink: /publication/2025-emnlp-literacy-counterspeech
-excerpt: 'We propose Controlled-Literacy, a framework that combines Retrieval-Augmented Generation and Reinforcement Learning to generate counterspeech tailored to users\' health literacy levels, optimizing readability and user preference while grounding responses in retrieved evidence.'
+excerpt: 'We propose Controlled-Literacy, a framework that combines Retrieval-Augmented Generation and Reinforcement Learning to generate counterspeech tailored to users'' health literacy levels, optimizing readability and user preference while grounding responses in retrieved evidence.'
+abstract: |
+  Health misinformation poses a critical risk to public well-being. Existing counterspeech approaches often generate uniform responses that fail to account for the audience's health literacy level, limiting accessibility and effectiveness.
+
+  We propose Controlled-Literacy, a framework that combines Retrieval-Augmented Generation (RAG) with Reinforcement Learning (RL) to adapt counterspeech to different health literacy levels (low, medium, high). The framework retrieves evidence aligned with the target literacy level and optimizes generation using a hybrid reward function incorporating both readability (Flesch-Kincaid Reading Ease) and user preference ratings.
+
+  Experiments demonstrate that Controlled-Literacy outperforms baselines in Politeness, Readability Alignment, User Preference, and Factual Accuracy, producing counterspeech that is accessible, respectful, and factually grounded. Cross-evaluation further shows that user preference peaks when counterspeech is tailored to the correct literacy level.
 date: 2025-08-20
 venue: 'The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025 Findings) – Accepted'
 venue_short: 'EMNLP 2025'

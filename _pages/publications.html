@@ -69,7 +69,7 @@ author_profile: true
       </p>
 
       <div id="abstract-{{ forloop.index }}" class="pub-extra" hidden>
-        {{ post.excerpt | markdownify }}
+        {{ post.abstract | default: post.excerpt | markdownify }}
       </div>
 
       <div id="bib-{{ forloop.index }}" class="pub-extra" hidden>

@@ -5,13 +5,18 @@ category: conferences
 permalink: /publication/2025-colm-multiagent-counterspeech
 bibtexurl: 'https://arxiv.org/bibtex/2507.07307'
 excerpt: 'We propose a multi-agent retrieval-augmented framework that orchestrates specialized LLM agents for evidence retrieval, summarization, generation, and refinement to produce evidence-based counterspeech that outperforms RAG baselines.'
+abstract: |
+  Large Language Models (LLMs) integrated with Retrieval-Augmented Generation (RAG) have shown strong potential in generating counterspeech against misinformation. However, existing approaches often rely on limited evidence and provide little control over the quality of generated responses.
+
+  We introduce a Multi-Agent Retrieval-Augmented Framework for generating evidence-based counterspeech targeting health misinformation. The framework orchestrates multiple LLM agents for evidence retrieval, summarization, generation, and refinement, leveraging both static (curated guidelines) and dynamic (real-time web) sources, so that counterspeech stays timely, accurate, and contextually appropriate.
+
+  Our system outperforms single-agent and traditional RAG baselines across multiple metrics, including Politeness (0.88), Relevance (0.70), Informativeness (0.78), and Factual Accuracy (0.86). Human evaluations further validate that responses from our framework are consistently preferred over baseline outputs.
 date: 2025-07-01
 venue: 'Second Conference on Language Modeling'
 venue_short: 'COLM 2025'
 paperurl: 'https://arxiv.org/abs/2507.07307'
 codeurl: ''
 dataseturl: 'https://github.com/AnirbanSahaAnik/health-misinformation-reddit-dataset'
-bibtexurl: ''
 # posterurl: '/files/colm_poster.pdf'  # Add when available
 # slidesurl: '/files/colm_slides.pdf'  # Add when available
 # codeurl: 'https://github.com/username/repo'  # Add when available
