@@ -1,0 +1,14 @@
+GITHUB PAGES UPLOAD INSTRUCTIONS
+
+1. Extract AnirbanSahaAnik-GitHub-Pages-Upload-Ready.zip.
+2. Open your anirbansahaanik.github.io repository on GitHub.
+3. Upload every extracted file and folder to the repository root.
+   Upload index.html itself, not a containing folder and not the ZIP file.
+4. In Settings > Pages, select:
+   Source: Deploy from a branch
+   Branch: main (or master, whichever your repository uses)
+   Folder: /(root)
+5. Save, wait a few minutes, and open:
+   https://anirbansahaanik.github.io/
+
+The included .nojekyll file must remain in the repository root.
