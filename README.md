@@ -14,7 +14,7 @@ Visit the website: **[anirbansahaanik.github.io](https://anirbansahaanik.github.
 
 The portfolio provides:
 
-- Research interests and featured projects
+- Research highlights connecting core ideas, research questions, and selected projects
 - Peer-reviewed publications and paper resources
 - Detailed project pages with methods, contributions, results, datasets, posters, and BibTeX links
 - Academic education, research, and teaching experience
@@ -27,7 +27,7 @@ The portfolio provides:
 | Page | Description |
 | --- | --- |
 | [Home](https://anirbansahaanik.github.io/) | Profile, research summary, featured work, and recent news |
-| [Research](https://anirbansahaanik.github.io/research/) | Research themes and current directions |
+| [Research](https://anirbansahaanik.github.io/research/) | Evidence grounding, adaptive interaction, evaluation, and related projects |
 | [Publications](https://anirbansahaanik.github.io/publications/) | Complete publication list and project pages |
 | [Experience](https://anirbansahaanik.github.io/experience/) | Education, research, teaching, and professional experience |
 | [News](https://anirbansahaanik.github.io/news/) | Publications, awards, presentations, and academic milestones |
