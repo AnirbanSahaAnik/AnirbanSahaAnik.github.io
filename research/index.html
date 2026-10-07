@@ -196,7 +196,7 @@
         </div>
         <div class="research-work-heading">
           <h3>Selected projects</h3>
-          <span>Published &amp; ongoing work</span>
+          <span>Published work</span>
         </div>
         <div class="research-work-grid">
           <article class="research-work-card">
@@ -210,9 +210,24 @@
             <p>A retrieval-supported approach that combines complementary language models for timely, actionable crisis communication.</p>
           </article>
           <article class="research-work-card">
-            <p class="work-meta">Ongoing research</p>
-            <h4><a href="/publications/spatiotemporal-crisis-communication">Can LLMs Reason Over Where and When? Benchmarking Spatiotemporal Synthesis in Crisis Response →</a></h4>
-            <p>A diagnostic benchmark testing whether crisis-response systems synthesize evidence under explicit spatial and temporal constraints.</p>
+            <p class="work-meta">JCDL 2026</p>
+            <h4><a href="https://doi.org/10.1145/3805696.3847295" target="_blank" rel="noreferrer">Can LLMs Reason Over Where and When? Benchmarking Spatiotemporal Synthesis in Crisis Response ↗</a></h4>
+            <p class="authors">Sawyer Alston, Yashaswini Sreenivasa Shetty, Sreeja Kanuganti, Anirban Saha Anik, Xiaoying Song, and Lingzi Hong</p>
+            <p>Evidence-coverage auditing and synthetic report enrichment support ST-CrisisSynth’s query-dependent semantic, spatial, and temporal re-ranking. Human evaluation finds a 70.0% correct-response rate, 3.3 percentage points above the strongest baseline.</p>
+            <details><summary>Abstract</summary><p>Situational awareness during crises depends on synthesizing fragmented reports that vary across time, location, and source. Reliable crisis question answering must prioritize recent and nearby reports while reconciling updates that contradict earlier information. However, existing crisis datasets often provide insufficient evidence for systematically evaluating these capabilities. We audit evidence coverage across crisis-need queries and enrich undercovered cases with synthetic situational-awareness posts, constructing sequences of reports and updates that preserve spatiotemporal consistency. Using the enriched benchmark, we compare direct prompting, structured prompting, and ST-CrisisSynth, which applies query-dependent semantic, spatial, and temporal weights to re-rank evidence before generation. Human evaluation shows that ST-CrisisSynth achieves the highest correct-response rate (70.0%), improving by 3.3 percentage points over the strongest baseline. These findings suggest that selecting and organizing spatiotemporal evidence before generation supports more reliable crisis information synthesis.</p></details>
+          </article>
+        </div>
+              <div class="research-work-heading">
+          <h3>Ongoing research</h3>
+          <span>Under review</span>
+        </div>
+        <div class="research-work-grid">
+          <article class="research-work-card">
+            <p class="work-meta">Under review</p>
+            <h4>ST-CRISIS: A Diagnostic Benchmark for Spatiotemporal Grounding in Crisis Communication</h4>
+            <p class="authors">Do Thi Bich Ngan*, Nikhitha Rayabarapu*, Xiaoying Song*, Anirban Saha Anik, Jinyu Liu, Qitao Tan, Vanessa Frias-Martinez, and Lingzi Hong</p>
+            <p>A diagnostic benchmark pairing situational-awareness posts with crisis-need queries to evaluate the retrieval and reasoning capabilities of vanilla LLMs and spatiotemporally grounded RAG models.</p>
+            <details><summary>Abstract</summary><p>During crisis events, large volumes of situational awareness (SA) information are shared across heterogeneous platforms, providing valuable insights into rapidly evolving conditions and needs. Current systems use such information through aggregation to generate insights for decision-making. However, few studies have systematically examined how this information can be leveraged to address users’ specific information needs. LLMs have been applied to crisis information retrieval and response generation, but their ability to synthesize and reason with spatiotemporal signals in situational awareness information remains underexplored. We introduce ST-CRISIS, a benchmark dataset designed to evaluate spatiotemporal grounding and reasoning in crisis response. The dataset contains situational awareness posts paired with related crisis need queries. We conduct a diagnostic evaluation of vanilla LLMs and spatiotemporally grounded RAG models with ST-CRISIS, revealing the strengths and limitations of current models in the retrieval and reasoning with spatiotemporal signals in crisis communication.</p></details>
           </article>
         </div>
       </section>
