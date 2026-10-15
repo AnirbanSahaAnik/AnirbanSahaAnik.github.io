@@ -1,0 +1,408 @@
+/* Publisher-linked bibliography and research assets.
+   Exact ACL entries: ACL Anthology. Other BibTeX entries: formatted from publication metadata; not publisher exports. */
+window.PUBLICATION_CATALOG = [
+  {
+    "year": 2026,
+    "venue": "JCDL 2026",
+    "title": "Can LLMs Reason Over Where and When? Benchmarking Spatiotemporal Synthesis in Crisis Response",
+    "authors": "Sawyer Alston, Yashaswini Sreenivasa Shetty, Sreeja Kanuganti, Anirban Saha Anik , Xiaoying Song, and Lingzi Hong",
+    "summary": "The 2026 ACM/IEEE Joint Conference on Digital Libraries (JCDL ’26), October 13–16, 2026, Frisco, TX, USA. ACM, New York, NY, USA, 6 pages.",
+    "originalHref": "/publications/spatiotemporal-crisis-communication",
+    "paperUrl": "https://doi.org/10.1145/3805696.3847295",
+    "slug": "spatiotemporal-crisis-communication",
+    "doi": "10.1145/3805696.3847295",
+    "venueFull": "The 2026 ACM/IEEE Joint Conference on Digital Libraries (JCDL ’26)",
+    "sourceUrl": "https://doi.org/10.1145/3805696.3847295",
+    "bibKey": "alston2026can",
+    "figure": "",
+    "sourcePage": "https://doi.org/10.1145/3805696.3847295",
+    "evidence": "Semantic, spatial and temporal constraints must align for reliable crisis-answer synthesis.",
+    "links": [
+      [
+        "Dataset",
+        "https://github.com/DoNgan0911/ST-Crisis-Dataset-benchmark"
+      ]
+    ],
+    "tips": [
+      "Benchmark: 128 crisis-need queries",
+      "Evidence chains: 3–4 posts",
+      "Focus: spatial and temporal grounding"
+    ],
+    "detailUrl": "/publications/spatiotemporal-crisis-communication/",
+    "doiUrl": "https://doi.org/10.1145/3805696.3847295",
+    "sourceBib": "@inproceedings{alston2026can,\n  title = {Can LLMs Reason Over Where and When? Benchmarking Spatiotemporal Synthesis in Crisis Response},\n  author = {{Sawyer Alston} and {Yashaswini Sreenivasa Shetty} and {Sreeja Kanuganti} and {Anirban Saha Anik} and {Xiaoying Song} and {Lingzi Hong}},\n  booktitle = {The 2026 ACM/IEEE Joint Conference on Digital Libraries (JCDL ’26)},\n  year = {2026},\n  doi = {10.1145/3805696.3847295},\n  url = {https://doi.org/10.1145/3805696.3847295}\n}",
+    "bibStatus": "compiled",
+    "citation": "Sawyer Alston, Yashaswini Sreenivasa Shetty, Sreeja Kanuganti, Anirban Saha Anik , Xiaoying Song, and Lingzi Hong. (2026). Can LLMs Reason Over Where and When? Benchmarking Spatiotemporal Synthesis in Crisis Response. The 2026 ACM/IEEE Joint Conference on Digital Libraries (JCDL ’26). https://doi.org/10.1145/3805696.3847295"
+  },
+  {
+    "year": 2026,
+    "venue": "EMNLP 2026",
+    "title": "Ask or Answer: A Decision Framework for Multi-Turn Health Misinformation Intervention",
+    "authors": "Xiaoying Song, Anirban Saha Anik , Jinyu Liu, Qitao Tan, Geng Yuan, and Lingzi Hong",
+    "summary": "A decision framework that learns when a health-misinformation intervention should ask for clarification and when it should answer directly.",
+    "originalHref": "https://arxiv.org/abs/2608.21721",
+    "paperUrl": "https://arxiv.org/abs/2608.21721",
+    "slug": "ask-or-answer-health-misinformation",
+    "sourceUrl": "https://arxiv.org/html/2608.21721",
+    "bibKey": "song2026ask",
+    "venueFull": "Findings of the Association for Computational Linguistics: EMNLP 2026",
+    "figureUrl": "https://arxiv.org/html/2608.21721",
+    "evidence": "Reward-Optimized Probe-and-Respond (RO-PnR) decides whether clarification is worth an additional conversation turn.",
+    "tips": [
+      "3 misinformation datasets",
+      "3 base models",
+      "About 30% fewer turns than always-probe baselines"
+    ],
+    "detailUrl": "/publications/ask-or-answer-health-misinformation/",
+    "sourceBib": "@inproceedings{song2026ask,\n  title = {Ask or Answer: A Decision Framework for Multi-Turn Health Misinformation Intervention},\n  author = {{Xiaoying Song} and {Anirban Saha Anik} and {Jinyu Liu} and {Qitao Tan} and {Geng Yuan} and {Lingzi Hong}},\n  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},\n  year = {2026},\n  url = {https://arxiv.org/html/2608.21721}\n}",
+    "bibStatus": "compiled",
+    "citation": "Xiaoying Song, Anirban Saha Anik , Jinyu Liu, Qitao Tan, Geng Yuan, and Lingzi Hong. (2026). Ask or Answer: A Decision Framework for Multi-Turn Health Misinformation Intervention. Findings of the Association for Computational Linguistics: EMNLP 2026."
+  },
+  {
+    "year": 2026,
+    "venue": "CLEF 2026 Working Notes",
+    "title": "SciClaimSeekers at CheckThat! 2026: Retrieving Scientific Sources for Social Media Claims with LLM Reranking",
+    "authors": "Mohotarema Rashid, Nansu Baniya, Anirban Saha Anik , Xiaoying Song and Lingzi Hong",
+    "summary": "A scientific-source retrieval system that combines initial retrieval with LLM-based reranking for social-media claims.",
+    "originalHref": "https://arxiv.org/abs/2607.24803",
+    "paperUrl": "https://arxiv.org/abs/2607.24803",
+    "slug": "sciclaimseekers-clef-2026",
+    "sourceUrl": "https://ceur-ws.org/Vol-4283/",
+    "venueFull": "Working Notes of CLEF 2026, CEUR Workshop Proceedings, Vol. 4283",
+    "series": "CEUR Workshop Proceedings",
+    "volume": "4283",
+    "pages": "1184--1191",
+    "bibKey": "rashid2026sciclaimseekers",
+    "evidence": "Scientific evidence retrieval strengthened by LLM reranking.",
+    "figureUrl": "https://arxiv.org/abs/2607.24803",
+    "detailUrl": "/publications/sciclaimseekers-clef-2026/",
+    "sourceBib": "@inproceedings{rashid2026sciclaimseekers,\n  title = {SciClaimSeekers at CheckThat! 2026: Retrieving Scientific Sources for Social Media Claims with LLM Reranking},\n  author = {{Mohotarema Rashid} and {Nansu Baniya} and {Anirban Saha Anik} and {Xiaoying Song} and {Lingzi Hong}},\n  booktitle = {Working Notes of CLEF 2026, CEUR Workshop Proceedings, Vol. 4283},\n  year = {2026},\n  series = {CEUR Workshop Proceedings},\n  volume = {4283},\n  pages = {1184--1191},\n  url = {https://ceur-ws.org/Vol-4283/}\n}",
+    "bibStatus": "compiled",
+    "citation": "Mohotarema Rashid, Nansu Baniya, Anirban Saha Anik , Xiaoying Song and Lingzi Hong. (2026). SciClaimSeekers at CheckThat! 2026: Retrieving Scientific Sources for Social Media Claims with LLM Reranking. Working Notes of CLEF 2026, CEUR Workshop Proceedings, Vol. 4283, pp. 1184–1191."
+  },
+  {
+    "year": 2026,
+    "venue": "CLEF 2026 Working Notes",
+    "title": "SourceMinds at CheckThat! 2026: NLI-Grounded Citation Auditing in a Multi-Agent Pipeline for Full Fact-Checking Article Generation",
+    "authors": "Farhan Sharukh Hasan, Anirban Saha Anik , Eric Liu, Xiaoying Song, Mohotarema Rashid and Lingzi Hong",
+    "summary": "A multi-agent fact-checking pipeline that audits citation support with natural language inference.",
+    "originalHref": "https://arxiv.org/abs/2607.24802",
+    "paperUrl": "https://arxiv.org/abs/2607.24802",
+    "slug": "sourceminds-clef-2026",
+    "sourceUrl": "https://ceur-ws.org/Vol-4283/",
+    "venueFull": "Working Notes of CLEF 2026, CEUR Workshop Proceedings, Vol. 4283",
+    "series": "CEUR Workshop Proceedings",
+    "volume": "4283",
+    "pages": "1010--1020",
+    "bibKey": "hasan2026sourceminds",
+    "evidence": "Multi-agent fact-checking with citation auditing via natural-language inference.",
+    "figureUrl": "https://arxiv.org/abs/2607.24802",
+    "detailUrl": "/publications/sourceminds-clef-2026/",
+    "sourceBib": "@inproceedings{hasan2026sourceminds,\n  title = {SourceMinds at CheckThat! 2026: NLI-Grounded Citation Auditing in a Multi-Agent Pipeline for Full Fact-Checking Article Generation},\n  author = {{Farhan Sharukh Hasan} and {Anirban Saha Anik} and {Eric Liu} and {Xiaoying Song} and {Mohotarema Rashid} and {Lingzi Hong}},\n  booktitle = {Working Notes of CLEF 2026, CEUR Workshop Proceedings, Vol. 4283},\n  year = {2026},\n  series = {CEUR Workshop Proceedings},\n  volume = {4283},\n  pages = {1010--1020},\n  url = {https://ceur-ws.org/Vol-4283/}\n}",
+    "bibStatus": "compiled",
+    "citation": "Farhan Sharukh Hasan, Anirban Saha Anik , Eric Liu, Xiaoying Song, Mohotarema Rashid and Lingzi Hong. (2026). SourceMinds at CheckThat! 2026: NLI-Grounded Citation Auditing in a Multi-Agent Pipeline for Full Fact-Checking Article Generation. Working Notes of CLEF 2026, CEUR Workshop Proceedings, Vol. 4283, pp. 1010–1020."
+  },
+  {
+    "year": 2026,
+    "venue": "CLEF 2026 Working Notes",
+    "title": "VeriFind at CheckThat! 2026: Enhancing Numerical Claim Verification via Fine-Tuned LLMs",
+    "authors": "Diana Zhang, Xiaoying Song, Mohotarema Rashid, Anirban Saha Anik , Junhua Ding, and Lingzi Hong",
+    "summary": "A fine-tuned LLM approach for numerical claim verification that placed second in the shared task.",
+    "originalHref": "https://ceur-ws.org/Vol-4283/paper94.pdf",
+    "paperUrl": "https://ceur-ws.org/Vol-4283/paper94.pdf",
+    "slug": "verifind-clef-2026",
+    "sourceUrl": "https://ceur-ws.org/Vol-4283/",
+    "venueFull": "Working Notes of CLEF 2026, CEUR Workshop Proceedings, Vol. 4283",
+    "series": "CEUR Workshop Proceedings",
+    "volume": "4283",
+    "pages": "1361--1369",
+    "bibKey": "zhang2026verifind",
+    "evidence": "Fine-tuned LLMs for verification of numerical claims.",
+    "tips": [
+      "2nd place in CheckThat! Lab 2026 Task 2"
+    ],
+    "detailUrl": "/publications/verifind-clef-2026/",
+    "sourceBib": "@inproceedings{zhang2026verifind,\n  title = {VeriFind at CheckThat! 2026: Enhancing Numerical Claim Verification via Fine-Tuned LLMs},\n  author = {{Diana Zhang} and {Xiaoying Song} and {Mohotarema Rashid} and {Anirban Saha Anik} and {Junhua Ding} and {Lingzi Hong}},\n  booktitle = {Working Notes of CLEF 2026, CEUR Workshop Proceedings, Vol. 4283},\n  year = {2026},\n  series = {CEUR Workshop Proceedings},\n  volume = {4283},\n  pages = {1361--1369},\n  url = {https://ceur-ws.org/Vol-4283/}\n}",
+    "bibStatus": "compiled",
+    "citation": "Diana Zhang, Xiaoying Song, Mohotarema Rashid, Anirban Saha Anik , Junhua Ding, and Lingzi Hong. (2026). VeriFind at CheckThat! 2026: Enhancing Numerical Claim Verification via Fine-Tuned LLMs. Working Notes of CLEF 2026, CEUR Workshop Proceedings, Vol. 4283, pp. 1361–1369."
+  },
+  {
+    "year": 2025,
+    "venue": "COLM 2025",
+    "title": "Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation",
+    "authors": "Anirban Saha Anik , Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, and Lingzi Hong",
+    "summary": "Specialized agents retrieve, summarize, generate, and refine evidence-based counterspeech using static and dynamic sources.",
+    "originalHref": "/publications/multi-agent-rag-health-misinformation",
+    "paperUrl": "https://openreview.net/pdf?id=P61AgRyU7E",
+    "slug": "multi-agent-rag-health-misinformation",
+    "sourceUrl": "https://openreview.net/forum?id=P61AgRyU7E",
+    "venueFull": "Conference on Language Modeling (COLM 2025)",
+    "bibKey": "anik2025multiagent",
+    "figureUrl": "https://arxiv.org/html/2507.07307",
+    "evidence": "Specialized agents coordinate static and dynamic retrieval, evidence summarization, generation and refinement.",
+    "image": "/images/multi-agent-rag-method.jpg",
+    "imageAlt": "Multi-agent framework overview, from the existing research website",
+    "links": [
+      [
+        "Dataset",
+        "https://github.com/AnirbanSahaAnik/health-misinformation-reddit-dataset"
+      ],
+      [
+        "Poster (site file)",
+        "/files/multi-agent-rag-colm-2025-poster.pdf"
+      ],
+      [
+        "arXiv",
+        "https://arxiv.org/abs/2507.07307"
+      ]
+    ],
+    "table": [
+      [
+        "Method",
+        "Politeness",
+        "Relevance",
+        "Informativeness",
+        "Factual accuracy"
+      ],
+      [
+        "Multi-Agent (guided)",
+        "0.88",
+        "0.70",
+        "0.78",
+        "0.86"
+      ]
+    ],
+    "tableCaption": "Multi-agent, guided prompting, paper Table 1 — reported mean scores; not a comparison against other methods.",
+    "detailUrl": "/publications/multi-agent-rag-health-misinformation/",
+    "sourceBib": "@inproceedings{anik2025multiagent,\n  title = {Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation},\n  author = {{Anirban Saha Anik} and {Xiaoying Song} and {Elliott Wang} and {Bryan Wang} and {Bengisu Yarimbas} and {Lingzi Hong}},\n  booktitle = {Conference on Language Modeling (COLM 2025)},\n  year = {2025},\n  url = {https://openreview.net/forum?id=P61AgRyU7E}\n}",
+    "bibStatus": "compiled",
+    "citation": "Anirban Saha Anik , Xiaoying Song, Elliott Wang, Bryan Wang, Bengisu Yarimbas, and Lingzi Hong. (2025). Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech Against Health Misinformation. Conference on Language Modeling (COLM 2025)."
+  },
+  {
+    "year": 2025,
+    "venue": "EMNLP 2025",
+    "title": "Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL",
+    "authors": "Xiaoying Song, Anirban Saha Anik , Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong",
+    "summary": "A RAG and reinforcement-learning framework for generating evidence-grounded counterspeech at the reader's health-literacy level.",
+    "originalHref": "/publications/literacy-controlled-counterspeech",
+    "paperUrl": "https://aclanthology.org/2025.findings-emnlp.153/",
+    "slug": "literacy-controlled-counterspeech",
+    "sourceUrl": "https://aclanthology.org/2025.findings-emnlp.153/",
+    "venueFull": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "doi": "10.18653/v1/2025.findings-emnlp.153",
+    "pages": "2812--2830",
+    "bibKey": "song-etal-2025-speaking",
+    "figureUrl": "https://aclanthology.org/2025.findings-emnlp.153.pdf#page=3",
+    "image": "/images/literacy-rag-rl-method.jpg",
+    "imageAlt": "Literacy-controlled generation framework, from the existing research website",
+    "evidence": "Control generation with literacy-aligned evidence retrieval and reinforcement learning that balances objective readability and user preference.",
+    "links": [
+      [
+        "Underline poster presentation",
+        "https://underline.io/lecture/132030-speaking-at-the-right-level-literacy-controlled-counterspeech-generation-with-rag-rl"
+      ],
+      [
+        "Official PDF",
+        "https://aclanthology.org/2025.findings-emnlp.153.pdf"
+      ],
+      [
+        "Official BibTeX",
+        "https://aclanthology.org/2025.findings-emnlp.153.bib"
+      ]
+    ],
+    "table": [
+      [
+        "Method (LLaMA-8B)",
+        "Politeness",
+        "Target distance ↓",
+        "User preference",
+        "Factual accuracy"
+      ],
+      [
+        "Instructional prompt",
+        "0.41",
+        "2.74",
+        "0.75",
+        "0.87"
+      ],
+      [
+        "Controlled-Literacy",
+        "0.84",
+        "0.90",
+        "0.74",
+        "0.91"
+      ]
+    ],
+    "tableCaption": "LLaMA-8B averages from the paper's evaluation table; 0.74 is not a higher preference than 0.75.",
+    "sourceBib": "@inproceedings{song-etal-2025-speaking,\n  title = \"Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with {RAG}-{RL}\",\n  author = \"Song, Xiaoying and Anik, Anirban Saha and Barua, Dibakar and Luo, Pengcheng and Ding, Junhua and Hong, Lingzi\",\n  editor = \"Christodoulopoulos, Christos and Chakraborty, Tanmoy and Rose, Carolyn and Peng, Violet\",\n  booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2025\",\n  month = nov,\n  year = \"2025\",\n  address = \"Suzhou, China\",\n  publisher = \"Association for Computational Linguistics\",\n  url = \"https://aclanthology.org/2025.findings-emnlp.153/\",\n  doi = \"10.18653/v1/2025.findings-emnlp.153\",\n  pages = \"2812--2830\",\n  ISBN = \"979-8-89176-335-7\"\n}",
+    "detailUrl": "/publications/literacy-controlled-counterspeech/",
+    "doiUrl": "https://doi.org/10.18653/v1/2025.findings-emnlp.153",
+    "bibStatus": "publisher",
+    "citation": "Xiaoying Song, Anirban Saha Anik , Dibakar Barua, Pengcheng Luo, Junhua Ding, and Lingzi Hong. (2025). Speaking at the Right Level: Literacy-Controlled Counterspeech Generation with RAG-RL. Findings of the Association for Computational Linguistics: EMNLP 2025, pp. 2812–2830. https://doi.org/10.18653/v1/2025.findings-emnlp.153"
+  },
+  {
+    "year": 2025,
+    "venue": "EMNLP 2025",
+    "title": "A Dynamic Fusion Model for Consistent Crisis Response",
+    "authors": "Xiaoying Song, Anirban Saha Anik , Eduardo Blanco, Vanessa Frías-Martínez, and Lingzi Hong",
+    "summary": "A dynamic fusion framework for consistent, professional, and actionable crisis responses, together with a consistency metric.",
+    "originalHref": "https://aclanthology.org/2025.findings-emnlp.149/",
+    "paperUrl": "https://aclanthology.org/2025.findings-emnlp.149/",
+    "slug": "dynamic-fusion-consistent-crisis-response",
+    "sourceUrl": "https://aclanthology.org/2025.findings-emnlp.149/",
+    "venueFull": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "doi": "10.18653/v1/2025.findings-emnlp.149",
+    "pages": "2753--2768",
+    "bibKey": "song-etal-2025-dynamic",
+    "figureUrl": "https://aclanthology.org/2025.findings-emnlp.149.pdf#page=3",
+    "evidence": "Instance-level fusion combines candidate crisis responses to stabilize professionalism, actionability, and relevance.",
+    "links": [
+      [
+        "Underline poster presentation",
+        "https://underline.io/lecture/132026-a-dynamic-fusion-model-for-consistent-crisis-response"
+      ],
+      [
+        "Official PDF",
+        "https://aclanthology.org/2025.findings-emnlp.149.pdf"
+      ],
+      [
+        "Official BibTeX",
+        "https://aclanthology.org/2025.findings-emnlp.149.bib"
+      ],
+      [
+        "arXiv HTML",
+        "https://arxiv.org/html/2509.01053"
+      ]
+    ],
+    "sourceBib": "@inproceedings{song-etal-2025-dynamic,\n  title = \"A Dynamic Fusion Model for Consistent Crisis Response\",\n  author = \"Song, Xiaoying and Anik, Anirban Saha and Blanco, Eduardo and Frias-Martinez, Vanessa and Hong, Lingzi\",\n  editor = \"Christodoulopoulos, Christos and Chakraborty, Tanmoy and Rose, Carolyn and Peng, Violet\",\n  booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2025\",\n  month = nov,\n  year = \"2025\",\n  address = \"Suzhou, China\",\n  publisher = \"Association for Computational Linguistics\",\n  url = \"https://aclanthology.org/2025.findings-emnlp.149/\",\n  doi = \"10.18653/v1/2025.findings-emnlp.149\",\n  pages = \"2753--2768\",\n  ISBN = \"979-8-89176-335-7\"\n}",
+    "detailUrl": "/publications/dynamic-fusion-consistent-crisis-response/",
+    "doiUrl": "https://doi.org/10.18653/v1/2025.findings-emnlp.149",
+    "bibStatus": "publisher",
+    "citation": "Xiaoying Song, Anirban Saha Anik , Eduardo Blanco, Vanessa Frías-Martínez, and Lingzi Hong. (2025). A Dynamic Fusion Model for Consistent Crisis Response. Findings of the Association for Computational Linguistics: EMNLP 2025, pp. 2753–2768. https://doi.org/10.18653/v1/2025.findings-emnlp.149"
+  },
+  {
+    "year": 2025,
+    "venue": "CLEF 2025 Working Notes",
+    "title": "ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims",
+    "authors": "Anirban Saha Anik , Md Fahimul Kabir Chowdhury, Andrew Wyckoff, and Sagnik Ray Choudhury",
+    "summary": "A comparison of prompted and fine-tuned language models for numerical claim verification.",
+    "originalHref": "https://ceur-ws.org/Vol-4038/paper_61.pdf",
+    "paperUrl": "https://ceur-ws.org/Vol-4038/paper_61.pdf",
+    "slug": "claimiq-clef-2025",
+    "sourceUrl": "https://ceur-ws.org/Vol-4038/",
+    "venueFull": "Working Notes of CLEF 2025, CEUR Workshop Proceedings, Vol. 4038",
+    "series": "CEUR Workshop Proceedings",
+    "volume": "4038",
+    "pages": "795--803",
+    "bibKey": "anik2025claimiq",
+    "evidence": "Comparison of prompting and LoRA fine-tuning for numerical claim verification.",
+    "links": [
+      [
+        "DBLP",
+        "https://dblp.org/rec/conf/clef/AnikCWC25"
+      ]
+    ],
+    "detailUrl": "/publications/claimiq-clef-2025/",
+    "sourceBib": "@inproceedings{anik2025claimiq,\n  title = {ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims},\n  author = {{Anirban Saha Anik} and {Md Fahimul Kabir Chowdhury} and {Andrew Wyckoff} and {Sagnik Ray Choudhury}},\n  booktitle = {Working Notes of CLEF 2025, CEUR Workshop Proceedings, Vol. 4038},\n  year = {2025},\n  series = {CEUR Workshop Proceedings},\n  volume = {4038},\n  pages = {795--803},\n  url = {https://ceur-ws.org/Vol-4038/}\n}",
+    "bibStatus": "compiled",
+    "citation": "Anirban Saha Anik , Md Fahimul Kabir Chowdhury, Andrew Wyckoff, and Sagnik Ray Choudhury. (2025). ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims. Working Notes of CLEF 2025, CEUR Workshop Proceedings, Vol. 4038, pp. 795–803."
+  },
+  {
+    "year": 2025,
+    "venue": "ISCRAM 2025",
+    "title": "Dynamic Fusion of Large Language Models for Crisis Communication",
+    "authors": "Xiaoying Song, Anirban Saha Anik , Vanessa Frías-Martínez, and Lingzi Hong",
+    "summary": "A fusion approach combining multiple language models and retrieval for timely and actionable crisis communication.",
+    "originalHref": "https://doi.org/10.59297/nqysjq45",
+    "paperUrl": "https://doi.org/10.59297/nqysjq45",
+    "slug": "dynamic-fusion-crisis-communication",
+    "doi": "10.59297/nqysjq45",
+    "sourceUrl": "https://ojs.iscram.org/index.php/Proceedings/article/view/152",
+    "venueFull": "Proceedings of the International ISCRAM Conference, Volume 22",
+    "bibKey": "song2025dynamicfusioncrisis",
+    "evidence": "Comparing prompting, RAG, and dynamic fusion of LLMs for crisis information needs.",
+    "detailUrl": "/publications/dynamic-fusion-crisis-communication/",
+    "doiUrl": "https://doi.org/10.59297/nqysjq45",
+    "sourceBib": "@inproceedings{song2025dynamicfusioncrisis,\n  title = {Dynamic Fusion of Large Language Models for Crisis Communication},\n  author = {{Xiaoying Song} and {Anirban Saha Anik} and {Vanessa Frías-Martínez} and {Lingzi Hong}},\n  booktitle = {Proceedings of the International ISCRAM Conference, Volume 22},\n  year = {2025},\n  doi = {10.59297/nqysjq45},\n  url = {https://ojs.iscram.org/index.php/Proceedings/article/view/152}\n}",
+    "bibStatus": "compiled",
+    "citation": "Xiaoying Song, Anirban Saha Anik , Vanessa Frías-Martínez, and Lingzi Hong. (2025). Dynamic Fusion of Large Language Models for Crisis Communication. Proceedings of the International ISCRAM Conference, Volume 22. https://doi.org/10.59297/nqysjq45"
+  },
+  {
+    "year": 2025,
+    "venue": "IEEE ICMI 2025",
+    "title": "A Hybrid Attention-Guided Fusion Network with Grad-CAM for MPox Skin Lesion Classification",
+    "authors": "Mithila Arman, Naheyan Prottush, Maher Ali Rusho, Arup Datta, Anirban Saha Anik , Din Mohammad Dohan, Md. Ashiq Ul Islam Sajid, Intezab Alam Sheikh, and Md. Khurshid Jahan",
+    "summary": "An interpretable attention-guided model for distinguishing MPox from visually similar skin conditions.",
+    "originalHref": "https://ieeexplore.ieee.org/abstract/document/11141216",
+    "paperUrl": "https://ieeexplore.ieee.org/abstract/document/11141216",
+    "slug": "mpox-lesion-classification",
+    "sourceUrl": "https://ieeexplore.ieee.org/abstract/document/11141216",
+    "venueFull": "IEEE International Conference on Machine Intelligence (ICMI 2025)",
+    "bibKey": "arman2025hybrid",
+    "evidence": "Hybrid attention-guided image classification with Grad-CAM explanations for MPox skin lesions.",
+    "detailUrl": "/publications/mpox-lesion-classification/",
+    "sourceBib": "@inproceedings{arman2025hybrid,\n  title = {A Hybrid Attention-Guided Fusion Network with Grad-CAM for MPox Skin Lesion Classification},\n  author = {{Mithila Arman} and {Naheyan Prottush} and {Maher Ali Rusho} and {Arup Datta} and {Anirban Saha Anik} and {Din Mohammad Dohan} and {Md. Ashiq Ul Islam Sajid} and {Intezab Alam Sheikh} and {Md. Khurshid Jahan}},\n  booktitle = {IEEE International Conference on Machine Intelligence (ICMI 2025)},\n  year = {2025},\n  url = {https://ieeexplore.ieee.org/abstract/document/11141216}\n}",
+    "bibStatus": "compiled",
+    "citation": "Mithila Arman, Naheyan Prottush, Maher Ali Rusho, Arup Datta, Anirban Saha Anik , Din Mohammad Dohan, Md. Ashiq Ul Islam Sajid, Intezab Alam Sheikh, and Md. Khurshid Jahan. (2025). A Hybrid Attention-Guided Fusion Network with Grad-CAM for MPox Skin Lesion Classification. IEEE International Conference on Machine Intelligence (ICMI 2025)."
+  },
+  {
+    "year": 2024,
+    "venue": "ICCIT 2024",
+    "title": "Outcome-Based Education: Evaluating Students' Perspectives Using Transformer",
+    "authors": "Shuvra Smaran Das, Anirban Saha Anik , Md. Kishor Morol, and Mohammad Sakib Mahmood",
+    "summary": "Transformer-based sentiment analysis and interpretable explanations for evaluating student perspectives on outcome-based education.",
+    "originalHref": "https://doi.org/10.1109/ICCIT64611.2024.11021724",
+    "paperUrl": "https://doi.org/10.1109/ICCIT64611.2024.11021724",
+    "slug": "outcome-based-education-transformer",
+    "doi": "10.1109/ICCIT64611.2024.11021724",
+    "sourceUrl": "https://doi.org/10.1109/ICCIT64611.2024.11021724",
+    "venueFull": "2024 International Conference on Computer and Information Technology (ICCIT)",
+    "bibKey": "das2024outcome",
+    "evidence": "Transformer-based analysis of students’ perspectives on outcome-based education.",
+    "detailUrl": "/publications/outcome-based-education-transformer/",
+    "doiUrl": "https://doi.org/10.1109/ICCIT64611.2024.11021724",
+    "sourceBib": "@inproceedings{das2024outcome,\n  title = {Outcome-Based Education: Evaluating Students' Perspectives Using Transformer},\n  author = {{Shuvra Smaran Das} and {Anirban Saha Anik} and {Md. Kishor Morol} and {Mohammad Sakib Mahmood}},\n  booktitle = {2024 International Conference on Computer and Information Technology (ICCIT)},\n  year = {2024},\n  doi = {10.1109/ICCIT64611.2024.11021724},\n  url = {https://doi.org/10.1109/ICCIT64611.2024.11021724}\n}",
+    "bibStatus": "compiled",
+    "citation": "Shuvra Smaran Das, Anirban Saha Anik , Md. Kishor Morol, and Mohammad Sakib Mahmood. (2024). Outcome-Based Education: Evaluating Students' Perspectives Using Transformer. 2024 International Conference on Computer and Information Technology (ICCIT). https://doi.org/10.1109/ICCIT64611.2024.11021724"
+  },
+  {
+    "year": 2023,
+    "venue": "NCIM 2023",
+    "title": "A Study on Future Lockdown Predictions Using ANN",
+    "authors": "Shuvra Smaran Das, Anirban Saha Anik , Md. Muzakker Hossain, Md. Kishor Morol, Fariha Jahan, and Md. Abdullah Al-Jubair",
+    "summary": "An artificial-neural-network approach to predicting lockdown timing from epidemiological and socioeconomic signals.",
+    "originalHref": "https://doi.org/10.1109/NCIM59001.2023.10212686",
+    "paperUrl": "https://doi.org/10.1109/NCIM59001.2023.10212686",
+    "slug": "lockdown-prediction-ann",
+    "doi": "10.1109/NCIM59001.2023.10212686",
+    "sourceUrl": "https://doi.org/10.1109/NCIM59001.2023.10212686",
+    "venueFull": "2023 International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM)",
+    "bibKey": "das2023lockdown",
+    "evidence": "A neural-network model for future lockdown prediction.",
+    "detailUrl": "/publications/lockdown-prediction-ann/",
+    "doiUrl": "https://doi.org/10.1109/NCIM59001.2023.10212686",
+    "sourceBib": "@inproceedings{das2023lockdown,\n  title = {A Study on Future Lockdown Predictions Using ANN},\n  author = {{Shuvra Smaran Das} and {Anirban Saha Anik} and {Md. Muzakker Hossain} and {Md. Kishor Morol} and {Fariha Jahan} and {Md. Abdullah Al-Jubair}},\n  booktitle = {2023 International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM)},\n  year = {2023},\n  doi = {10.1109/NCIM59001.2023.10212686},\n  url = {https://doi.org/10.1109/NCIM59001.2023.10212686}\n}",
+    "bibStatus": "compiled",
+    "citation": "Shuvra Smaran Das, Anirban Saha Anik , Md. Muzakker Hossain, Md. Kishor Morol, Fariha Jahan, and Md. Abdullah Al-Jubair. (2023). A Study on Future Lockdown Predictions Using ANN. 2023 International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM). https://doi.org/10.1109/NCIM59001.2023.10212686"
+  },
+  {
+    "year": 2022,
+    "venue": "ICRPSET 2022",
+    "title": "A Comparative Analysis for the Detection of COVID-19 from Chest X-ray Dataset",
+    "authors": "Anirban Saha Anik , Kowshik Chakraborty, Bishowjit Datta, Abdul Kader, and Md. Kishor Morol",
+    "summary": "A comparative study of EfficientNet variants for COVID-19 detection from chest X-rays.",
+    "originalHref": "https://doi.org/10.1109/ICRPSET57982.2022.10188570",
+    "paperUrl": "https://doi.org/10.1109/ICRPSET57982.2022.10188570",
+    "slug": "covid19-chest-xray-detection",
+    "doi": "10.1109/ICRPSET57982.2022.10188570",
+    "sourceUrl": "https://doi.org/10.1109/ICRPSET57982.2022.10188570",
+    "venueFull": "2022 International Conference on Recent Progresses in Science, Engineering and Technology (ICRPSET)",
+    "bibKey": "anik2022comparative",
+    "evidence": "Comparative evaluation of COVID-19 chest X-ray classification models.",
+    "detailUrl": "/publications/covid19-chest-xray-detection/",
+    "doiUrl": "https://doi.org/10.1109/ICRPSET57982.2022.10188570",
+    "sourceBib": "@inproceedings{anik2022comparative,\n  title = {A Comparative Analysis for the Detection of COVID-19 from Chest X-ray Dataset},\n  author = {{Anirban Saha Anik} and {Kowshik Chakraborty} and {Bishowjit Datta} and {Abdul Kader} and {Md. Kishor Morol}},\n  booktitle = {2022 International Conference on Recent Progresses in Science, Engineering and Technology (ICRPSET)},\n  year = {2022},\n  doi = {10.1109/ICRPSET57982.2022.10188570},\n  url = {https://doi.org/10.1109/ICRPSET57982.2022.10188570}\n}",
+    "bibStatus": "compiled",
+    "citation": "Anirban Saha Anik , Kowshik Chakraborty, Bishowjit Datta, Abdul Kader, and Md. Kishor Morol. (2022). A Comparative Analysis for the Detection of COVID-19 from Chest X-ray Dataset. 2022 International Conference on Recent Progresses in Science, Engineering and Technology (ICRPSET). https://doi.org/10.1109/ICRPSET57982.2022.10188570"
+  }
+];
