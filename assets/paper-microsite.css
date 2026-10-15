@@ -1,0 +1,51 @@
+
+/* Research publication microsites — responsive academic design */
+.paper-site{--p-ink:#19334c;--p-blue:#1b679b;--p-line:#dce7ee;--p-sub:#587080;--p-bg:#f5f9fc;color:var(--p-ink)}
+.paper-site a{color:var(--p-blue)}
+.paper-site .paper-hero{background:linear-gradient(128deg,#f1f8fc,#fff 72%);border-bottom:1px solid var(--p-line);padding:clamp(3rem,7vw,6.2rem) 0 clamp(2.6rem,5vw,4rem)}
+.paper-site .paper-container{width:min(1120px,calc(100% - 3rem));margin:0 auto}
+.paper-site .paper-back{display:inline-block;margin-bottom:2rem;font-size:.87rem;font-weight:700;text-decoration:none}
+.paper-site .paper-tagline{font-size:.75rem;text-transform:uppercase;letter-spacing:.16em;font-weight:850;color:var(--p-blue);margin:0 0 .85rem}
+.paper-site .paper-hero h1{font-family:inherit;font-size:clamp(2.25rem,4.35vw,4.25rem);line-height:1.14;letter-spacing:-.048em;font-weight:760;max-width:1020px;margin:0 0 1.6rem}
+.paper-site .paper-authors{max-width:950px;font-size:1.03rem;color:#496070;line-height:1.9;margin-bottom:1.5rem}
+.paper-site .paper-authors strong{color:#163c5b}
+.paper-site .paper-hero-summary{font-size:clamp(1.03rem,1.65vw,1.2rem);color:#4b677a;line-height:1.75;max-width:860px}
+.paper-site .paper-buttons{display:flex;gap:.65rem;flex-wrap:wrap;margin-top:1.8rem}
+.paper-site .paper-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.68rem 1rem;border-radius:8px;background:#fff;border:1px solid #c3d8e8;color:#18537e;font-size:.84rem;font-weight:740;text-decoration:none;cursor:pointer;font-family:inherit}
+.paper-site .paper-btn:hover{background:#e5f1f9}
+.paper-site .paper-btn.primary{color:#fff;background:#174668;border-color:#174668}
+.paper-site .paper-btn.primary:hover{background:#235f89}
+.paper-site .paper-main{display:grid;grid-template-columns:1fr 270px;gap:clamp(2rem,4vw,5rem);padding-top:3.3rem;padding-bottom:5rem}
+.paper-site .paper-content{min-width:0}
+.paper-site .paper-block{border-bottom:1px solid var(--p-line);padding:0 0 2.6rem;margin-bottom:2.6rem}
+.paper-site .paper-block:last-child{border:0}
+.paper-site .paper-eyebrow{font-size:.75rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#6185a0;margin:0 0 .7rem}
+.paper-site .paper-block h2{font-size:clamp(1.5rem,2.4vw,2.15rem);letter-spacing:-.035em;color:var(--p-ink);margin:0 0 1rem}
+.paper-site .paper-block p{line-height:1.85;color:#496071;font-size:.98rem;max-width:760px}
+.paper-site .paper-figure{margin:1.4rem 0 0;padding:1rem;background:#f4f7fa;border:1px solid #e0e9f0;border-radius:14px}
+.paper-site .paper-figure img{width:100%;height:auto;object-fit:contain;border-radius:6px;background:white}
+.paper-site .paper-figure figcaption{font-size:.78rem;color:#6c7d8c;line-height:1.55;margin:.8rem .2rem 0}
+.paper-site .paper-insight{border-left:3px solid #4a96ba;background:#f1f7fb;padding:1.1rem 1.3rem;font-size:.96rem;line-height:1.8;color:#3b6178;border-radius:0 8px 8px 0}
+.paper-site .paper-table-wrap{overflow-x:auto;border:1px solid #dce7ee;border-radius:10px}
+.paper-site .paper-table{border-collapse:collapse;width:100%;font-size:.85rem;text-align:left}
+.paper-site .paper-table th{background:#eaf3f9;color:#275577}
+.paper-site .paper-table th,.paper-site .paper-table td{padding:.87rem 1rem;border-bottom:1px solid #e2ebf1;white-space:nowrap}
+.paper-site .paper-table tbody tr:last-child td{border-bottom:0}
+.paper-site .paper-table tbody tr:nth-child(even){background:#f9fbfd}
+.paper-site .paper-table-note{font-size:.8rem;color:#6b7e8d;line-height:1.55;margin:.75rem 0 0}
+.paper-site .paper-sidebar{align-self:start;position:sticky;top:108px}
+.paper-site .paper-sidecard{border:1px solid var(--p-line);background:#fff;border-radius:12px;padding:1.35rem;margin-bottom:1rem}
+.paper-site .paper-sidecard h3{font-family:inherit;font-size:.86rem;text-transform:uppercase;letter-spacing:.075em;font-weight:830;margin:0 0 1.2rem;color:#254c68}
+.paper-site .paper-sidecard dl{margin:0}
+.paper-site .paper-sidecard dt{color:#7a8e9e;text-transform:uppercase;letter-spacing:.09em;font-size:.69rem;font-weight:770;margin-top:1.2rem}
+.paper-site .paper-sidecard dt:first-child{margin-top:0}
+.paper-site .paper-sidecard dd{margin:.3rem 0 0;font-size:.87rem;color:#3a5467;line-height:1.65;overflow-wrap:anywhere}
+.paper-site .paper-sidecard .paper-side-link{display:block;border-top:1px solid #eaf0f5;text-decoration:none;padding:.76rem 0;font-size:.82rem;font-weight:760}
+.paper-site .paper-sidecard .paper-side-link:first-of-type{border-top:0}
+.paper-site .paper-citation{background:#f2f6fa;border:1px solid #dfe9f0;border-radius:10px;padding:1.1rem;line-height:1.7;font-size:.82rem;white-space:pre-wrap;overflow-wrap:anywhere;overflow-x:auto;max-height:340px}
+.paper-site .paper-cite-note{font-size:.78rem;color:#697f90}
+.paper-site .paper-visual-link{margin-top:.8rem;display:inline-flex;gap:.35rem;font-size:.83rem;font-weight:700}
+.paper-site .paper-notes{padding-left:1.35rem;color:#466173;line-height:1.95}
+.paper-site .paper-notes li{padding:.1rem 0}
+@media(max-width:830px){.paper-site .paper-main{grid-template-columns:1fr}.paper-site .paper-sidebar{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.paper-site .paper-sidecard{margin-bottom:0}}
+@media(max-width:540px){.paper-site .paper-sidebar{grid-template-columns:1fr}.paper-site .paper-container{width:calc(100% - 2rem)}.paper-site .paper-hero h1{font-size:2rem}.paper-site .paper-hero{padding:2.5rem 0}}
