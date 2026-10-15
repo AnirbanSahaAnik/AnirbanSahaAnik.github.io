@@ -17,12 +17,7 @@ window.PUBLICATION_CATALOG = [
     "figure": "",
     "sourcePage": "https://doi.org/10.1145/3805696.3847295",
     "evidence": "Semantic, spatial and temporal constraints must align for reliable crisis-answer synthesis.",
-    "links": [
-      [
-        "Dataset",
-        "https://github.com/DoNgan0911/ST-Crisis-Dataset-benchmark"
-      ]
-    ],
+    "links": [],
     "tips": [
       "Benchmark: 128 crisis-need queries",
       "Evidence chains: 3–4 posts",
