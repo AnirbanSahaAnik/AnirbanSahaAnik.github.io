@@ -67,7 +67,7 @@ html = re.sub(r'<script[^>]*src="/assets/publications-sources\.js"[^>]*></script
 html = re.sub(r'<meta name="codex-preview"[^>]*>', '', html)
 for asset in ('publications-editorial.css', 'publications-editorial.js', 'publications-catalog.js'):
     html = re.sub(r'/assets/' + re.escape(asset) + r'(?:\?v=[^"\s]+)?',
-                  '/assets/' + asset + '?v=20261020-summary', html)
+                  '/assets/' + asset + '?v=20261020-checkthat', html)
 html = re.sub(r'<link rel="canonical"[^>]*>', '<link rel="canonical" href="https://anirbansahaanik.github.io/publications/"/>', html)
 html = html.replace('href="/publications">Publications', 'href="/publications/" aria-current="page">Publications')
 path.write_text(html)

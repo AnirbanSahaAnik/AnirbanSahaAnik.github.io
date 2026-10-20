@@ -120,11 +120,14 @@ window.PUBLICATION_CATALOG = [
     "sourceBib": "@inproceedings{hasan2026sourceminds,\n  title = {SourceMinds at CheckThat! 2026: NLI-Grounded Citation Auditing in a Multi-Agent Pipeline for Full Fact-Checking Article Generation},\n  author = {{Farhan Sharukh Hasan} and {Anirban Saha Anik} and {Eric Liu} and {Xiaoying Song} and {Mohotarema Rashid} and {Lingzi Hong}},\n  booktitle = {Working Notes of CLEF 2026, CEUR Workshop Proceedings, Vol. 4283},\n  year = {2026},\n  series = {CEUR Workshop Proceedings},\n  volume = {4283},\n  pages = {1010--1020},\n  url = {https://ceur-ws.org/Vol-4283/}\n}",
     "bibStatus": "compiled",
     "citation": "Farhan Sharukh Hasan, Anirban Saha Anik, Eric Liu, Xiaoying Song, Mohotarema Rashid and Lingzi Hong. (2026). SourceMinds at CheckThat! 2026: NLI-Grounded Citation Auditing in a Multi-Agent Pipeline for Full Fact-Checking Article Generation. Working Notes of CLEF 2026, CEUR Workshop Proceedings, Vol. 4283, pp. 1010–1020.",
-    "thumbnail": "/images/publications/sourceminds-clef-2026.webp",
-    "thumbnailWidth": 1116,
-    "thumbnailHeight": 744,
-    "figureKind": "preview",
-    "imageAlt": "Title and abstract preview of SourceMinds at CheckThat! 2026: NLI-Grounded Citation Auditing in a Multi-Agent Pipeline for Full Fact-Checking Article Generation"
+    "thumbnail": "/images/publications/sourceminds-clef-2026-summary.svg",
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 560,
+    "figureKind": "summary",
+    "imageAlt": "Simplified method summary: SourceMinds uses source-balanced evidence retrieval, structured planning, article writing and gated self-critique, followed by NLI-based citation auditing.",
+    "image": "/images/publications/sourceminds-clef-2026-summary.svg",
+    "figureCaption": "Simplified method summary drawn for this website, based on the paper; not an original paper figure.",
+    "figureSource": "https://arxiv.org/abs/2607.24802"
   },
   {
     "year": 2026,
@@ -149,11 +152,14 @@ window.PUBLICATION_CATALOG = [
     "sourceBib": "@inproceedings{zhang2026verifind,\n  title = {VeriFind at CheckThat! 2026: Enhancing Numerical Claim Verification via Fine-Tuned LLMs},\n  author = {{Diana Zhang} and {Xiaoying Song} and {Mohotarema Rashid} and {Anirban Saha Anik} and {Junhua Ding} and {Lingzi Hong}},\n  booktitle = {Working Notes of CLEF 2026, CEUR Workshop Proceedings, Vol. 4283},\n  year = {2026},\n  series = {CEUR Workshop Proceedings},\n  volume = {4283},\n  pages = {1361--1369},\n  url = {https://ceur-ws.org/Vol-4283/}\n}",
     "bibStatus": "compiled",
     "citation": "Diana Zhang, Xiaoying Song, Mohotarema Rashid, Anirban Saha Anik, Junhua Ding, and Lingzi Hong. (2026). VeriFind at CheckThat! 2026: Enhancing Numerical Claim Verification via Fine-Tuned LLMs. Working Notes of CLEF 2026, CEUR Workshop Proceedings, Vol. 4283, pp. 1361–1369.",
-    "thumbnail": "/images/publications/verifind-clef-2026.webp",
-    "thumbnailWidth": 1116,
-    "thumbnailHeight": 744,
-    "figureKind": "preview",
-    "imageAlt": "Title and abstract preview of VeriFind at CheckThat! 2026: Enhancing Numerical Claim Verification via Fine-Tuned LLMs"
+    "thumbnail": "/images/publications/verifind-clef-2026-summary.svg",
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 560,
+    "figureKind": "summary",
+    "imageAlt": "Simplified method summary: TraceFT scores candidate reasoning traces with a LoRA-tuned LLaMA-3.2-3B verifier, ranks the traces and uses the verdict of the highest-ranked trace.",
+    "image": "/images/publications/verifind-clef-2026-summary.svg",
+    "figureCaption": "Simplified method summary drawn for this website, based on the paper; not an original paper figure.",
+    "figureSource": "https://ceur-ws.org/Vol-4283/paper94.pdf"
   },
   {
     "year": 2025,
@@ -355,11 +361,14 @@ window.PUBLICATION_CATALOG = [
     "sourceBib": "@inproceedings{anik2025claimiq,\n  title = {ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims},\n  author = {{Anirban Saha Anik} and {Md Fahimul Kabir Chowdhury} and {Andrew Wyckoff} and {Sagnik Ray Choudhury}},\n  booktitle = {Working Notes of CLEF 2025, CEUR Workshop Proceedings, Vol. 4038},\n  year = {2025},\n  series = {CEUR Workshop Proceedings},\n  volume = {4038},\n  pages = {795--803},\n  url = {https://ceur-ws.org/Vol-4038/}\n}",
     "bibStatus": "compiled",
     "citation": "Anirban Saha Anik, Md Fahimul Kabir Chowdhury, Andrew Wyckoff, and Sagnik Ray Choudhury. (2025). ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims. Working Notes of CLEF 2025, CEUR Workshop Proceedings, Vol. 4038, pp. 795–803.",
-    "thumbnail": "/images/publications/claimiq-clef-2025.webp",
-    "thumbnailWidth": 1116,
-    "thumbnailHeight": 680,
-    "figureKind": "preview",
-    "imageAlt": "Title and abstract preview of ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims"
+    "thumbnail": "/images/publications/claimiq-clef-2025-summary.svg",
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 560,
+    "figureKind": "summary",
+    "imageAlt": "Simplified comparison of independent ClaimIQ approaches: selected evidence is used with zero-shot prompted LLaMA or fine-tuned LoRA LLaMA and RoBERTa models, each predicting True, False or Conflicting.",
+    "image": "/images/publications/claimiq-clef-2025-summary.svg",
+    "figureCaption": "Simplified method summary drawn for this website, based on the paper; not an original paper figure.",
+    "figureSource": "https://ceur-ws.org/Vol-4038/paper_61.pdf"
   },
   {
     "year": 2025,

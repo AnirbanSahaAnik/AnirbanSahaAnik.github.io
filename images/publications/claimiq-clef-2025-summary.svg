@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+<title id="title">ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims — simplified method summary</title>
+<desc id="desc">Simplified comparison of independent ClaimIQ approaches: selected evidence is used with zero-shot prompted LLaMA or fine-tuned LoRA LLaMA and RoBERTa models, each predicting True, False or Conflicting. Drawn for this website, not an original paper figure.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#a78d72" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="560" rx="18" fill="#fff9ef"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="36" y="77" font-size="48" font-family="Georgia, Times New Roman, serif" font-weight="700" letter-spacing="-1" fill="#8f492a">ClaimIQ</text>
+<text x="36" y="115" font-size="22" fill="#89705e">Prompting and fine-tuning, compared</text>
+<rect x="738" y="42" width="186" height="34" rx="17" fill="#f1e5d3"/>
+<text x="831" y="64" font-size="12" letter-spacing="1.3" font-weight="700" text-anchor="middle" fill="#8f6b4e">TWO APPROACHES</text>
+<rect x="280" y="148" width="400" height="78" rx="12" fill="#fff" stroke="#dfceb7" stroke-width="2"/>
+<text x="480" y="180" text-anchor="middle" font-size="24" font-weight="700" fill="#554331">Claim + selected evidence</text>
+<text x="480" y="207" text-anchor="middle" font-size="17" fill="#89705e">Full documents or top-k sentences</text>
+<path d="M480 226 V246 H246 V263" fill="none" stroke="#a78d72" stroke-width="2.5" marker-end="url(#arrow)"/><path d="M480 246 H714 V263" fill="none" stroke="#a78d72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="36" y="276" width="420" height="176" rx="18" fill="#ffefd9" stroke="#d9945e" stroke-width="2"/>
+<circle cx="70" cy="309" r="16" fill="#d68748"/><text x="70" y="315" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">A</text>
+<text x="102" y="315" font-size="14" letter-spacing="1.4" font-weight="700" fill="#925324">PROMPTING</text>
+<text x="60" y="359" font-size="29" font-weight="700" fill="#684329">Zero-shot LLaMA</text>
+<text x="60" y="391" font-size="19" fill="#8a6244">Task instructions + evidence</text>
+<text x="60" y="424" font-size="17" fill="#8a6244">No task-specific training</text>
+<rect x="504" y="276" width="420" height="176" rx="18" fill="#edf1fa" stroke="#8599bc" stroke-width="2"/>
+<circle cx="538" cy="309" r="16" fill="#607da9"/><text x="538" y="315" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">B</text>
+<text x="570" y="315" font-size="14" letter-spacing="1.1" font-weight="700" fill="#4b6489">SUPERVISED ADAPTATION</text>
+<text x="528" y="359" font-size="29" font-weight="700" fill="#334e76">Fine-tuned models</text>
+<text x="528" y="391" font-size="19" fill="#5d7394">LoRA LLaMA · RoBERTa</text>
+<text x="528" y="424" font-size="17" fill="#5d7394">Learn from labeled examples</text>
+<text x="480" y="371" text-anchor="middle" font-size="18" font-family="Georgia, Times New Roman, serif" font-style="italic" fill="#9c8a77">vs.</text>
+<path d="M246 452 V466" fill="none" stroke="#a78d72" stroke-width="2" marker-end="url(#arrow)"/><path d="M714 452 V466" fill="none" stroke="#a78d72" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="36" y="478" width="420" height="46" rx="10" fill="#fff" stroke="#e3c6a5"/>
+<rect x="504" y="478" width="420" height="46" rx="10" fill="#fff" stroke="#bdcce2"/>
+<text x="246" y="507" text-anchor="middle" font-size="19" fill="#8a6244">True · False · Conflicting</text>
+<text x="714" y="507" text-anchor="middle" font-size="19" fill="#5d7394">True · False · Conflicting</text>
+<text x="36" y="548" font-size="12" fill="#89705e">Website illustration · Shared verdict labels; the approaches are compared independently.</text></g></svg>

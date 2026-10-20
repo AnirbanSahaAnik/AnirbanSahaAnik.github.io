@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+<title id="title">SourceMinds at CheckThat! 2026: NLI-Grounded Citation Auditing in a Multi-Agent Pipeline for Full Fact-Checking Article Generation — simplified method summary</title>
+<desc id="desc">Simplified method summary: SourceMinds uses source-balanced evidence retrieval, structured planning, article writing and gated self-critique, followed by NLI-based citation auditing. Drawn for this website, not an original paper figure.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#377e6c" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="560" rx="18" fill="#eff8f4"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="36" y="35" width="5" height="76" rx="2.5" fill="#1d755f"/>
+<text x="58" y="75" font-size="44" font-weight="700" letter-spacing="-1" fill="#174c40">SourceMinds</text>
+<text x="58" y="111" font-size="22" fill="#4c7568">From evidence to a citation-supported article</text>
+<rect x="735" y="40" width="189" height="34" rx="17" fill="#d8eee3"/>
+<text x="829" y="62" font-size="12" letter-spacing="1.2" font-weight="700" text-anchor="middle" fill="#286853">CITATION WORKFLOW</text>
+<text x="36" y="157" font-size="18" fill="#426c5d">Input: claim + given verdict + evidence documents</text>
+<rect x="36" y="211" width="202" height="208" rx="16" fill="#fff" stroke="#b8d9c9" stroke-width="2"/>
+<rect x="94" y="239" width="92" height="80" rx="7" fill="#d8ece5" stroke="#8ab9a6"/>
+<rect x="81" y="249" width="92" height="80" rx="7" fill="#e9f6ef" stroke="#8ab9a6"/>
+<rect x="68" y="259" width="92" height="80" rx="7" fill="#fff" stroke="#4b9082" stroke-width="2"/>
+<path d="M84 282 H140 M84 296 H140 M84 310 H125" fill="none" stroke="#79a796" stroke-width="4" stroke-linecap="round"/>
+<text x="137" y="374" text-anchor="middle" font-size="20" font-weight="700" fill="#225846">Source documents</text>
+<text x="137" y="399" text-anchor="middle" font-size="15" fill="#597b6c">Ground the article</text>
+<rect x="295" y="185" width="340" height="260" rx="18" fill="#fff" stroke="#b8d9c9" stroke-width="2"/>
+<text x="319" y="223" font-size="24" font-weight="700" fill="#225846">Agent workflow</text>
+<circle cx="324" cy="264" r="15" fill="#e2f1e8"/><text x="324" y="269" text-anchor="middle" font-size="15" font-weight="700" fill="#286853">1</text>
+<text x="352" y="270" font-size="22" font-weight="700" fill="#264e40">Retrieve &amp; plan</text>
+<text x="352" y="291" font-size="15" fill="#627d70">Source-balanced evidence</text>
+<path d="M318 304 H612" stroke="#e5eee8"/>
+<circle cx="324" cy="322" r="15" fill="#e2f1e8"/><text x="324" y="327" text-anchor="middle" font-size="15" font-weight="700" fill="#286853">2</text>
+<text x="352" y="328" font-size="22" font-weight="700" fill="#264e40">Write cited draft</text>
+<text x="352" y="349" font-size="15" fill="#627d70">Structured generation</text>
+<path d="M318 362 H612" stroke="#e5eee8"/>
+<circle cx="324" cy="380" r="15" fill="#e2f1e8"/><text x="324" y="385" text-anchor="middle" font-size="15" font-weight="700" fill="#286853">3</text>
+<text x="352" y="386" font-size="22" font-weight="700" fill="#264e40">Gated self-critique</text>
+<text x="352" y="407" font-size="15" fill="#627d70">Revise weakly grounded drafts</text>
+<path d="M249 315 H282" fill="none" stroke="#377e6c" stroke-width="2.5" marker-end="url(#arrow)"/><path d="M647 315 H681" fill="none" stroke="#377e6c" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="694" y="211" width="230" height="208" rx="16" fill="#fff" stroke="#b8d9c9" stroke-width="2"/>
+<text x="714" y="249" font-size="23" font-weight="700" fill="#225846">Citation audit</text>
+<rect x="714" y="265" width="60" height="27" rx="6" fill="#d8eee3"/>
+<text x="744" y="284" text-anchor="middle" font-size="16" font-weight="700" fill="#286853">NLI</text>
+<g fill="#377e6c"><circle cx="723" cy="319" r="8"/><circle cx="723" cy="351" r="8"/><circle cx="723" cy="383" r="8"/></g>
+<path d="m719 319 3 3 5-6 m-8 35 3 3 5-6 m-8 35 3 3 5-6" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="742" y="325" font-size="17" fill="#355e4f">Repair missing</text>
+<text x="742" y="357" font-size="17" fill="#355e4f">Remove unsupported</text>
+<text x="742" y="389" font-size="17" fill="#355e4f">Drop redundant</text>
+<path d="M809 429 V462" fill="none" stroke="#377e6c" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="36" y="474" width="888" height="50" rx="12" fill="#d8eee3"/>
+<text x="60" y="506" font-size="21" font-weight="700" fill="#225846">Output: citation-supported fact-checking article</text>
+<text x="36" y="548" font-size="12" fill="#5f7d70">Website illustration based on SourceMinds · See the paper for the full workflow.</text></g></svg>
