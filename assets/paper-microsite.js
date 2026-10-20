@@ -21,7 +21,7 @@ const grid=add(shell,tag("div","paper-container paper-main"));
 const body=add(grid,tag("div","paper-content"));
 let s=block(body,"Overview","Research problem");add(s,tag("p","",paper.summary)); if(paper.evidence)add(s,tag("div","paper-insight",paper.evidence));
 s=block(body,"Methods","Approach & evidence");
-if(paper.image){const figure=add(s,tag("figure","paper-figure"));const img=add(figure,tag("img"));img.src=paper.image;img.alt=paper.imageAlt||"Research method visual";img.loading="lazy";add(figure,tag("figcaption","",paper.imageAlt+". See the full paper for its original caption and precise interpretation."));}
+if(paper.image){const figure=add(s,tag("figure","paper-figure"));const img=add(figure,tag("img"));img.src=paper.image;img.alt=paper.imageAlt||"Research method visual";img.loading="lazy";add(figure,tag("figcaption","",paper.figureCaption||paper.imageAlt));}
 else {add(s,tag("p","", "The complete methodological figures and diagrams are available in the research paper. The original document is the authoritative visual source."));}
 if(paper.figureUrl||paper.paperUrl)add(s,link("Explore original paper figures ↗",paper.figureUrl||paper.paperUrl));
 s=block(body,"Contribution","What the paper adds");const ul=add(s,tag("ul","paper-notes"));(paper.tips&&paper.tips.length?paper.tips:[paper.evidence||paper.summary,"See the linked peer-reviewed or archival paper for complete methodology and evaluations."]).forEach(t=>add(ul,tag("li","",t)));

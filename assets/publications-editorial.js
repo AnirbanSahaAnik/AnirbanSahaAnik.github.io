@@ -1,261 +1,125 @@
-/* Progressive enhancement for the existing GitHub Pages publications page.
-   Source publication metadata remains in the page's original HTML. */
+/* Search, citations and full-size figures for the static publication archive.
+   Without JavaScript every paper, figure and citation link remains available. */
 (function () {
-  "use strict";
-
-  function make(tag, className, text) {
-    var el = document.createElement(tag);
-    if (className) el.className = className;
-    if (text !== undefined && text !== null) el.textContent = text;
-    return el;
-  }
-
-  function clean(text) {
-    return (text || "").replace(/\s+/g, " ").trim();
-  }
-
-  function paperTitle(article) {
-    var h3 = article.querySelector("h3");
-    return clean(h3 ? h3.textContent : "").replace(/\s*[↗→]\s*$/, "");
-  }
-
-  function isExternal(href) {
-    return /^https?:\/\//i.test(href || "");
-  }
-
-  function makeLink(label, href, primary) {
-    var a = make("a", "pub-action" + (primary ? " pub-action-primary" : ""), label);
-    a.href = href;
-    if (isExternal(href)) {
-      a.target = "_blank";
-      a.rel = "noopener noreferrer";
-    }
-    return a;
-  }
-
-  function copyText(value, button, original) {
-    function feedback(ok) {
-      button.textContent = ok ? "Copied ✓" : "Select to copy";
-      window.setTimeout(function () {
-        button.textContent = original;
-      }, 1700);
-    }
-
-    if (navigator.clipboard && window.isSecureContext) {
-      navigator.clipboard.writeText(value).then(function () {
-        feedback(true);
-      }, function () {
-        fallback();
-      });
-      return;
-    }
-    fallback();
-
-    function fallback() {
-      var textarea = document.createElement("textarea");
-      textarea.value = value;
-      textarea.style.position = "fixed";
-      textarea.style.opacity = "0";
-      document.body.appendChild(textarea);
-      textarea.select();
-      var copied = false;
-      try {
-        copied = document.execCommand("copy");
-      } catch (_error) {
-        copied = false;
-      }
-      textarea.remove();
-      feedback(copied);
-    }
-  }
-
-  function main() {
-    var root = document.querySelector("main.page-shell");
-    if (!root || !root.querySelector(".publication-groups") || root.dataset.pubEditorialReady) {
-      return;
-    }
-    var groups = Array.prototype.slice.call(root.querySelectorAll(".publication-year"));
-    var articles = Array.prototype.slice.call(root.querySelectorAll(".publication-year .publication"));
-    if (!articles.length) return;
-
-    var featuredOverview = "This work proposes a multi-agent retrieval-augmented framework for responding to health misinformation. Specialized language-model agents coordinate evidence gathering, evidence enhancement, response generation, and refinement. The framework combines established knowledge sources with dynamically retrieved evidence and evaluates the quality of its counterspeech across factual accuracy, relevance, and human preference.";
-
-    articles.forEach(function (article, index) {
-      var group = article.closest(".publication-year");
-      var year = clean(group && group.querySelector("h2") ? group.querySelector("h2").textContent : "");
-      var title = paperTitle(article);
-      var titleLink = article.querySelector("h3 a");
-      var titleHref = titleLink ? titleLink.getAttribute("href") : "";
-      var direct = article.querySelector(".pub-direct-link a");
-      var directHref = direct ? direct.getAttribute("href") : "";
-      var authorsElement = article.querySelector(".authors");
-      var authors = clean(authorsElement ? authorsElement.textContent : "");
-      var metaFirst = article.querySelector(".pub-meta > span:first-child");
-      var venue = clean(metaFirst ? metaFirst.textContent : "");
-      var paperHref = directHref || (isExternal(titleHref) ? titleHref : "");
-      var projectHref = titleHref && !isExternal(titleHref) ? titleHref : "";
-      var identifier = "pub-" + year + "-" + index;
-
-      article.id = identifier;
-      article.dataset.year = year;
-      article.dataset.search = clean([title, authors, venue, year, article.querySelector(".pub-summary") ? article.querySelector(".pub-summary").textContent : ""].join(" ")).toLowerCase();
-
-      var featured = title.indexOf("Multi-Agent Retrieval-Augmented Framework for Evidence-Based Counterspeech") !== -1;
-      if (featured) {
-        article.classList.add("pub-featured");
-        var label = make("div", "pub-featured-label", "Featured research");
-        label.appendChild(make("span", "", "First author"));
-        article.insertBefore(label, article.firstChild);
-        article.appendChild(make("p", "pub-featured-callout", "A multi-agent approach to more reliable, evidence-based health-misinformation responses."));
-      }
-
-      var actions = make("div", "pub-actions");
-      actions.setAttribute("aria-label", "Paper links");
-      if (paperHref) {
-        actions.appendChild(makeLink("Read paper ↗", paperHref, true));
-      }
-      if (projectHref) {
-        actions.appendChild(makeLink("Project details →", projectHref, !paperHref));
-      }
-      if (actions.children.length) article.appendChild(actions);
-
-      if (featured) {
-        var overview = make("details", "pub-citation pub-overview");
-        overview.appendChild(make("summary", "", "Research overview"));
-        var overviewContent = make("div", "pub-citation-content");
-        overviewContent.appendChild(make("p", "pub-citation-text", featuredOverview));
-        overview.appendChild(overviewContent);
-        article.appendChild(overview);
-      }
-
-      // Bibliographic details are constructed only from metadata already
-      // visible on this page. The BibTeX is intentionally marked "generated".
-      var citation = authors + " (" + year + "). " + title + ". " + venue + "." + (paperHref ? " " + paperHref : "");
-      var bibAuthors = authors.replace(/,\s+and\s+/g, " and ").replace(/,\s+/g, " and ");
-      var citeKey = "anik" + year + title.toLowerCase().replace(/[^a-z0-9 ]/g, "").split(/\s+/).slice(0, 4).join("");
-      var bibtex = "@misc{" + citeKey + ",\n" +
-        "  title = {" + title + "},\n" +
-        "  author = {" + bibAuthors + "},\n" +
-        "  year = {" + year + "},\n" +
-        "  note = {" + venue + "}" +
-        (paperHref ? ",\n  url = {" + paperHref + "}" : "") +
-        "\n}";
-      var details = make("details", "pub-citation");
-      details.appendChild(make("summary", "", "Citation & BibTeX"));
-      var content = make("div", "pub-citation-content");
-      content.appendChild(make("p", "citation-label", "Suggested citation"));
-      content.appendChild(make("p", "pub-citation-text", citation));
-      content.appendChild(make("p", "citation-label", "Generated BibTeX"));
-      var pre = make("pre", "pub-bibtex");
-      pre.appendChild(make("code", "", bibtex));
-      content.appendChild(pre);
-
-      var copyRow = make("div", "pub-copy-row");
-      var copyCitation = make("button", "", "Copy citation");
-      copyCitation.type = "button";
-      copyCitation.addEventListener("click", function () {
-        copyText(citation, copyCitation, "Copy citation");
-      });
-      var copyBib = make("button", "", "Copy BibTeX");
-      copyBib.type = "button";
-      copyBib.addEventListener("click", function () {
-        copyText(bibtex, copyBib, "Copy BibTeX");
-      });
-      copyRow.appendChild(copyCitation);
-      copyRow.appendChild(copyBib);
-      content.appendChild(copyRow);
-      details.appendChild(content);
-      article.appendChild(details);
+  'use strict';
+  function ready() {
+    const root = document.querySelector('main.pub-editorial');
+    if (!root || root.dataset.archiveReady) return;
+    const catalog = new Map((window.PUBLICATION_CATALOG || []).map(paper => [paper.slug, paper]));
+    const articles = Array.from(root.querySelectorAll('.publication'));
+    const groups = Array.from(root.querySelectorAll('.publication-year'));
+    const controls = root.querySelector('.pub-controls');
+    const search = root.querySelector('.pub-search');
+    const filters = Array.from(root.querySelectorAll('[data-year-filter]'));
+    const status = root.querySelector('.pub-results-status');
+    const empty = root.querySelector('.pub-empty');
+    const normalize = text => String(text || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
+    let selected = 'all';
+    articles.forEach(article => {
+      const paper = catalog.get(article.dataset.slug);
+      article.dataset.search = normalize([article.textContent, paper?.summary, paper?.evidence].join(' '));
     });
-
-    var controls = make("div", "pub-controls");
-    controls.setAttribute("aria-label", "Filter publications");
-    var filters = make("div", "pub-filter-list");
-    var types = [
-      ["all", "All papers"],
-      ["2026", "2026"],
-      ["2025", "2025"],
-      ["earlier", "2024 & earlier"]
-    ];
-    var selected = "all";
-    var query = "";
-    var buttons = [];
-
-    var searchWrap = make("div", "pub-search-wrap");
-    searchWrap.innerHTML = '<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>';
-    var search = make("input", "pub-search");
-    search.type = "search";
-    search.placeholder = "Search publications";
-    search.setAttribute("aria-label", "Search publications by title, author, topic, or venue");
-    searchWrap.appendChild(search);
-    var status = make("span", "pub-results-status", articles.length + " papers");
-    status.setAttribute("role", "status");
-    status.setAttribute("aria-live", "polite");
-
-    function renderFilters() {
-      var visible = 0;
-      articles.forEach(function (article) {
-        var year = Number(article.dataset.year);
-        var matchYear = selected === "all" ||
-          (selected === "earlier" ? year <= 2024 : String(year) === selected);
-        var show = matchYear && (!query || article.dataset.search.indexOf(query) !== -1);
-        article.hidden = !show;
-        if (show) visible += 1;
+    function filter() {
+      const words = normalize(search.value).split(' ').filter(Boolean);
+      let count = 0;
+      articles.forEach(article => {
+        const year = article.dataset.year;
+        const yearMatch = selected === 'all' || (selected === 'earlier' ? Number(year) < 2025 : year === selected);
+        article.hidden = !(yearMatch && words.every(word => article.dataset.search.includes(word)));
+        if (!article.hidden) count++;
       });
-      groups.forEach(function (group) {
-        group.hidden = !group.querySelector(".publication:not([hidden])");
-      });
-      buttons.forEach(function (button) {
-        button.setAttribute("aria-pressed", button.dataset.value === selected ? "true" : "false");
-      });
-      status.textContent = visible + " of " + articles.length + " papers";
-      var empty = root.querySelector(".pub-empty");
-      if (empty) empty.hidden = visible !== 0;
+      groups.forEach(group => { group.hidden = !group.querySelector('.publication:not([hidden])'); });
+      filters.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.yearFilter === selected)));
+      status.textContent = selected === 'all' && !words.length ? `${count} publications` : `${count} of ${articles.length} publications`;
+      empty.hidden = count !== 0;
     }
+    filters.forEach(button => button.addEventListener('click', () => { selected = button.dataset.yearFilter; filter(); }));
+    search.addEventListener('input', filter);
+    root.querySelector('.pub-reset').addEventListener('click', () => { selected = 'all'; search.value = ''; filter(); search.focus(); });
+    controls.hidden = false;
+    root.dataset.archiveReady = 'true';
 
-    types.forEach(function (item) {
-      var count = articles.filter(function (article) {
-        var y = Number(article.dataset.year);
-        return item[0] === "all" || (item[0] === "earlier" ? y <= 2024 : String(y) === item[0]);
-      }).length;
-      var button = make("button", "pub-filter-button", item[1] + " · " + count);
-      button.type = "button";
-      button.dataset.value = item[0];
-      button.setAttribute("aria-pressed", item[0] === selected ? "true" : "false");
-      button.addEventListener("click", function () {
-        selected = item[0];
-        renderFilters();
-      });
-      filters.appendChild(button);
-      buttons.push(button);
-    });
-    search.addEventListener("input", function () {
-      query = clean(search.value).toLowerCase();
-      renderFilters();
-    });
-
-    controls.appendChild(filters);
-    controls.appendChild(searchWrap);
-    controls.appendChild(status);
-    var note = root.querySelector(".publication-note");
-    if (note) {
-      note.insertAdjacentElement("afterend", controls);
-    } else {
-      root.querySelector(".publication-groups").insertAdjacentElement("beforebegin", controls);
+    // Native dialogs provide focus containment, Escape dismissal and focus return.
+    if (!window.HTMLDialogElement || !HTMLDialogElement.prototype.showModal) return;
+    function el(name, className, text) {
+      const node = document.createElement(name);
+      if (className) node.className = className;
+      if (text !== undefined) node.textContent = text;
+      return node;
     }
-
-    var empty = make("p", "pub-empty", "No publications match this search. Try another keyword or year.");
-    empty.hidden = true;
-    root.querySelector(".publication-groups").insertAdjacentElement("afterend", empty);
-
-    root.dataset.pubEditorialReady = "true";
-    root.classList.add("pub-editorial");
-    renderFilters();
+    function dialog(id, heading, extraClass) {
+      const node = el('dialog', 'pub-modal ' + (extraClass || ''));
+      node.setAttribute('aria-labelledby', id);
+      const inner = el('div', 'pub-modal-inner');
+      const top = el('div', 'pub-modal-top');
+      const title = el('h2', '', heading); title.id = id;
+      const close = el('button', 'pub-modal-close', 'Close ×');
+      close.type = 'button'; close.autofocus = true;
+      close.addEventListener('click', () => node.close());
+      top.append(title, close); inner.append(top); node.append(inner); document.body.append(node);
+      node.addEventListener('click', event => {
+        const rect = node.getBoundingClientRect();
+        if (event.target === node && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) node.close();
+      });
+      node.addEventListener('close', () => {
+        if (!document.querySelector('.pub-modal[open]')) document.body.classList.remove('pub-modal-open');
+      });
+      return { node, inner };
+    }
+    function open(node) { node.showModal(); document.body.classList.add('pub-modal-open'); }
+    async function copy(text) {
+      if (navigator.clipboard && window.isSecureContext) {
+        try { await navigator.clipboard.writeText(text); return true; } catch (_) { /* Use selection fallback. */ }
+      }
+      const field = el('textarea'); field.value = text;
+      field.style.cssText = 'position:fixed;opacity:0;pointer-events:none';
+      // Keep the fallback inside the active modal, since the rest of the page is inert.
+      const parent = document.querySelector('.pub-modal[open] .pub-modal-inner') || document.body;
+      parent.append(field); field.select();
+      let ok = false;
+      try { ok = document.execCommand('copy'); } catch (_) { ok = false; }
+      field.remove(); return ok;
+    }
+    const cite = dialog('pub-citation-heading', 'Cite this paper');
+    const citeTitle = el('h3', 'pub-modal-title');
+    const citation = el('p', 'pub-modal-citation');
+    const bib = el('pre', 'pub-modal-bib'); const code = el('code'); bib.append(code);
+    const note = el('p', 'pub-modal-note');
+    const actions = el('div', 'pub-modal-actions');
+    const copyBib = el('button', '', 'Copy BibTeX'); copyBib.type = 'button';
+    const copyCitation = el('button', '', 'Copy citation'); copyCitation.type = 'button';
+    const record = el('a', '', 'Publication record ↗'); record.target = '_blank'; record.rel = 'noopener noreferrer';
+    actions.append(copyBib, copyCitation, record);
+    const feedback = el('p', 'pub-modal-status'); feedback.setAttribute('role', 'status'); feedback.setAttribute('aria-live', 'polite');
+    cite.inner.append(citeTitle, citation, bib, note, actions, feedback);
+    let currentPaper;
+    async function copyValue(value, label, button) {
+      const ok = await copy(value);
+      feedback.textContent = ok ? `${label} copied.` : 'Copy was unavailable. Select and copy the text above.';
+      button.focus();
+    }
+    copyBib.addEventListener('click', () => copyValue(currentPaper.sourceBib, 'BibTeX', copyBib));
+    copyCitation.addEventListener('click', () => copyValue(currentPaper.citation, 'Citation', copyCitation));
+    root.querySelectorAll('[data-cite]').forEach(link => link.addEventListener('click', event => {
+      const paper = catalog.get(link.dataset.cite); if (!paper) return;
+      event.preventDefault(); currentPaper = paper;
+      citeTitle.textContent = paper.title; citation.textContent = paper.citation; code.textContent = paper.sourceBib;
+      note.textContent = paper.bibStatus === 'publisher' ? 'BibTeX from ACL Anthology.' : 'Formatted from publication metadata. Check the publication record before formal use.';
+      record.href = paper.sourceUrl || paper.paperUrl; feedback.textContent = ''; open(cite.node);
+    }));
+    const figure = dialog('pub-figure-heading', 'Paper figure', 'pub-figure-modal');
+    const figureImage = el('img', 'pub-figure-image');
+    const caption = el('p', 'pub-figure-caption');
+    figure.inner.append(figureImage, caption);
+    root.querySelectorAll('[data-figure]').forEach(link => link.addEventListener('click', event => {
+      const paper = catalog.get(link.dataset.figure); if (!paper) return;
+      event.preventDefault(); figureImage.src = paper.thumbnail; figureImage.alt = paper.imageAlt;
+      const description = paper.figureKind === 'preview' ? `Title and abstract preview. ${paper.title}. ` : `${paper.figureCaption} `;
+      const source = el('a', '', 'View in the original paper ↗');
+      source.href = paper.figureSource || paper.paperUrl; source.target = '_blank'; source.rel = 'noopener noreferrer';
+      caption.replaceChildren(document.createTextNode(description), source); open(figure.node);
+    }));
   }
-
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", main, { once: true });
-  } else {
-    main();
-  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready, { once: true });
+  else ready();
 })();

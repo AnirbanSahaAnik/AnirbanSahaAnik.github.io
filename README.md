@@ -45,6 +45,15 @@ This repository contains the production-ready static website used by GitHub Page
 - `.nojekyll` — ensures GitHub Pages serves all generated assets correctly
 - `sitemap.xml` and `robots.txt` — search-engine discovery files
 
+## Updating the publication archive
+
+Edit `assets/publications-catalog.js`, then run `python3 scripts/build-publications.py`.
+The generated list is complete static HTML; search, citation dialogs and figure
+enlargement are enhancements in `assets/publications-editorial.js`.
+`images/publications/` contains original paper figures and clearly labeled
+document previews. Figure captions and source links are kept in the catalog,
+which is also shared by the individual paper pages.
+
 ## Deployment
 
 1. Extract the website ZIP.
