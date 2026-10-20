@@ -1,43 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
 <title id="title">VeriFind at CheckThat! 2026: Enhancing Numerical Claim Verification via Fine-Tuned LLMs — simplified method summary</title>
 <desc id="desc">Simplified method summary: TraceFT scores candidate reasoning traces with a LoRA-tuned LLaMA-3.2-3B verifier, ranks the traces and uses the verdict of the highest-ranked trace. Drawn for this website, not an original paper figure.</desc>
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#a39aff" stroke-width="1.5"/></marker></defs>
-<rect width="960" height="560" rx="18" fill="#131a32"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#bf7da2" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="560" rx="18" fill="#fffafd"/>
 <g font-family="Arial, Helvetica, sans-serif">
-<text x="36" y="77" font-size="46" font-weight="700" font-family="ui-monospace, Menlo, Consolas, monospace" letter-spacing="-1" fill="#f3f0ff">VeriFind</text>
-<text x="36" y="114" font-size="22" fill="#bbc3e0">Score the reasoning. Select the trace.</text>
-<rect x="744" y="42" width="180" height="34" rx="6" fill="#2c2b51" stroke="#615b99"/>
-<text x="834" y="64" font-size="13" letter-spacing="1.4" font-weight="700" text-anchor="middle" fill="#c5bdff">TRACE RANKING</text>
-<rect x="36" y="147" width="888" height="43" rx="10" fill="#202944"/>
-<text x="57" y="176" font-size="21" fill="#e1e5f7">Claim + evidence + candidate reasoning traces</text>
-<text x="36" y="220" font-size="13" letter-spacing="1.7" font-weight="700" fill="#a5b1d1">CANDIDATES</text>
-<rect x="36" y="237" width="218" height="50" rx="9" fill="#222c4b" stroke="#526086"/>
-<rect x="36" y="297" width="218" height="50" rx="9" fill="#222c4b" stroke="#526086"/>
-<rect x="36" y="357" width="218" height="50" rx="9" fill="#222c4b" stroke="#526086"/>
-<text x="57" y="269" font-size="21" fill="#e8eafe">Trace 1</text>
-<text x="57" y="329" font-size="21" fill="#e8eafe">Trace 2</text>
-<text x="57" y="389" font-size="21" fill="#e8eafe">Trace N</text>
-<path d="M162 259 H230 M162 271 H216 M162 319 H230 M162 331 H216 M162 379 H230 M162 391 H216" stroke="#68789e" stroke-width="3" stroke-linecap="round"/>
-<path d="M266 262 C288 262 286 320 305 320 M266 382 C288 382 286 320 305 320" fill="none" stroke="#667397" stroke-width="2"/>
-<path d="M266 320 H328" fill="none" stroke="#a39aff" stroke-width="2.5" marker-end="url(#arrow)"/>
-<text x="277" y="301" font-size="14" fill="#c5bdff">score each</text>
-<circle cx="460" cy="320" r="116" fill="none" stroke="#454368" stroke-width="2"/>
-<circle cx="460" cy="320" r="104" fill="#2c2c50" stroke="#aaa0ff" stroke-width="3"/>
-<text x="460" y="307" text-anchor="middle" font-size="36" font-weight="700" fill="#fff">TraceFT</text>
-<text x="460" y="340" text-anchor="middle" font-size="21" fill="#d1caff">LoRA verifier</text>
-<text x="460" y="368" text-anchor="middle" font-size="16" fill="#aebadd">LLaMA-3.2-3B</text>
-<path d="M589 320 H632" fill="none" stroke="#a39aff" stroke-width="2.5" marker-end="url(#arrow)"/>
-<text x="590" y="300" font-size="14" fill="#c5bdff">rank</text>
-<rect x="648" y="226" width="276" height="198" rx="15" fill="#202944" stroke="#526086"/>
-<text x="670" y="262" font-size="24" font-weight="700" fill="#f2f0ff">Ranked traces</text>
-<rect x="668" y="279" width="236" height="34" rx="6" fill="#40386c" stroke="#a39aff"/>
-<text x="682" y="302" font-size="17" fill="#f4efff">#1  Highest score</text>
-<rect x="668" y="322" width="236" height="34" rx="6" fill="#2b3555"/>
-<text x="682" y="345" font-size="17" fill="#d0d7ed">#2  Next trace</text>
-<rect x="668" y="365" width="236" height="34" rx="6" fill="#2b3555"/>
-<text x="682" y="388" font-size="17" fill="#d0d7ed">…   Remaining traces</text>
-<path d="M786 434 V454" fill="none" stroke="#a39aff" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="36" y="466" width="888" height="58" rx="12" fill="#c4baff"/>
-<text x="60" y="502" font-size="23" font-weight="700" fill="#222244">Use the top trace’s verdict</text>
-<text x="646" y="501" font-size="16" fill="#393253">True / False / Conflicting</text>
-<text x="36" y="548" font-size="12" fill="#a5b1d1">Website illustration based on TraceFT · See the paper for training and ranking details.</text></g></svg>
+<text x="36" y="77" font-size="46" font-weight="700" font-family="ui-monospace, Menlo, Consolas, monospace" letter-spacing="-1" fill="#805b73">VeriFind</text>
+<text x="36" y="114" font-size="22" fill="#806b7b">Score the reasoning. Select the trace.</text>
+<rect x="744" y="42" width="180" height="34" rx="6" fill="#faedf5" stroke="#e5cddd"/>
+<text x="834" y="64" font-size="13" letter-spacing="1.4" font-weight="700" text-anchor="middle" fill="#946482">TRACE RANKING</text>
+<rect x="36" y="147" width="888" height="43" rx="10" fill="#ffffff"/>
+<text x="57" y="176" font-size="21" fill="#806178">Claim + evidence + candidate reasoning traces</text>
+<text x="36" y="220" font-size="13" letter-spacing="1.7" font-weight="700" fill="#806b7b">CANDIDATES</text>
+<rect x="36" y="237" width="218" height="50" rx="9" fill="#ffffff" stroke="#ddc9db"/>
+<rect x="36" y="297" width="218" height="50" rx="9" fill="#ffffff" stroke="#ddc9db"/>
+<rect x="36" y="357" width="218" height="50" rx="9" fill="#ffffff" stroke="#ddc9db"/>
+<text x="57" y="269" font-size="21" fill="#806178">Trace 1</text>
+<text x="57" y="329" font-size="21" fill="#806178">Trace 2</text>
+<text x="57" y="389" font-size="21" fill="#806178">Trace N</text>
+<path d="M162 259 H230 M162 271 H216 M162 319 H230 M162 331 H216 M162 379 H230 M162 391 H216" stroke="#d2aec5" stroke-width="3" stroke-linecap="round"/>
+<path d="M266 262 C288 262 286 320 305 320 M266 382 C288 382 286 320 305 320" fill="none" stroke="#d2aec5" stroke-width="2"/>
+<path d="M266 320 H328" fill="none" stroke="#bf7da2" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="277" y="301" font-size="14" fill="#946482">score each</text>
+<circle cx="460" cy="320" r="116" fill="none" stroke="#efdbe9" stroke-width="2"/>
+<circle cx="460" cy="320" r="104" fill="#fff0f7" stroke="#d59eba" stroke-width="3"/>
+<text x="460" y="307" text-anchor="middle" font-size="36" font-weight="700" fill="#805b73">TraceFT</text>
+<text x="460" y="340" text-anchor="middle" font-size="21" fill="#946482">LoRA verifier</text>
+<text x="460" y="368" text-anchor="middle" font-size="16" fill="#806b7b">LLaMA-3.2-3B</text>
+<path d="M589 320 H632" fill="none" stroke="#bf7da2" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="590" y="300" font-size="14" fill="#946482">rank</text>
+<rect x="648" y="226" width="276" height="198" rx="15" fill="#ffffff" stroke="#ddc9db"/>
+<text x="670" y="262" font-size="24" font-weight="700" fill="#805b73">Ranked traces</text>
+<rect x="668" y="279" width="236" height="34" rx="6" fill="#f7e4f0" stroke="#bf7da2"/>
+<text x="682" y="302" font-size="17" fill="#805b73">#1  Highest score</text>
+<rect x="668" y="322" width="236" height="34" rx="6" fill="#fbf5fa"/>
+<text x="682" y="345" font-size="17" fill="#806b7b">#2  Next trace</text>
+<rect x="668" y="365" width="236" height="34" rx="6" fill="#fbf5fa"/>
+<text x="682" y="388" font-size="17" fill="#806b7b">…   Remaining traces</text>
+<path d="M786 434 V454" fill="none" stroke="#bf7da2" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="36" y="466" width="888" height="58" rx="12" fill="#f7e3ef"/>
+<text x="60" y="502" font-size="23" font-weight="700" fill="#805b73">Use the top trace’s verdict</text>
+<text x="646" y="501" font-size="16" fill="#806178">True / False / Conflicting</text>
+<text x="36" y="548" font-size="12" fill="#806b7b">Website illustration based on TraceFT · See the paper for training and ranking details.</text></g></svg>
