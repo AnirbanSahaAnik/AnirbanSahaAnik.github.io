@@ -33,7 +33,7 @@ def card(p, index):
     visual = ''
     if p.get('thumbnail'):
         kind = p.get('figureKind', 'diagram')
-        label = {'diagram': 'Method diagram', 'chart': 'Paper figure', 'preview': 'Paper preview'}[kind]
+        label = {'diagram': 'Method diagram', 'chart': 'Paper figure', 'preview': 'Paper preview', 'summary': 'Method summary'}[kind]
         visual = f'''<a class="pub-visual pub-visual-{kind}" href="{e(p['thumbnail'])}" data-figure="{slug}" aria-label="Enlarge {e(label.lower())}: {e(p['title'])}">
 <img src="{e(p['thumbnail'])}" alt="{e(p.get('imageAlt', p['title']))}" width="{p['thumbnailWidth']}" height="{p['thumbnailHeight']}" loading="{'eager' if index < 2 else 'lazy'}" decoding="async"/>
 <span class="pub-visual-label">{label}<span aria-hidden="true">⤢</span></span></a>'''
@@ -67,7 +67,7 @@ html = re.sub(r'<script[^>]*src="/assets/publications-sources\.js"[^>]*></script
 html = re.sub(r'<meta name="codex-preview"[^>]*>', '', html)
 for asset in ('publications-editorial.css', 'publications-editorial.js', 'publications-catalog.js'):
     html = re.sub(r'/assets/' + re.escape(asset) + r'(?:\?v=[^"\s]+)?',
-                  '/assets/' + asset + '?v=20261020', html)
+                  '/assets/' + asset + '?v=20261020-summary', html)
 html = re.sub(r'<link rel="canonical"[^>]*>', '<link rel="canonical" href="https://anirbansahaanik.github.io/publications/"/>', html)
 html = html.replace('href="/publications">Publications', 'href="/publications/" aria-current="page">Publications')
 path.write_text(html)

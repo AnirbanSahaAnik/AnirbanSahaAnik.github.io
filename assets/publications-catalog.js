@@ -27,7 +27,15 @@ window.PUBLICATION_CATALOG = [
     "doiUrl": "https://doi.org/10.1145/3805696.3847295",
     "sourceBib": "@inproceedings{alston2026can,\n  title = {Can LLMs Reason Over Where and When? Benchmarking Spatiotemporal Synthesis in Crisis Response},\n  author = {{Sawyer Alston} and {Yashaswini Sreenivasa Shetty} and {Sreeja Kanuganti} and {Anirban Saha Anik} and {Xiaoying Song} and {Lingzi Hong}},\n  booktitle = {The 2026 ACM/IEEE Joint Conference on Digital Libraries (JCDL ’26)},\n  year = {2026},\n  doi = {10.1145/3805696.3847295},\n  url = {https://doi.org/10.1145/3805696.3847295}\n}",
     "bibStatus": "compiled",
-    "citation": "Sawyer Alston, Yashaswini Sreenivasa Shetty, Sreeja Kanuganti, Anirban Saha Anik, Xiaoying Song, and Lingzi Hong. (2026). Can LLMs Reason Over Where and When? Benchmarking Spatiotemporal Synthesis in Crisis Response. The 2026 ACM/IEEE Joint Conference on Digital Libraries (JCDL ’26). https://doi.org/10.1145/3805696.3847295"
+    "citation": "Sawyer Alston, Yashaswini Sreenivasa Shetty, Sreeja Kanuganti, Anirban Saha Anik, Xiaoying Song, and Lingzi Hong. (2026). Can LLMs Reason Over Where and When? Benchmarking Spatiotemporal Synthesis in Crisis Response. The 2026 ACM/IEEE Joint Conference on Digital Libraries (JCDL ’26). https://doi.org/10.1145/3805696.3847295",
+    "thumbnail": "/images/publications/spatiotemporal-crisis-communication-summary.svg",
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 540,
+    "figureKind": "summary",
+    "image": "/images/publications/spatiotemporal-crisis-communication-summary.svg",
+    "imageAlt": "Simplified method summary: audit and enrich sparse crisis evidence, rank it with semantic, spatial and temporal weights, then synthesize a response.",
+    "figureCaption": "Simplified method summary drawn for this website, based on the paper; not an original paper figure.",
+    "figureSource": "https://doi.org/10.1145/3805696.3847295"
   },
   {
     "year": 2026,
@@ -426,14 +434,14 @@ window.PUBLICATION_CATALOG = [
     "sourceBib": "@inproceedings{das2024outcome,\n  title = {Outcome-Based Education: Evaluating Students' Perspectives Using Transformer},\n  author = {{Shuvra Smaran Das} and {Anirban Saha Anik} and {Md. Kishor Morol} and {Mohammad Sakib Mahmood}},\n  booktitle = {2024 International Conference on Computer and Information Technology (ICCIT)},\n  year = {2024},\n  doi = {10.1109/ICCIT64611.2024.11021724},\n  url = {https://doi.org/10.1109/ICCIT64611.2024.11021724}\n}",
     "bibStatus": "compiled",
     "citation": "Shuvra Smaran Das, Anirban Saha Anik, Md. Kishor Morol, and Mohammad Sakib Mahmood. (2024). Outcome-Based Education: Evaluating Students' Perspectives Using Transformer. 2024 International Conference on Computer and Information Technology (ICCIT). https://doi.org/10.1109/ICCIT64611.2024.11021724",
-    "thumbnail": "/images/publications/outcome-based-education-transformer.webp",
-    "thumbnailWidth": 879,
-    "thumbnailHeight": 578,
-    "image": "/images/publications/outcome-based-education-transformer.webp",
-    "imageAlt": "Figure 1. Positive and negative sentiment distribution.",
-    "figureCaption": "Figure 1. Positive and negative sentiment distribution.",
-    "figureSource": "https://arxiv.org/pdf/2506.17223#page=2",
-    "figureKind": "chart"
+    "thumbnail": "/images/publications/outcome-based-education-transformer-summary.svg",
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 540,
+    "image": "/images/publications/outcome-based-education-transformer-summary.svg",
+    "imageAlt": "Simplified method summary: preprocess student feedback, classify sentiment with DistilBERT, and interpret positive or negative predictions with LIME.",
+    "figureCaption": "Simplified method summary drawn for this website, based on the paper; not an original paper figure.",
+    "figureSource": "https://doi.org/10.1109/ICCIT64611.2024.11021724",
+    "figureKind": "summary"
   },
   {
     "year": 2023,
@@ -453,7 +461,15 @@ window.PUBLICATION_CATALOG = [
     "doiUrl": "https://doi.org/10.1109/NCIM59001.2023.10212686",
     "sourceBib": "@inproceedings{das2023lockdown,\n  title = {A Study on Future Lockdown Predictions Using ANN},\n  author = {{Shuvra Smaran Das} and {Anirban Saha Anik} and {Md. Muzakker Hossain} and {Md. Kishor Morol} and {Fariha Jahan} and {Md. Abdullah Al-Jubair}},\n  booktitle = {2023 International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM)},\n  year = {2023},\n  doi = {10.1109/NCIM59001.2023.10212686},\n  url = {https://doi.org/10.1109/NCIM59001.2023.10212686}\n}",
     "bibStatus": "compiled",
-    "citation": "Shuvra Smaran Das, Anirban Saha Anik, Md. Muzakker Hossain, Md. Kishor Morol, Fariha Jahan, and Md. Abdullah Al-Jubair. (2023). A Study on Future Lockdown Predictions Using ANN. 2023 International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM). https://doi.org/10.1109/NCIM59001.2023.10212686"
+    "citation": "Shuvra Smaran Das, Anirban Saha Anik, Md. Muzakker Hossain, Md. Kishor Morol, Fariha Jahan, and Md. Abdullah Al-Jubair. (2023). A Study on Future Lockdown Predictions Using ANN. 2023 International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM). https://doi.org/10.1109/NCIM59001.2023.10212686",
+    "thumbnail": "/images/publications/lockdown-prediction-ann-summary.svg",
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 540,
+    "figureKind": "summary",
+    "image": "/images/publications/lockdown-prediction-ann-summary.svg",
+    "imageAlt": "Simplified method summary: epidemiological and socioeconomic country features feed artificial neural network prediction of FDL and WEL lockdown-timing targets.",
+    "figureCaption": "Simplified method summary drawn for this website, based on the paper; not an original paper figure.",
+    "figureSource": "https://doi.org/10.1109/NCIM59001.2023.10212686"
   },
   {
     "year": 2022,

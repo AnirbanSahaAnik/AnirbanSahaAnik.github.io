@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+<title id="title">Lockdown timing prediction — simplified method summary</title>
+<desc id="desc">Simplified method summary: epidemiological and socioeconomic country features feed artificial neural network prediction of FDL and WEL lockdown-timing targets. Drawn for this website; not an original figure from the paper.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#719489" stroke-width="1.5"/></marker></defs>
+<rect width="960" height="540" rx="16" fill="#fff"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="36" y="40" width="54" height="5" rx="2.5" fill="#126056"/>
+<text x="36" y="79" font-size="15" font-weight="700" letter-spacing="2.5" fill="#126056">SIMPLIFIED METHOD OVERVIEW</text>
+<text x="36" y="130" font-size="38" font-weight="700" letter-spacing="-1" fill="#172b3a">Lockdown timing prediction</text>
+<text x="36" y="168" font-size="20" fill="#61747b">Country-level data → neural prediction → timing estimates</text>
+<g transform="translate(36 214)">
+<rect width="260" height="178" rx="18" fill="#edf5f2" stroke="#c8dfd5" stroke-width="2"/>
+<circle cx="32" cy="32" r="17" fill="#fff"/><text x="32" y="38" text-anchor="middle" font-size="17" font-weight="700" fill="#126056">01</text>
+<text x="130" y="82" text-anchor="middle" font-size="25" font-weight="700" fill="#173a3b">Country features</text>
+<text x="130" y="121" text-anchor="middle" font-size="18" fill="#526770">Epidemiological and</text>
+<text x="130" y="148" text-anchor="middle" font-size="18" fill="#526770">socioeconomic data</text></g>
+<g transform="translate(350 214)">
+<rect width="260" height="178" rx="18" fill="#edf3fa" stroke="#d0deed" stroke-width="2"/>
+<circle cx="32" cy="32" r="17" fill="#fff"/><text x="32" y="38" text-anchor="middle" font-size="17" font-weight="700" fill="#126056">02</text>
+<text x="130" y="82" text-anchor="middle" font-size="25" font-weight="700" fill="#173a3b">ANN prediction</text>
+<text x="130" y="121" text-anchor="middle" font-size="18" fill="#526770">Learn from historical</text>
+<text x="130" y="148" text-anchor="middle" font-size="18" fill="#526770">lockdown data</text></g>
+<g transform="translate(664 214)">
+<rect width="260" height="178" rx="18" fill="#fbf4e8" stroke="#e9dcc5" stroke-width="2"/>
+<circle cx="32" cy="32" r="17" fill="#fff"/><text x="32" y="38" text-anchor="middle" font-size="17" font-weight="700" fill="#126056">03</text>
+<text x="130" y="82" text-anchor="middle" font-size="25" font-weight="700" fill="#173a3b">Timing estimates</text>
+<text x="130" y="121" text-anchor="middle" font-size="18" fill="#526770">FDL and WEL</text>
+<text x="130" y="148" text-anchor="middle" font-size="18" fill="#526770">prediction targets</text></g>
+<path d="M306 303 H338" fill="none" stroke="#719489" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M620 303 H652" fill="none" stroke="#719489" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="36" y1="445" x2="924" y2="445" stroke="#e4eae7"/>
+<text x="36" y="476" font-size="16" fill="#61747b">NCIM 2023 · 2023</text>
+<text x="36" y="506" font-size="14" fill="#61747b">Website illustration based on the paper. See the full paper for the complete method.</text>
+</g></svg>

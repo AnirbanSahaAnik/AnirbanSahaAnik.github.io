@@ -115,7 +115,7 @@
       const paper = catalog.get(link.dataset.figure); if (!paper) return;
       event.preventDefault(); figureImage.src = paper.thumbnail; figureImage.alt = paper.imageAlt;
       const description = paper.figureKind === 'preview' ? `Title and abstract preview. ${paper.title}. ` : `${paper.figureCaption} `;
-      const source = el('a', '', 'View in the original paper ↗');
+      const source = el('a', '', paper.figureKind === 'summary' ? 'Read the source paper ↗' : 'View in the original paper ↗');
       source.href = paper.figureSource || paper.paperUrl; source.target = '_blank'; source.rel = 'noopener noreferrer';
       caption.replaceChildren(document.createTextNode(description), source); open(figure.node);
     }));
