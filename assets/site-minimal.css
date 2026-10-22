@@ -1,0 +1,306 @@
+/* Site-wide minimal academic design system
+   Matches /assets/home-minimal.css on the homepage.
+   Load AFTER legacy styles so functional page-specific layouts remain intact. */
+body.site-minimal {
+  --ink:#202934; --ink-soft:#475867; --accent:#2d66a4;
+  --muted:#64717e; --line:#e2e7eb; --paper:#fff; --mist:#f3f6f8;
+  --accent-dark:#244d79;
+  --serif:Georgia,"Times New Roman",serif;
+  --sans:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  color:var(--ink);background:#fbfbfa;font-family:var(--sans);
+  font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased;
+}
+body.site-minimal,body.site-minimal *{box-sizing:border-box}
+body.site-minimal a{transition:color .16s ease,border-color .16s ease,background-color .16s ease}
+body.site-minimal a:hover{color:var(--accent)}
+body.site-minimal a:focus-visible,body.site-minimal button:focus-visible,body.site-minimal summary:focus-visible,body.site-minimal input:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+body.site-minimal .site-container{width:min(1100px,calc(100% - 72px));max-width:none;margin-inline:auto}
+body.site-minimal .site-header{position:sticky;top:0;z-index:40;background:rgba(251,251,250,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+body.site-minimal .header-inner{min-height:85px;padding-block:0;display:flex;align-items:center;justify-content:space-between;gap:34px}
+body.site-minimal .wordmark{display:flex;gap:12px;align-items:center;white-space:nowrap;font-size:14px;line-height:1.35;letter-spacing:-.025em;color:var(--ink);font-weight:650}
+body.site-minimal .wordmark-mark{display:inline-flex;align-items:center;justify-content:center;flex:none;width:39px;height:39px;border:1px solid #becbd4;border-radius:4px;background:#fff;color:var(--ink);font:700 24px/1 var(--serif);letter-spacing:-.06em}
+body.site-minimal .wordmark-mark span{color:var(--accent)}
+body.site-minimal .wordmark-subtitle{display:block;color:var(--muted);font-size:10px;font-weight:450;letter-spacing:.05em;margin-top:3px}
+body.site-minimal .site-header nav{display:flex;align-items:center;justify-content:flex-end;gap:25px;margin-left:auto;width:auto;font-size:12px;font-weight:540;overflow:visible}
+body.site-minimal .site-header nav a{color:#445260;white-space:nowrap;font-size:12px;font-weight:540;padding-block:8px}
+body.site-minimal .site-header nav a:hover,body.site-minimal .site-header nav a[aria-current=page]{color:var(--accent)}
+body.site-minimal .site-header nav a[aria-current=page]{text-decoration:underline;text-decoration-color:#aec9df;text-underline-offset:9px;text-decoration-thickness:2px}
+body.site-minimal .site-header nav .nav-cv{padding:10px 15px;border-radius:4px;border:1px solid #bfcbd5;margin-left:6px;font-size:12px;color:var(--ink)}
+body.site-minimal .site-header nav .nav-cv:hover{border-color:var(--accent);background:#f5f9fd}
+body.site-minimal .page-shell{min-height:55vh;padding-block:76px 110px}
+body.site-minimal .page-intro{margin-bottom:48px;max-width:950px}
+body.site-minimal .page-intro .eyebrow,
+body.site-minimal .research-kicker,
+body.site-minimal .contact-kicker,
+body.site-minimal .pub-heading .eyebrow,
+body.site-minimal .project-hero .eyebrow,
+body.site-minimal .project-kicker{
+  font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent);font-weight:750;line-height:1.6;margin:0 0 16px
+}
+body.site-minimal .page-intro .eyebrow::before,
+body.site-minimal .research-kicker::before,
+body.site-minimal .contact-kicker::before,
+body.site-minimal .pub-heading .eyebrow::before,
+body.site-minimal .project-hero .eyebrow::before{
+  content:"";display:inline-block;vertical-align:middle;width:24px;height:1px;background:currentColor;margin-right:12px
+}
+body.site-minimal .page-intro h1,
+body.site-minimal .research-page-intro h1,
+body.site-minimal .contact-page-intro h1,
+body.site-minimal .pub-heading h1{
+  font-family:var(--serif);font-size:clamp(51px,6vw,79px);font-weight:500;
+  letter-spacing:-.064em;line-height:1.05;color:var(--ink);margin:0 0 21px;
+}
+body.site-minimal .page-description,
+body.site-minimal .research-page-intro > div > p:last-child,
+body.site-minimal .contact-page-intro > p:last-child,
+body.site-minimal .pub-heading .page-description{
+  color:var(--ink-soft);font-size:16px;line-height:1.82;max-width:760px;margin:0
+}
+body.site-minimal .home-text-link{color:var(--accent);font-size:12px;font-weight:650}
+body.site-minimal .home-text-link:hover{text-decoration:underline;text-underline-offset:4px}
+body.site-minimal .resume-download,
+body.site-minimal .button.secondary{
+  background:transparent;border:1px solid #cbd5dd;color:var(--ink);border-radius:4px;
+  padding:10px 15px;font-size:12px;font-weight:650;min-height:42px
+}
+body.site-minimal .resume-download:hover,body.site-minimal .button.secondary:hover{background:#f1f5f8;border-color:#a6bfce}
+body.site-minimal .resume-format{color:var(--muted)}
+body.site-minimal .button.primary{background:var(--ink);color:#fff;border-radius:4px}
+body.site-minimal .button.primary:hover{background:#344e68;color:#fff}
+body.site-minimal .site-footer{padding:0;background:#fbfbfa;border-top:1px solid var(--line)}
+body.site-minimal .site-footer .footer-grid{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:32px 0 12px;min-height:74px}
+body.site-minimal .site-footer .footer-name{font-size:12px;font-weight:680;letter-spacing:-.015em;color:var(--ink)}
+body.site-minimal .site-footer .footer-role{display:block;color:var(--muted);font-size:10px;margin-top:2px}
+body.site-minimal .site-footer .footer-links{display:flex;flex-wrap:wrap;gap:12px 19px;color:var(--ink-soft);font-size:11px}
+body.site-minimal .site-footer .copyright{padding:0 0 24px;font-size:10px;color:var(--muted);background:transparent}
+body.site-minimal .site-footer .footer-links a:hover{color:var(--accent)}
+body.site-minimal .skip-link{z-index:200}
+
+/* RESEARCH: editorial topic guide rather than three tinted cards. */
+body.site-minimal.research-redesign .research-main{padding-top:76px;padding-bottom:95px}
+body.site-minimal.research-redesign .research-page-intro{align-items:flex-end;gap:40px;margin-bottom:51px}
+body.site-minimal.research-redesign .research-page-intro>div:first-child{max-width:840px}
+body.site-minimal.research-redesign .research-intro-actions{align-items:flex-end;gap:16px;padding-bottom:8px}
+body.site-minimal.research-redesign .area-navigation{gap:0;margin:0 0 62px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+body.site-minimal.research-redesign .area-tab,
+body.site-minimal.research-redesign .area-tab.area-interaction,
+body.site-minimal.research-redesign .area-tab.area-evaluation{
+  background:transparent;border:0;border-right:1px solid var(--line);border-radius:0;min-height:78px;
+  padding:18px 19px;color:#4a5967;font-size:12px;gap:11px
+}
+body.site-minimal.research-redesign .area-tab:last-child{border-right:0}
+body.site-minimal.research-redesign .area-tab svg{color:var(--accent);width:18px;height:18px}
+body.site-minimal.research-redesign .area-tab:hover{background:#f3f6f8;color:var(--accent)}
+body.site-minimal.research-redesign .area-tab-number{color:#98acbd;font-size:10px}
+body.site-minimal.research-redesign .research-tracks{gap:49px}
+body.site-minimal.research-redesign .research-track{grid-template-columns:minmax(0,.95fr) minmax(0,1.35fr);gap:58px;padding-top:36px;--track-accent:var(--accent);--track-line:var(--line);--track-bg:transparent;scroll-margin-top:108px}
+body.site-minimal.research-redesign .track-overview{padding:0;border:0;background:transparent;border-radius:0}
+body.site-minimal.research-redesign .track-label{color:var(--accent);font-size:10px;letter-spacing:.075em;text-transform:uppercase;font-weight:700;margin-bottom:15px}
+body.site-minimal.research-redesign .track-label>span{background:transparent;border:1px solid #bdcdd9;border-radius:3px;color:var(--accent);width:28px;height:28px}
+body.site-minimal.research-redesign .track-overview h2{font-family:var(--serif);font-size:clamp(29px,3vw,40px);font-weight:500;letter-spacing:-.046em;line-height:1.17;margin-bottom:16px}
+body.site-minimal.research-redesign .track-description{color:var(--ink-soft);font-size:14px;line-height:1.85}
+body.site-minimal.research-redesign .track-topics{gap:6px 8px;margin-top:18px}
+body.site-minimal.research-redesign .track-topics li{background:#f1f4f6;border:1px solid #e6ebef;border-radius:3px;padding:5px 8px;font-size:10px;color:#526678}
+body.site-minimal.research-redesign .track-questions{border-top:1px solid var(--line);margin-top:24px;padding-top:15px}
+body.site-minimal.research-redesign .track-questions>summary{color:var(--accent);font-size:12px}
+body.site-minimal.research-redesign .track-questions ul{font-size:12px;color:var(--ink-soft)}
+body.site-minimal.research-redesign .track-work-label{font-size:10px;letter-spacing:.1em;color:var(--accent);text-transform:uppercase;margin:0 0 10px}
+body.site-minimal.research-redesign .track-papers{border:0;border-top:1px solid var(--line);border-radius:0}
+body.site-minimal.research-redesign .track-paper{background:transparent;border-bottom:1px solid var(--line);padding:20px 0;grid-template-columns:93px minmax(0,1fr)}
+body.site-minimal.research-redesign .track-paper+.track-paper{border-top:0}
+body.site-minimal.research-redesign .track-work-meta{font-size:10px;color:var(--accent)}
+body.site-minimal.research-redesign .track-paper h3{font-size:15px;line-height:1.48}
+body.site-minimal.research-redesign .track-paper>p:last-child{font-size:12px;color:var(--muted)}
+body.site-minimal.research-redesign .connected-agenda{background:#f0f4f6;border:0;border-top:2px solid #a9c2d5;border-radius:0;padding:31px 35px;margin-top:70px}
+body.site-minimal.research-redesign .connected-agenda h2{font-family:var(--serif);font-weight:500;font-size:29px;letter-spacing:-.045em}
+body.site-minimal.research-redesign .research-profile-links{margin-top:26px}
+body.site-minimal.research-redesign .profile-link{background:transparent;border-color:var(--line);border-radius:4px;color:#566c7f}
+
+/* PUBLICATIONS: retain searchable catalog, filters, citation/figure dialogs. */
+body.site-minimal .pub-editorial{
+  --pub-ink:#202934;--pub-muted:#64717e;--pub-accent:#2d66a4;
+  --pub-line:#e2e7eb;--pub-soft:#f1f4f7;
+  padding-block:76px 115px;color:var(--ink)
+}
+body.site-minimal .pub-heading{margin-bottom:42px;align-items:flex-end}
+body.site-minimal .pub-heading .page-description{font-size:16px}
+body.site-minimal .pub-heading-dot{color:var(--accent)}
+body.site-minimal .pub-scholar{font-size:12px;color:var(--accent);border-color:#b9ccd9;white-space:nowrap}
+body.site-minimal .pub-controls{padding-block:17px 22px;border-top:1px solid var(--line)}
+body.site-minimal .pub-filter-button{border-radius:4px;font-size:12px;padding:8px 11px;color:#526678}
+body.site-minimal .pub-filter-button[aria-pressed=true]{background:#e8f0f7;color:#244e7a}
+body.site-minimal .pub-search-wrap{border-radius:4px;border-color:#cbd5dd;background:#fff}
+body.site-minimal .pub-search{color:var(--ink)}
+body.site-minimal .pub-editorial .publication-groups{gap:36px}
+body.site-minimal .pub-editorial .publication-year{grid-template-columns:75px minmax(0,1fr);gap:25px}
+body.site-minimal .pub-editorial .publication-year>h2{font-family:var(--serif);font-size:22px;letter-spacing:-.04em;font-weight:500;color:var(--ink)}
+body.site-minimal .pub-editorial .publication{grid-template-columns:185px minmax(0,1fr);gap:25px;padding:25px 0;border-bottom:1px solid var(--line);background:transparent}
+body.site-minimal .pub-editorial .publication.pub-text-only{grid-template-columns:1fr}
+body.site-minimal .pub-visual{background:#fff;border-color:#e3e8ec;border-radius:4px;grid-template-rows:118px auto}
+body.site-minimal .pub-visual img{height:118px}
+body.site-minimal .pub-visual-label{background:#f3f6f8;color:#64717e}
+body.site-minimal .pub-editorial .pub-meta{font-size:10px;letter-spacing:.09em;color:var(--accent)}
+body.site-minimal .pub-editorial .publication h3{font-size:clamp(16px,1.7vw,20px);line-height:1.42;color:var(--ink);letter-spacing:-.025em;margin:9px 0 11px}
+body.site-minimal .pub-editorial .publication .authors{font-size:12px;color:var(--muted)}
+body.site-minimal .pub-action{color:#526d85;font-size:11px}
+body.site-minimal .pub-action-paper{color:var(--accent)}
+body.site-minimal .pub-award{color:#876d47}
+body.site-minimal .pub-modal{--pub-ink:#202934;--pub-muted:#64717e;border-radius:6px}
+body.site-minimal .pub-modal-top h2{color:var(--accent)}
+body.site-minimal .pub-modal-bib{background:#f3f6f8}
+body.site-minimal .pub-editorial a:focus-visible,body.site-minimal .pub-editorial button:focus-visible{outline-color:var(--accent)}
+
+/* EXPERIENCE: simple dated editorial timelines. */
+body.site-minimal .resume-section{grid-template-columns:175px minmax(0,1fr);gap:50px;padding:36px 0 55px;border-top:1px solid var(--line)}
+body.site-minimal .resume-section>h2{font-family:var(--sans);font-size:11px;color:var(--accent);letter-spacing:.14em;text-transform:uppercase;font-weight:730;padding-top:7px}
+body.site-minimal .timeline article{grid-template-columns:160px minmax(0,1fr);gap:32px;padding:0 0 37px}
+body.site-minimal .timeline time{font-size:12px;color:var(--muted);font-weight:550;line-height:1.7}
+body.site-minimal .timeline h3{font-size:18px;font-weight:650;letter-spacing:-.025em;margin-bottom:5px;color:var(--ink)}
+body.site-minimal .timeline p{font-size:13px;color:var(--ink-soft);line-height:1.85}
+body.site-minimal .timeline .place{font-size:12px;color:var(--accent);font-weight:640;margin-bottom:10px}
+body.site-minimal .document-links{gap:12px;margin-top:22px}
+
+/* NEWS: compact dated timeline with lightweight separators. */
+body.site-minimal .news-years{gap:70px}
+body.site-minimal .news-years>section{grid-template-columns:150px minmax(0,1fr);gap:32px}
+body.site-minimal .news-years>section>h2{font-family:var(--serif);font-size:34px;font-weight:500;letter-spacing:-.045em;color:var(--ink);padding-top:19px}
+body.site-minimal .news-list{border-top:1px solid var(--line)}
+body.site-minimal .news-list article{grid-template-columns:120px minmax(0,1fr);padding:24px 0;border-color:var(--line);gap:20px}
+body.site-minimal .news-list time{font-size:11px;color:var(--accent);letter-spacing:.06em;font-weight:640}
+body.site-minimal .news-entry h3{font-size:17px;font-weight:650;letter-spacing:-.021em;line-height:1.5}
+body.site-minimal .news-entry p{font-size:13px;color:var(--ink-soft);line-height:1.8}
+body.site-minimal .news-entry-link{font-size:11px;color:var(--accent);font-weight:650}
+
+/* CONTACT: remove card-heavy color blocks; clear message and profile links. */
+body.site-minimal.contact-redesign .contact-main{padding-top:76px;padding-bottom:105px}
+body.site-minimal.contact-redesign .contact-page-intro{margin-bottom:55px;max-width:930px}
+body.site-minimal.contact-redesign .contact-content-grid{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:68px;align-items:start}
+body.site-minimal.contact-redesign .email-panel{padding:31px 0 0;background:transparent;border:0;border-top:1px solid var(--line);border-radius:0}
+body.site-minimal.contact-redesign .email-panel-label{color:var(--accent);text-transform:uppercase;letter-spacing:.11em;font-size:10px;font-weight:710;margin-bottom:24px}
+body.site-minimal.contact-redesign .email-panel-icon{border-radius:3px;background:#eaf1f7;color:var(--accent)}
+body.site-minimal.contact-redesign .email-panel h2{font-family:var(--serif);font-size:clamp(30px,3.3vw,44px);font-weight:500;letter-spacing:-.047em;margin-bottom:18px}
+body.site-minimal.contact-redesign .contact-address{font-family:var(--serif);font-size:clamp(18px,2.35vw,29px);color:var(--accent);font-weight:500;letter-spacing:-.025em;text-decoration-color:#b0c9db}
+body.site-minimal.contact-redesign .contact-email-note{font-size:13px;color:var(--ink-soft);max-width:480px;margin:20px 0 25px}
+body.site-minimal.contact-redesign .contact-email-button{background:var(--ink);color:#fff;border:1px solid var(--ink);border-radius:4px;min-height:42px;padding:10px 16px;font-size:12px}
+body.site-minimal.contact-redesign .contact-email-button:hover{background:#34536c;color:#fff}
+body.site-minimal.contact-redesign .email-panel .resume-download{background:transparent;border-radius:4px}
+body.site-minimal.contact-redesign .contact-profiles{border-top:1px solid var(--line);padding-top:31px}
+body.site-minimal.contact-redesign .contact-profiles-heading{margin-bottom:21px}
+body.site-minimal.contact-redesign .contact-profiles-heading h2{font-family:var(--serif);font-weight:500;letter-spacing:-.04em;font-size:29px}
+body.site-minimal.contact-redesign .contact-profile-grid{grid-template-columns:1fr;gap:0}
+body.site-minimal.contact-redesign .contact-profile-card{display:grid;grid-template-columns:1fr;padding:16px 0;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent}
+body.site-minimal.contact-redesign .contact-profile-card:hover{background:transparent;color:var(--accent);border-color:var(--line)}
+body.site-minimal.contact-redesign .contact-profile-top{margin-bottom:5px}
+body.site-minimal.contact-redesign .contact-profile-logo{width:29px;height:29px;border-radius:3px;background:#edf2f6;color:var(--accent)}
+body.site-minimal.contact-redesign .contact-profile-name{font-size:14px}
+body.site-minimal.contact-redesign .contact-profile-description{font-size:11px;color:var(--muted)}
+body.site-minimal.contact-redesign .contact-interests{margin-top:63px;grid-template-columns:170px minmax(0,1fr);gap:30px;background:transparent;border:0;border-top:1px solid var(--line);border-radius:0;padding:25px 0}
+body.site-minimal.contact-redesign .contact-interests h2{font-size:11px;color:var(--accent);letter-spacing:.09em;text-transform:uppercase;margin:7px 0;font-weight:700}
+body.site-minimal.contact-redesign .contact-interests li{background:#f1f4f6;border:1px solid #e6ebef;color:#536879;border-radius:3px;font-size:11px}
+
+/* INDIVIDUAL PAPER PAGES: grounded academic article layout. */
+body.site-minimal .project-hero,body.site-minimal .project-hero.project-teal,body.site-minimal .project-hero.project-cobalt,body.site-minimal .project-hero.project-slate,body.site-minimal .project-hero.project-gold{
+  background:#f1f4f6;border-bottom:1px solid var(--line);padding-block:70px 76px
+}
+body.site-minimal .project-hero .back-link{display:inline-block;margin-bottom:43px;font-size:12px;color:#586f82;font-weight:650}
+body.site-minimal .project-hero h1{font-family:var(--serif);font-size:clamp(43px,5vw,70px);font-weight:500;letter-spacing:-.053em;line-height:1.12;color:var(--ink);max-width:1020px;margin-bottom:23px}
+body.site-minimal .project-authors{font-size:13px;color:#677887;line-height:1.8;max-width:970px}
+body.site-minimal .project-summary{font-size:17px;color:var(--ink-soft);line-height:1.75;max-width:800px;margin-top:19px}
+body.site-minimal .resource-links{gap:10px;margin-top:32px}
+body.site-minimal .project-resource,body.site-minimal .button.project-resource{--project-accent:var(--accent);border:1px solid #b3c5d4;border-radius:4px;background:#fff;color:var(--accent);font-size:12px;min-height:43px;font-weight:650;padding:10px 16px}
+body.site-minimal .project-resource:hover,body.site-minimal .button.project-resource:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+body.site-minimal .project-body{padding-block:40px 90px}
+body.site-minimal .project-section{grid-template-columns:165px minmax(0,1fr);gap:65px;padding:43px 0;border-top:1px solid var(--line)}
+body.site-minimal .project-kicker{margin:8px 0 0}
+body.site-minimal .project-section h2,body.site-minimal .project-results h2,body.site-minimal .project-resource-footer h2{
+  font-family:var(--serif);font-size:clamp(31px,3.35vw,45px);font-weight:500;letter-spacing:-.047em;line-height:1.22;color:var(--ink);margin-bottom:21px
+}
+body.site-minimal .project-problem{font-family:var(--serif);font-size:clamp(19px,2.3vw,27px);line-height:1.65;color:var(--ink-soft)}
+body.site-minimal .project-section p:not(.project-kicker){color:var(--ink-soft)}
+body.site-minimal .method-figure{background:#fff;border:1px solid var(--line);padding:12px;border-radius:4px}
+body.site-minimal .method-figure figcaption{font-size:11px;color:var(--muted)}
+body.site-minimal .contribution-list li{border-bottom-color:var(--line)}
+body.site-minimal .contribution-list li>span{color:var(--accent)}
+body.site-minimal .project-results{background:#f1f4f6;border-radius:0}
+body.site-minimal .result-grid>*{border-color:var(--line);background:#fff}
+body.site-minimal .project-resource-footer{background:#f1f4f6;border:1px solid var(--line);border-radius:0}
+body.site-minimal .method-diagram{background:#f1f4f6}
+
+@media(max-width:1000px){
+  body.site-minimal .header-inner{gap:18px}
+  body.site-minimal .site-header nav{gap:15px}
+  body.site-minimal .site-header nav .nav-cv{padding:8px 10px;margin-left:0}
+  body.site-minimal.research-redesign .research-track{gap:25px}
+  body.site-minimal.contact-redesign .contact-content-grid{gap:35px}
+  body.site-minimal .project-section{gap:35px}
+}
+@media(max-width:780px){
+  body.site-minimal .site-container{width:calc(100% - 46px)}
+  body.site-minimal .header-inner{min-height:72px;flex-wrap:wrap;padding:12px 0 10px;gap:10px}
+  body.site-minimal .site-header nav{order:3;flex-basis:100%;width:100%;margin:0;justify-content:space-between;gap:10px;overflow-x:auto;border-top:1px solid var(--line);padding-top:8px;scrollbar-width:none}
+  body.site-minimal .site-header nav a{font-size:11px;padding:6px 0}
+  body.site-minimal .site-header nav .nav-cv{border:0;padding:6px 0}
+  body.site-minimal .page-shell{padding-block:58px 80px}
+  body.site-minimal .page-intro{margin-bottom:39px}
+  body.site-minimal.research-redesign .research-main,body.site-minimal.contact-redesign .contact-main{padding-top:58px}
+  body.site-minimal.research-redesign .research-page-intro{flex-direction:column;align-items:flex-start;gap:18px;margin-bottom:32px}
+  body.site-minimal.research-redesign .research-intro-actions{flex-direction:row;align-items:center;flex-wrap:wrap}
+  body.site-minimal.research-redesign .area-navigation{margin-bottom:40px}
+  body.site-minimal.research-redesign .research-track{grid-template-columns:1fr;gap:25px}
+  body.site-minimal.research-redesign .track-overview{max-width:750px}
+  body.site-minimal.research-redesign .track-paper{grid-template-columns:105px 1fr}
+  body.site-minimal .pub-editorial{padding-block:58px 80px}
+  body.site-minimal .pub-editorial .publication{grid-template-columns:155px minmax(0,1fr);gap:20px}
+  body.site-minimal .resume-section{grid-template-columns:130px 1fr;gap:20px}
+  body.site-minimal .news-years>section{grid-template-columns:100px 1fr;gap:22px}
+  body.site-minimal.contact-redesign .contact-content-grid{grid-template-columns:1fr;gap:52px}
+  body.site-minimal.contact-redesign .contact-profile-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px}
+  body.site-minimal .project-section{grid-template-columns:115px 1fr;gap:24px}
+  body.site-minimal .project-hero{padding-block:55px}
+}
+@media(max-width:560px){
+  body.site-minimal .site-container{width:calc(100% - 36px)}
+  body.site-minimal .wordmark{gap:9px;font-size:13px}
+  body.site-minimal .wordmark-mark{width:34px;height:34px;font-size:22px}
+  body.site-minimal .wordmark-subtitle{font-size:9px}
+  body.site-minimal .site-header nav{gap:10px}
+  body.site-minimal .site-header nav a{font-size:10px}
+  body.site-minimal .site-header nav .nav-cv{display:none}
+  body.site-minimal .page-intro h1,body.site-minimal .research-page-intro h1,body.site-minimal .contact-page-intro h1,body.site-minimal .pub-heading h1{font-size:clamp(43px,10vw,60px)}
+  body.site-minimal .page-description,body.site-minimal .research-page-intro>div>p:last-child,body.site-minimal .contact-page-intro>p:last-child,body.site-minimal .pub-heading .page-description{font-size:14px}
+  body.site-minimal .page-shell{padding-block:47px 65px}
+  body.site-minimal.research-redesign .research-main,body.site-minimal.contact-redesign .contact-main{padding-block:47px 70px}
+  body.site-minimal.research-redesign .area-navigation{grid-template-columns:1fr;gap:0;margin-bottom:33px}
+  body.site-minimal.research-redesign .area-tab,body.site-minimal.research-redesign .area-tab.area-interaction,body.site-minimal.research-redesign .area-tab.area-evaluation{border-right:0;border-bottom:1px solid var(--line);min-height:59px;padding:12px 5px}
+  body.site-minimal.research-redesign .area-tab:last-child{border-bottom:0}
+  body.site-minimal.research-redesign .research-track{gap:21px;padding-top:29px}
+  body.site-minimal.research-redesign .track-paper{grid-template-columns:1fr;gap:5px}
+  body.site-minimal.research-redesign .track-work-meta,body.site-minimal.research-redesign .track-paper h3,body.site-minimal.research-redesign .track-paper>p:last-child{grid-column:1;grid-row:auto}
+  body.site-minimal.research-redesign .connected-agenda{padding:25px 20px;margin-top:50px}
+  body.site-minimal .pub-heading{align-items:flex-start;flex-direction:column;gap:14px;margin-bottom:34px}
+  body.site-minimal .pub-controls{align-items:stretch;flex-direction:column;gap:11px}
+  body.site-minimal .pub-search-wrap{width:100%}
+  body.site-minimal .pub-editorial .publication-year{grid-template-columns:1fr;gap:2px}
+  body.site-minimal .pub-editorial .publication-year>h2{position:static;padding:0}
+  body.site-minimal .pub-editorial .publication{grid-template-columns:1fr;gap:12px}
+  body.site-minimal .pub-visual{max-width:240px;grid-template-rows:118px auto}
+  body.site-minimal .pub-editorial .publication h3{font-size:17px}
+  body.site-minimal .resume-section{grid-template-columns:1fr;gap:24px;padding:30px 0 36px}
+  body.site-minimal .timeline article{grid-template-columns:1fr;gap:5px;padding-bottom:30px}
+  body.site-minimal .news-years>section{grid-template-columns:1fr;gap:6px}
+  body.site-minimal .news-years>section>h2{padding-top:0;font-size:28px}
+  body.site-minimal .news-list article{grid-template-columns:1fr;gap:5px;padding:18px 0}
+  body.site-minimal .news-years{gap:50px}
+  body.site-minimal.contact-redesign .contact-profile-grid{grid-template-columns:1fr}
+  body.site-minimal.contact-redesign .contact-interests{grid-template-columns:1fr;gap:12px;padding-top:22px}
+  body.site-minimal .project-hero,body.site-minimal .project-hero.project-teal,body.site-minimal .project-hero.project-cobalt,body.site-minimal .project-hero.project-slate{padding-block:42px 52px}
+  body.site-minimal .project-hero h1{font-size:clamp(37px,9vw,52px)}
+  body.site-minimal .project-summary{font-size:15px}
+  body.site-minimal .project-body{padding-block:22px 58px}
+  body.site-minimal .project-section{grid-template-columns:1fr;gap:14px;padding:32px 0}
+  body.site-minimal .project-section h2,body.site-minimal .project-results h2,body.site-minimal .project-resource-footer h2{font-size:32px}
+  body.site-minimal .site-footer .footer-grid{align-items:flex-start;flex-direction:column;padding:27px 0 15px}
+}
+@media(prefers-reduced-motion:reduce){body.site-minimal a{transition:none}}
